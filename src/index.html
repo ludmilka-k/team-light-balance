@@ -1,13 +1,21 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uk">
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vanilla App Template</title>
+    <title>Mimino-G25</title>
+    <!-- Fonts link -->
+
+    <!-- Styles link -->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.css"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
+    <!-- Образец підключення -->
     <section>
       <h1>Lorem ipsum dolor sit amet.</h1>
       <!-- Path to images as from index.html file -->
@@ -16,7 +24,23 @@
 
     <!-- Loads the specified .html file -->
     <load ="partials/vite-promo.html" />
-
+    <script type="module" src="/main.js"></script>
+    <!-- ---------------------------------- -->
+    
+    <header>
+      <load ="partials/header.html" />
+    </header>
+    <main>
+      <load ="partials/main/main-hero.html" />
+      <load ="partials/main/about-restaurant.html" />
+      <load ="partials/main/details-restaurant.html" />
+      <load ="partials/main/about-hotel.html" />
+      <load ="partials/main/details-hotel.html" />
+      <load ="partials/main/contacts.html" />
+    </main>
+    <footer>
+      <load ="partials/footer.html" />
+    </footer>
     <script type="module" src="/main.js"></script>
   </body>
 </html>
