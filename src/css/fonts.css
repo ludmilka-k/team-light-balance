@@ -1,0 +1,21 @@
+/* Fonts styles */
+@font-face { 
+    font-family: "FilmP3Bold";
+    src: url(../fonts/FilmP3Bold.ttf) format("ttf"), 
+         url(../fonts/FilmP3Bold.woff) format("woff");
+    font-weight: bold;
+}
+
+@font-face { 
+    font-family: "TimesNewRomanPS-BoldMT";
+    src: url(../fonts/TimesNewRomanPS-BoldMT.ttf) format("ttf"), 
+         url(../fonts/TimesNewRomanPS-BoldMT.woff) format("woff");
+    font-weight: bold;
+}
+
+@font-face { 
+    font-family: "TimesNewRomanPSMT";
+    src: url(../fonts/TimesNewRomanPSMT.ttf) format("ttf"), 
+         url(../fonts/TimesNewRomanPSMT.woff) format("woff");
+    font-weight: normal;
+}
