@@ -1,3 +1,4 @@
+@import url('./fonts.css');
 @media screen and (min-width: 414px) {
   .container {
     width: 414px;
@@ -39,7 +40,7 @@
 }
 
 .main-page-details-hotel-header {
-  font-family: 'Film P3';
+  font-family: 'FilmP3bold';
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -48,7 +49,7 @@
   color: #ffffff;
   margin-bottom: 12px;
   margin-left: auto;
-  width: 230px;
+  width: 127px;
   text-align: end;
 }
 
@@ -117,7 +118,8 @@
 
 .mobile-svg,
 .tab-galery,
-.desk-galery {
+.desk-galery,
+.main-page-details-hotel-text-desk {
   display: none;
 }
 
@@ -154,7 +156,7 @@
 }
 
 .main-page-details-contacts-header {
-  font-family: 'Film P3';
+  font-family: 'FilmP3bold';
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -337,14 +339,14 @@
     padding-top: 48px;
     width: 650px;
     margin-bottom: 40px;
-    /* margin-left: 150px; */
+    margin-left: 45px;
   }
 
   .main-page-details-hotel-header {
     font-size: 64px;
     line-height: 69px;
-    width: 420px;
-  }
+    width: 202px;
+      }
 
   .main-page-details-hotel-text {
     font-size: 16px;
