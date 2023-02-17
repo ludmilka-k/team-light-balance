@@ -1,11 +1,23 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uk">
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vanilla App Template</title>
+    <title>Mimino-G25</title>
+    <!-- Fonts link -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Styles link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.css"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/base.css" />
+    <link rel="stylesheet" href="./css/fonts.css" />
   </head>
   <header>
     <h1>eththtrhr</h1>
@@ -17,6 +29,7 @@
   <h2></h2>
   <h3></h3>
   <body>
+    <!-- Образец підключення -->
     <section>
       <h1>Lorem ipsum dolor sit amet.</h1>
       <!-- Path to images as from index.html file -->
@@ -24,12 +37,257 @@
     </section>
 
     <!-- Loads the specified .html file -->
-    <load ="partials/vite-promo.html" />
-    <!-- Клонування пройшло вдало!  -->
+    <load src="partials/vite-promo.html" />
+    <script type="module" src="/js/main.js"></script>
+    <!-- ---------------------------------- -->
 
-    <!-- Перевірка pull request -->
+    <header>
+      <load src="partials/header.html" />
+    </header>
+    <main>
+      <load src="partials/main/main-hero.html" />
+      <load src="partials/main/about-restaurant.html" />
+      <load src="partials/main/details-restaurant.html" />
+      <load src="partials/main/about-hotel.html" />
+      <load src="partials/main/details-hotel.html" />
+      <load src="partials/main/contacts.html" />
+    </main>
 
-    <script type="module" src="/main.js"></script>
+    <section class="main-page-details-hotel container">
+      <div class="main-page-details-hotel-header-0">
+        <h3 class="main-page-details-hotel-header">MIMIHO</h3>
+        <h6 class="main-page-details-hotel-header2">Готель</h6>
+        <div class="main-page-details-hotel-text-desk">
+          <span class="top-text"
+            >Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+            amet</span
+          >
+          <span class="bottom-text"
+            >amet sint. Velit officia consequat duis enim velit mollit.
+          </span>
+        </div>
+        <div class="main-page-details-hotel-text">
+          <span
+            >Amet minim mollit non deserunt ullamco est sit aliqua dolor
+            do</span
+          >
+          <span class="bottom-text"
+            >amet sint. Velit officia consequat duis enim velit mollit.
+          </span>
+        </div>
+      </div>
+
+      <div class="tablet-galery">
+        <div class="mobil-galery">
+          <ul class="main-page-details-hotel-galery list">
+            <li class="main-page-details-hotel-galery-item1">
+              <img
+                class="galery-item1"
+                src="./img/img1-mob-1x.jpg"
+                alt="foto"
+                srcset="./img/img1-mob-1x.jpg 1x, /img/img1-mob-2x.jpg 2x"
+                width="80"
+                height="270"
+              />
+            </li>
+            <li class="main-page-details-hotel-galery-item2">
+              <img
+                class="galery-item2"
+                src="./img/img2-mob-1x.jpg"
+                alt="foto"
+                srcset="./img/img2-mob-1x.jpg 1x, /img/img2-mob-2x.jpg 2x"
+                width="274"
+                height="270"
+              />
+            </li>
+            <!-- <li class="main-page-details-hotel-galery-item3">
+          <img
+            class="galery-item3"
+            src="./img/img2-mob-1x.jpg"
+            alt="foto"
+            width="274"
+            height="270"
+          />
+        </li> -->
+          </ul>
+        </div>
+        <div class="desk-galery">
+          <ul class="main-page-details-hotel-galery list">
+            <li class="main-page-details-hotel-galery-item1">
+              <img
+                class="galery-item1"
+                src="./img/img1-desk-1x.jpg"
+                alt="foto"
+                srcset="./img/img1-desk-1x.jpg 1x, ./img/img1-desk-2x.jpg 2x"
+                width="270"
+                height="270"
+              />
+            </li>
+            <li class="main-page-details-hotel-galery-item2">
+              <img
+                class="galery-item2"
+                src="./img/img2-desk-1x.jpg"
+                alt="foto"
+                srcset="./img/img2-desk-1x.jpg 1x, ./img/img2-desk-2x.jpg 2x"
+                width="162"
+                height="270"
+              />
+            </li>
+            <li class="main-page-details-hotel-galery-item3">
+              <img
+                class="galery-item3"
+                src="./img/img3-desk-1x.jpg"
+                alt="foto"
+                srcset="./img/img3-desk-1x.jpg 1x, ./img/img3-desk-2x.jpg 2x"
+                width="270"
+                height="270"
+              />
+            </li>
+          </ul>
+        </div>
+        <div class="tab-galery">
+          <ul class="main-page-details-hotel-galery list">
+            <li class="main-page-details-hotel-galery-item1">
+              <img
+                class="galery-item1"
+                src="./img/img1-tab-1x.jpg"
+                alt="foto"
+                srcset="./img/img1-tab-1x.jpg 1x, ./img/img1-tab-2x.jpg 2x"
+                width="162"
+                height="270"
+              />
+            </li>
+            <li class="main-page-details-hotel-galery-item2">
+              <img
+                class="galery-item2"
+                src="./img/img2-tab-1x.jpg"
+                alt="foto"
+                srcset="./img/img2-tab-1x.jpg 1x, ./img/img2-tab-2x.jpg 2x"
+                width="162"
+                height="270"
+              />
+            </li>
+            <li class="main-page-details-hotel-galery-item3">
+              <img
+                class="galery-item3"
+                src="./img/img3-tab-1x.jpg"
+                alt="foto"
+                srcset="./img/img3-tab-1x.jpg 1x, ./img/img3-tab-2x.jpg 2x"
+                width="270"
+                height="270"
+              />
+            </li>
+          </ul>
+        </div>
+        <div class="tablet-svg">
+          <div class="main-page-details-hotel-galery-item-slider">
+            <a href="">
+              <svg class="slider-icon" width="32" height="32">
+                <use href="./img/symbol-defs.svg#icon-cil_arrow-left"></use>
+              </svg>
+            </a>
+            <a href="">
+              <svg class="slider-icon" width="32" height="32">
+                <use href="./img/symbol-defs.svg#icon-cil_arrow-right"></use>
+              </svg>
+            </a>
+          </div>
+        </div>
+        <div class="button-flex">
+          <div class="main-page-details-hotel-header-button">
+            <button type="button" class="book-room btn">
+              Забронювати номер
+            </button>
+            <button type="button" class="room-price btn">
+              Переглянути ціни
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="mobile-svg">
+        <div class="main-page-details-hotel-galery-item-slider">
+          <a href="">
+            <svg class="slider-icon" width="32" height="32">
+              <use href="./img/symbol-defs.svg#icon-cil_arrow-left"></use>
+            </svg>
+          </a>
+          <a href="">
+            <svg class="slider-icon" width="32" height="32">
+              <use href="./img/symbol-defs.svg#icon-cil_arrow-right"></use>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </section>
+    <!-- <section class="main-page-contacts"></section> -->
+    <section class="contacts container">
+      <div class="tab-cont">
+        <div>
+          <h2 class="contacts visually-hidden">Contacts</h2>
+          <div class="contacts-text-box">
+            <h3 class="main-page-details-contacts-header">MIMIHO</h3>
+            <p class="contacts-text">Ресторанно-готельний комплекс</p>
+          </div>
+          <ul class="contacts-phone list">
+            <li class="contacts-phone-rest link">
+              <h5 class="contacts-rest-text">Ресторан</h5>
+              <a class="header-tel tel-box link" href="tel:0955559533">
+                <svg class="icon" width="24" height="24">
+                  <use href="./img/symbol-defs.svg#icon-Vector"></use>
+                </svg>
+                095 555 95 33</a
+              >
+            </li>
+            <li class="contacts-phone-hotel link">
+              <h5 class="contacts-rest-text">Готель</h5>
+              <div class="tel-box hotel-tel">
+                <a class="header-tel link" href="tel:0668491089">
+                  <svg class="icon" width="24" height="24">
+                    <use href="./img/symbol-defs.svg#icon-Vector"></use>
+                  </svg>
+                  066 849 10 89</a
+                >
+                <a class="header-tel link" href="tel:0672758540"
+                  >067 275 85 40</a
+                >
+              </div>
+            </li>
+            <li class="contacts-adress-hotel">
+              <address class="contacts-adress">
+                <a class="contacts-adress-text" href="">
+                  <svg class="icon-adress" width="24" height="24">
+                    <use
+                      href="./img/symbol-defs.svg#icon-entypo_location-pin"
+                    ></use>
+                  </svg>
+                  <span class="adress-text"
+                    ><span>Україна, м. Полтава,</span>
+                    <span>вул. Маршала Бірюзова, 15</span></span
+                  ></a
+                >
+              </address>
+            </li>
+          </ul>
+        </div>
+        <div class="map">
+          <iframe
+          class="map-size"
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d100958.75929219786!2d34.526546!3d49.599194!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d82601f3347a5f%3A0x36f3f9aeec44a6a!2z0LLRg9C70LjRhtGPINCc0LDRgNGI0LDQu9CwINCR0ZbRgNGO0LfQvtCy0LAsIDE1LCDQn9C-0LvRgtCw0LLQsCwg0J_QvtC70YLQsNCy0YHRjNC60LAg0L7QsdC70LDRgdGC0YwsIDM2MDAw!5e1!3m2!1suk!2sua!4v1676658669303!5m2!1suk!2sua"
+            width="100%"
+            height="220"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <load src="partials/footer.html" />
+    </footer>
+    <script type="module" src="/js/main.js"></script>
   </body>
   <footer>
     
