@@ -116,7 +116,8 @@
 }
 
 .mobile-svg,
-.tab-galery {
+.tab-galery,
+.desk-galery {
   display: none;
 }
 
@@ -372,7 +373,8 @@
   }
 
   .tablet-svg,
-  .mobil-galery {
+  .mobil-galery,
+  .desk-galery {
     display: none;
   }
   .tab-galery {
@@ -488,4 +490,113 @@
     width: 535px;
     height: 412px;
   }
+}
+/* ------------------------Desctop-------------------- */
+
+@media screen and (min-width: 1280px) {
+  .container {
+    width: 1280px;
+    padding-left: 85px;
+    padding-right: 85px;
+  }
+
+.main-page-details-hotel {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(../img/rest-desk-bg-1x.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .main-page-details-hotel {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+      url(../img/rest-desk-bg-2x.jpg);
+  }
+}
+
+.main-page-details-hotel-header {
+   margin-bottom: 16px;
+  }
+
+.main-page-details-hotel-text-desk {
+display: flex;
+flex-direction: column;
+}
+
+.main-page-details-hotel-header-0 {
+  margin-left: 190px;
+}
+
+.top-text {
+text-align: right;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 20px;
+letter-spacing: 0.02em;
+color: #BABABA;
+}
+
+.bottom-text {
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 20px;
+letter-spacing: 0.02em;
+color: #BABABA;
+}
+
+.bottom-text {
+  text-align: right;
+  padding-right: 121px;
+}
+
+.main-page-details-hotel-galery-item-slider {
+  margin-left: 743px;
+  }
+
+.main-page-details-hotel-galery {
+  gap: 86px;
+  margin-left: -33px;
+}
+
+.desk-galery {
+  display: block;
+}
+
+.tab-galery,
+.main-page-details-hotel-text {
+  display: none;
+}
+/* ------------------------Contacts-------------------------- */
+.contacts-phone-rest {
+   margin-top: 40px;
+  }
+
+.contacts-text {
+   font-size: 20px;
+  line-height: 24px;
+}
+.contacts-text {
+  margin-top: 16px;
+}
+
+.map-size {
+    width: 634px;
+    height: 412px;
+  }
+
+  .map {
+    margin-top: 64px;
+    padding-bottom: 74px;
+  }
+
+
+
+
 }
