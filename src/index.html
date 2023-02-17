@@ -52,6 +52,9 @@
       <load src="partials/main/about-hotel.html" />
       <load src="partials/main/details-hotel.html" />
       <load src="partials/main/contacts.html" />
+      <load src="partials/modal/book-room-modal.html" />
+      <load src="partials/modal/book-table-modal.html" />
+      <load src="partials/modal/room-price-modal.html" />
     </main>
 
     <section class="main-page-details-hotel container">
@@ -272,7 +275,7 @@
         </div>
         <div class="map">
           <iframe
-          class="map-size"
+            class="map-size"
             src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d100958.75929219786!2d34.526546!3d49.599194!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d82601f3347a5f%3A0x36f3f9aeec44a6a!2z0LLRg9C70LjRhtGPINCc0LDRgNGI0LDQu9CwINCR0ZbRgNGO0LfQvtCy0LAsIDE1LCDQn9C-0LvRgtCw0LLQsCwg0J_QvtC70YLQsNCy0YHRjNC60LAg0L7QsdC70LDRgdGC0YwsIDM2MDAw!5e1!3m2!1suk!2sua!4v1676658669303!5m2!1suk!2sua"
             width="100%"
             height="220"
@@ -292,110 +295,20 @@
     </footer>
 
     <div class="servis-btn">
-      <button type="button" class="book-table btn">Забронювати столик</button>
+      <button type="button" class="book-room btn" data-modaltable-open>
+        Забронювати столик
+      </button>
       <button type="button" class="book-room btn" data-modal-open>
         Забронювати номер
       </button>
-      <button type="button" class="room-price btn">Переглянути ціни</button>
+      <button type="button" class="room-price btn" data-modalprice-open>
+        Переглянути ціни
+      </button>
     </div>
 
-    <!-- Book Room Modal window -->
-    <div class="blackdrop is-hidden" data-modal>
-      <div class="modal">
-        <button type="button" class="modal-close-btn" data-modal-close>
-          <svg class="icon-close" width="24" height="24">
-            <use href="./icomoon/SVG/icons.svg#icon-close-btn"></use>
-          </svg>
-        </button>
-
-        <!-- <button type="button" class="modal-close-btn" data-modal-close>
-          <svg class="modal-close-btn-icon" width="8" height="8">
-            <use href="./img/icons.svg#icon-close-btn"></use>
-          </svg>
-        </button> -->
-
-        <p class="modal-title">ЗАБРОНЮВАТИ НОМЕР</p>
-
-        <form class="modal-form">
-          <div>
-            <input
-              id="user-name"
-              class="modal-input"
-              type="text"
-              name="user-name"
-              required
-              placeholder="Ваше ім’я"
-              minlength="3"
-            />
-            <label for="user-name" class="user-name-text text"
-              >На кого забронювати номер?</label
-            >
-          </div>
-
-          <div>
-            <input
-              id="user-phone"
-              class="modal-input"
-              type="tel"
-              name="user-phone"
-              required
-              placeholder="+38 (___) ___-__-__"
-              title="+38 (___) ___-__-__"
-            />
-            <label for="user-phone" class="user-name-text text"
-              >Номер телефону</label
-            >
-          </div>
-
-          <div class="select-wrapper">
-            <select class="modal-input" name="type-room" id="type-room">
-              <option class="modal-input" value="two-room">
-                Двомісний номер
-              </option>
-              <option class="modal-input" value="two-room-lux">
-                Двомісний люкс
-              </option>
-              <option class="modal-input" value="thee-room">
-                Трьохмісний номер
-              </option>
-            </select>
-
-            <label for="type-room" class="user-name-text text"
-              >Категорія номеру</label
-            >
-          </div>
-
-          <select class="modal-input" name="date-check-in" id="date-check-in">
-            <option class="modal-input" value="today">
-              <span class="select-text-decor">Cьогодні</span>
-            </option>
-            <option class="modal-input" value="tomorrow">Завтра</option>
-            <option class="modal-input" value="after-three-day">
-              Через 3 дні
-            </option>
-          </select>
-          <label for="date-check-in" class="user-name-text text"
-            >Дата заїзду</label
-          >
-
-          <select class="modal-input" name="date-check-out" id="date-check-out">
-            <option class="modal-input" value="today">Cьогодні</option>
-            <option class="modal-input" value="tomorrow">Завтра</option>
-            <option class="modal-input" value="after-three-day">
-              Через 3 дні
-            </option>
-          </select>
-          <label for="date-check-out" class="user-name-text text"
-            >Дата заїзду</label
-          >
-
-          <button type="submit" class="modal-book-btn">
-            ОФОРМИТИ БРОНЮВАННЯ
-          </button>
-        </form>
-      </div>
-    </div>
-    <script src="./js/modal.js"></script>
     <script type="module" src="/js/main.js"></script>
+    <script type="module" src="/js/room-price-modal.js"></script>
+    <script type="module" src="/js/book-room-modal.js"></script>
+    <script type="module" src="/js/book-table-modal.js"></script>
   </body>
 </html>

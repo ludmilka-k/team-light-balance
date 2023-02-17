@@ -1,0 +1,78 @@
+<!--------- Book tabel Modal window -------->
+    
+<div class="blackdrop is-hidden" data-modaltable>
+    <div class="modal modal-table">
+      <button type="button" class="modal-close-btn" data-modaltable-close>
+        <svg class="icon-close" width="24" height="24">
+          <use href="./icomoon/SVG/icons.svg#icon-x"></use>
+        </svg>
+      </button>
+
+              <p class="modal-title">ЗАБРОНЮВАТИ СТОЛИК</p>
+
+      <form class="modal-form">
+        <div class="modal-wrap">
+          <input
+            id="user-name-table"
+            class="modal-input"
+            type="text"
+            name="user-name"
+            required
+            placeholder="Ваше ім’я"
+            minlength="5"
+            pattern="[А-Я][а-я]{6,15}"
+          />
+          <label for="user-name-table" class="user-name-text text"
+            >На кого забронювати столик?</label
+          >
+        </div>
+
+        <div class="modal-wrap">
+          <input
+            id="user-phone-table"
+            class="modal-input"
+            type="tel"
+            name="user-phone"
+            required
+            placeholder="+38 (___) ___-__-__"
+            title="+38 (___) ___-__-__"
+            pattern="[\+]\d{2}[3][8]\s[\(]\d{3}[\)]
+              s\d{3}[\-]\d{2}[\-]\d{2}"
+          />
+          <label for="user-phone-table" class="user-name-text text"
+            >Номер телефону</label
+          >
+        </div>
+
+        <div class="select-wrapper modal-wrap">
+        <select class="modal-input" name="type-room" id="number-people">
+          <option class="modal-input" value="1">1</option>
+          <option class="modal-input" value="2">2</option>
+          <option class="number-people" value="3">3</option>
+        </select>
+
+        <label for="number-people" class="user-name-text text"
+          >Столик на яку кількість осіб?</label
+        >
+        </div>
+
+        <div class="select-wrapper modal-wrap">
+        <select class="modal-input" name="date-check-in" id="date-checkin-table">
+          <option class="modal-input" value="today">Cьогодні</option>
+          <option class="modal-input" value="tomorrow">Завтра</option>
+          <option class="modal-input" value="after-three-day">
+            Через 3 дні
+          </option>
+        </select>
+        <label for="date-checkin-table" class="user-name-text text"
+          >На яку дату бронювати?</label
+        >
+        </div>
+
+               
+        <button type="submit" class="modal-book-btn">
+          ОФОРМИТИ БРОНЮВАННЯ
+        </button>
+      </form>
+    </div>
+  </div>
