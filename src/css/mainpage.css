@@ -1,0 +1,214 @@
+/*:root {
+  --title-text-color: #000000;
+  --body-text-color: #7A7A7A;
+  --helper-text-color: #B4B4B4;
+  --invert-color: #FFFFFF;
+  --accent-yellow-color: #F3C653;
+  --orange-color: #C79002;
+  --bg-lemon-color: #FFFDEE;
+  --bg-dark-lemon-color: #F0ECD6;
+  --footer-color: #0E0C07;
+
+  --outline-style: solid;
+
+  --transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: calc(20/16);
+  letter-spacing: 0.02em;
+
+  color: var(--body-text-color);
+  background-color: var(--bg-lemon-color);
+}
+*/
+
+
+.about-rest-section {
+  background-image:
+    url("../img/about-rest/mobile-bg.png"),
+    url("../img/about-rest/mobile-bgi-rest.jpg");
+  background-color: rgba(0, 0, 0, 0.65);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.about-rest-section .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 414px;
+  max-height: 735px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.about-restaurant {
+  padding-top: 24px;
+  padding-left: 140px;
+  color: var(--invert-color);
+}
+
+.about-restaurant h4 {
+  margin-top: 12px;
+  margin-bottom: 20px;
+}
+
+.slide-bar {
+  display: flex;
+  flex-direction: row;
+  padding-left: 40px;
+  margin-top: 48px;
+  margin-bottom: 80px;
+}
+
+.slide-img {
+  width: 100%;
+  height: 100%;
+}
+
+.button-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 16px;
+  max-width: 232px;
+}
+
+.button {
+  display: inline-block;
+  max-width: 232px;
+  height: 48px;
+  color: var(--aссent-yellow-color);
+  background-color: transparent;
+  border: 2px solid var(--invert-color);
+  border-color: var(--invert-color);
+  border-radius: 25px;
+}
+
+@media screen and (max-width: 1280px) {
+  .slide-img~.cube {
+    display: none;
+  }
+}
+
+/*_________________ TABLET ____________________*/
+
+@media screen and (min-width: 1024px) {
+  .about-rest-section {
+    width: 100%;
+    background-image:
+    /*url("../image/hero/desktop-bg.png"),*/ url("../img/about-rest/tablet-bgi-rest.jpg");
+  }
+
+    @media screen and (min-device-pixel-ratio: 2),
+    screen and (-webkit-min-device-pixel-ratio: 2),
+    screen and (-o-min-device-pixel-ratio: 2/1),
+    screen and (min-resolution: 192dpi),
+    screen and (min-resolution: 2dppx) {
+      .main-section {
+        background-image: url("../image/hero/desktop-bg.png"), url("../img/about-rest/tablet-bgi-rest@2x.jpg");
+      }
+    }
+    @media screen and (min-device-pixel-ratio: 3),
+    screen and (-webkit-min-device-pixel-ratio: 3),
+    screen and (-o-min-device-pixel-ratio: 3/1),
+    screen and (min-resolution: 288dpi),
+    screen and (min-resolution: 3dppx) {
+      .main-section {
+        background-image: url("../image/hero/desktop-bg.png"), url("../img/about-rest/tablet-bgi-rest@3x.jpg");
+      }
+    }
+
+  .about-rest-section .container {
+    max-width: 1024px;
+    max-height: 620px;
+  }
+  .about-restaurant {
+    padding-top: 48px;
+    padding-left: 278px;
+  }
+
+  .about-restaurant h4 {
+    margin-top: 16px;
+    margin-bottom: 8px;
+  }
+
+  .tablet {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: end;
+    width: 100%;
+    height: 270px;
+    padding: 0;
+    margin-top: 40px;
+    margin-bottom: 96px;
+  }
+
+  .slide-bar {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .slide-img:not(:last-child) {
+    margin-right: 34px;
+  }
+
+  .button-box {
+    width: 236px;
+  }
+
+  .button {
+    display: inline-block;
+    width: 236px;
+    height: 48px;
+  }
+}
+
+/*_____________________ DESKTOP __________________*/
+
+@media screen and (min-width: 1280px) {
+  .about-rest-section {
+    background-image:
+      /*url("../image/hero/desktop-bg.png"),*/
+      url("../img/about-rest/desktop-bgi-rest.jpg");
+  }
+
+
+  @media screen and (min-device-pixel-ratio: 2),
+    screen and (-webkit-min-device-pixel-ratio: 2),
+    screen and (-o-min-device-pixel-ratio: 2/1),
+    screen and (min-resolution: 192dpi),
+    screen and (min-resolution: 2dppx) {
+      .main-section {
+        background-image: url("../image/hero/desktop-bg.png"), url("../img/about-rest/desktop-bgi-rest@2x.jpg");
+      }
+    }
+  
+    @media screen and (min-device-pixel-ratio: 3),
+    screen and (-webkit-min-device-pixel-ratio: 3),
+    screen and (-o-min-device-pixel-ratio: 3/1),
+    screen and (min-resolution: 288dpi),
+    screen and (min-resolution: 3dppx) {
+      .main-section {
+        background-image: url("../image/hero/desktop-bg.png"), url("../img/about-rest/desktop-bgi-rest@3x.jpg");
+      }
+    }
+
+  .about-rest-section .container {
+    max-width: 1280px;
+  }
+  .about-restaurant {
+    padding-left: 338px;
+  }
+
+  .slide-img~.slim {
+    display: none;
+  }
+
+}
