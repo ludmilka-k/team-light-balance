@@ -1,0 +1,9 @@
+/* Footer Styles */
+.footer {
+    background-color: var(--footer-color);
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.footer-container {
+    display: flex;
+}
