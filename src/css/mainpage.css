@@ -106,7 +106,7 @@ body {
     background-image:
     /*url("../image/hero/desktop-bg.png"),*/ url("../img/about-rest/tablet-bgi-rest.jpg");
   }
-
+}
     @media screen and (min-device-pixel-ratio: 2),
     screen and (-webkit-min-device-pixel-ratio: 2),
     screen and (-o-min-device-pixel-ratio: 2/1),
