@@ -5,7 +5,7 @@
   |============================
 */
 /* @import url('./root.css'); */
-@import url('./base.css');
+@import url('./reset.css');
 @import url('./fonts.css');
 @import url('./footer.css');
 @import url('./header.css');
@@ -14,8 +14,8 @@
 @import url('./mainpage.css');
 @import url('./modal.css');
 @import url('./restaurant.css');
-@import url('./reset.css');
 @import url('./room.css');
+@import url('./base.css');
 
 @import url('./vite-promo.css');
 
@@ -44,7 +44,9 @@
   --orange-color: #C79002;
   --bg-lemon-color: #FFFDEE;
   --bg-dark-lemon-color: #F0ECD6;
-  --footer-color: #0E0C07;  
+  --footer-color: #0E0C07; 
+  --appellation-color:#494848;
+  --main-font-size: 12px; 
 
   --outline-style: solid;
 
