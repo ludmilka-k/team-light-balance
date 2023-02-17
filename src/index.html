@@ -16,7 +16,7 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.css"
     />
     <link rel="stylesheet" href="./css/styles.css" />
-    <link rel="stylesheet" href="./css/base.css" />
+    <!-- <link rel="stylesheet" href="./css/base.css" /> -->
   </head>
   <body>
     <!-- Образец підключення -->
@@ -47,13 +47,21 @@
       <div class="main-page-details-hotel-header-0">
         <h3 class="main-page-details-hotel-header">MIMIHO</h3>
         <h6 class="main-page-details-hotel-header2">Готель</h6>
-        <p class="main-page-details-hotel-text">
-          Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
-          sint. Velit officia consequat duis enim velit mollit.
-        </p>
+
+        <div class="main-page-details-hotel-text">
+          <span
+            >Amet minim mollit non deserunt ullamco est sit aliqua dolor
+            do</span
+          >
+          <span class="bottom-text"
+            >amet sint. Velit officia consequat duis enim velit mollit.
+          </span>
+        </div>
       </div>
 
-      <ul class="main-page-details-hotel-galery list">
+      <div class="tablet-galery">
+        <div class="mobil-galery">
+          <ul class="main-page-details-hotel-galery list">
         <li class="main-page-details-hotel-galery-item1">
           <img
             class="galery-item1"
@@ -74,7 +82,7 @@
             height="270"
           />
         </li>
-        <li class="main-page-details-hotel-galery-item3">
+        <!-- <li class="main-page-details-hotel-galery-item3">
           <img
             class="galery-item3"
             src="./img/img2-mob-1x.jpg"
@@ -82,24 +90,76 @@
             width="274"
             height="270"
           />
+        </li> -->
+      </ul>
+        </div>
+        <div class="tab-galery">
+          <ul class="main-page-details-hotel-galery list">
+        <li class="main-page-details-hotel-galery-item1">
+          <img
+            class="galery-item1"
+            src="./img/img1-tab-1x.jpg"
+            alt="foto"
+            srcset="./img/img1-tab-1x.jpg 1x, ./img/img1-tab-2x.jpg 2x"
+            width="162"
+            height="270"
+          />
+        </li>
+        <li class="main-page-details-hotel-galery-item2">
+          <img
+            class="galery-item2"
+            src="./img/img2-tab-1x.jpg"
+            alt="foto"
+            srcset="./img/img2-tab-1x.jpg 1x, ./img/img2-tab-2x.jpg 2x"
+            width="162"
+            height="270"
+          />
+        </li>
+        <li class="main-page-details-hotel-galery-item3">
+          <img
+            class="galery-item3"
+            src="./img/img3-tab-1x.jpg"
+            alt="foto"
+            srcset="./img/img3-tab-1x.jpg 1x, ./img/img3-tab-2x.jpg 2x"
+            width="270"
+            height="270"
+          />
         </li>
       </ul>
-      <div class="main-page-details-hotel-galery-item-slider">
-        <a href="">
-          <svg class="slider-icon" width="32" height="32">
-            <use href="./img/symbol-defs.svg#icon-cil_arrow-left"></use>
-          </svg>
-        </a>
-        <a href="">
-          <svg class="slider-icon" width="32" height="32">
-            <use href="./img/symbol-defs.svg#icon-cil_arrow-right"></use>
-          </svg>
-        </a>
+        </div>
+      <div class="tablet-svg">
+        <div class="main-page-details-hotel-galery-item-slider">
+          <a href="">
+            <svg class="slider-icon" width="32" height="32">
+              <use href="./img/symbol-defs.svg#icon-cil_arrow-left"></use>
+            </svg>
+          </a>
+          <a href="">
+            <svg class="slider-icon" width="32" height="32">
+              <use href="./img/symbol-defs.svg#icon-cil_arrow-right"></use>
+            </svg>
+          </a>
+        </div>
       </div>
       <div class="button-flex">
         <div class="main-page-details-hotel-header-button">
           <button type="button" class="book-room btn">Забронювати номер</button>
           <button type="button" class="room-price btn">Переглянути ціни</button>
+        </div>
+      </div>
+      </div>
+      <div class="mobile-svg">
+        <div class="main-page-details-hotel-galery-item-slider">
+          <a href="">
+            <svg class="slider-icon" width="32" height="32">
+              <use href="./img/symbol-defs.svg#icon-cil_arrow-left"></use>
+            </svg>
+          </a>
+          <a href="">
+            <svg class="slider-icon" width="32" height="32">
+              <use href="./img/symbol-defs.svg#icon-cil_arrow-right"></use>
+            </svg>
+          </a>
         </div>
       </div>
     </section>
