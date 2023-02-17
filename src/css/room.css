@@ -1,34 +1,3 @@
-p,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  margin: 0;
-}
-ul {
-  margin: 0;
-  padding-left: 0;
-}
-a,
-li {
-  text-decoration: none;
-  list-style: none;
-}
-.container {
-  padding-left: 15px;
-  padding-right: 15px;
-  margin-left: auto;
-  margin-right: auto;
-}
-.list {
-  list-style: none;
-}
-.link {
-  text-decoration: none;
-}
-
 /*==============================Hero============================ */
 .room-hero {
   max-width: 1440px;
