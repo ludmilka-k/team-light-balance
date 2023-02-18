@@ -101,7 +101,7 @@
   margin-bottom: 40px;
   padding-top: 60px;
 }
-.text {
+.modal-text {
   display: inline-block;
   font-family: 'Montserrat';
   font-style: normal;
@@ -113,11 +113,11 @@
   margin-bottom: 20px;
   padding-left: 12px;
 }
-.subtitle {
+.modal-subtitle {
   padding-left: 0;
 }
 
-.title-wrap {
+.modal-title-wrap {
   padding-left: 15px;
   padding-right: 15px;
 }
@@ -147,7 +147,7 @@
   letter-spacing: 0.05em;
   color: #808080;
 }
-.caption {
+.modal-caption {
   font-family: 'Times New Roman';
   font-style: normal;
   font-weight: 700;
@@ -178,7 +178,7 @@
 /*======================= BUTOON============ */
 .modal-book-btn {
   width: 100%;
-  padding: 20px 0px;
+  padding: 18px 0px;
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 500;
@@ -186,15 +186,18 @@
   line-height: 1.2;
   color: #ffffff;
   background: #000000;
-  border: 1px solid var(--aссent-yellow-color);
+  border: 1px solid #F3C653;
+  /* border: 1px solid var(--aссent-yellow-color); */
   border-radius: 2px;
   margin-top: 20px;
 }
 .modal-book-btn:hover,
 .modal-book-btn:focus {
   color: #000000;
-  background: var(--aссent-yellow-color);
+  background:#F3C653
+  /* background: var(--aссent-yellow-color); */
 }
+
 
 /* ======================MEDIA=============== */
 @media screen and (min-width: 414px) {

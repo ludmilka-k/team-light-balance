@@ -10,35 +10,32 @@
 
               <p class="modal-title">ЦІНИ НА НОМЕР</p>
 
-             <div class="title-wrap">
-                <p class="caption" >Двомісний люкс</p>
-                <p class="text subtitle ">Категорія номеру</p>
+             <div class="modal-title-wrap">
+                <p class="modal-caption" >Двомісний люкс</p>
+                <p class="modal-text modal-subtitle ">Категорія номеру</p>
              </div >
 
       <form class="modal-form">
-        <div class="modal-wrap">
-          <input
-            id="book-night"
-            class="modal-input"
-            type="number"
-            name="user-name"
-            placeholder="Ваше ім’я"
-          />
-          <label for="book-night" class="user-name-text text"
-            >Кількість ночей</label
-          >
+        <div class="select-wrapper modal-wrap">
+          <select class="modal-input" name="date-check-in" id="book-night">
+            <option class="modal-input" value="1">1</option>
+            <option class="modal-input" value="2">2</option>
+            <option class="modal-input" value="3">3</option>
+          </select>
+          <label for="book-night" class="user-name-text modal-text"
+          >Кількість ночей</label>
         </div>
-
+  
         <div class="modal-wrap">
           <input
             id="price-night"
             class="modal-input"
-            type="number"
-            name="user-phone"
+            type="text"
+            name="price"
             placeholder="1000"
           
           />
-          <label for="price-night" class="user-name-text text"
+          <label for="price-night" class="user-name-text modal-text"
             >грн</label
           >
         </div>
