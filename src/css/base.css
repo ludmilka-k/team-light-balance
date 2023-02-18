@@ -1,0 +1,31 @@
+/* Сommon container */
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    outline: 2px solid tomato;
+}
+/* Mobile Container */
+@media screen and (min-width: 414px){
+    .container {
+        width: 414px;  
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+/* Tablet Container */
+@media screen and (min-width: 1024px) {
+    .container {
+        width: 1024px;
+        padding-left: 47px;
+        padding-right: 47px;  
+    }
+}
+/* Desktop Container */
+@media screen and (min-width: 1280px) {
+    .container {
+        width: 1280px; 
+        padding-left: 85px;
+        padding-right: 85px;  
+    }
+}
+
