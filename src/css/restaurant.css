@@ -61,6 +61,7 @@
     overflow-x: hidden;
     color: var(--body-text-color);
     font-family: Montserrat, sans-serif;
+    font-weight: 600;
   }
   /* Возможно общее */
   
