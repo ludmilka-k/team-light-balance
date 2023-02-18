@@ -1,59 +1,24 @@
-/**
-  |============================
-  | include css partials with
-  | default @import url()
-  |============================
-*/
-/* @import url('./root.css'); */
+/* ---------------STYLES-------------- */
+@import url('./root.css');
 @import url('./reset.css');
 @import url('./fonts.css');
-@import url('./footer.css');
 @import url('./header.css');
 @import url('./hero.css');
-@import url('./hotel.css');
 @import url('./mainpage.css');
-@import url('./modal.css');
+@import url('./about.css');
+@import url('./footer.css');
 @import url('./restaurant.css');
+@import url('./hotel.css');
 @import url('./room.css');
+@import url('./modal.css');
 @import url('./base.css');
 @import url('./contacts.css');
+@import url('./mobile.css');
+@import url('./tablet.css');
 
 
-@import url('./vite-promo.css');
 
-/* :root {
-  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
-  font-size: 16px;
-  line-height: 24px;
-  font-weight: 400;
 
-  color: #242424;
-  background-color: rgba(255, 255, 255, 0.87);
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
-} */
-
-:root {
-  --title-text-color: #000000;
-  --body-text-color: #7A7A7A;
-  --helper-text-color: #B4B4B4;
-  --invert-color: #FFFFFF;
-  --accent-yellow-color: #F3C653;
-  --orange-color: #C79002;
-  --bg-lemon-color: #FFFDEE;
-  --bg-dark-lemon-color: #F0ECD6;
-  --footer-color: #0E0C07; 
-  --appellation-color:#494848;
-  --main-font-size: 12px; 
-
-  --outline-style: solid;
-
-  --transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 body{
   font-family: 'Montserrat', sans-serif;
   font-style: normal;
