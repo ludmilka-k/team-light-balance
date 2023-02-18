@@ -92,7 +92,7 @@
   fill: var(--accent-yellow-color);
 }
 
-/* Footer  Media Styles */
+/* Footer  Media Styles    */
 @media screen and (max-width: 1023px) {
   .footer-social-name {
     display: none;
