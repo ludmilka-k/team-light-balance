@@ -112,7 +112,7 @@ body {
     screen and (min-resolution: 192dpi),
     screen and (min-resolution: 2dppx) {
       .main-section {
-        background-image: url("../image/hero/desktop-bg.png"), url("../img/about-rest/tablet-bgi-rest@2x.jpg");
+        background-image: /*url("../image/hero/desktop-bg.png"),*/ url("../img/about-rest/tablet-bgi-rest@2x.jpg");
       }
     }
     @media screen and (min-device-pixel-ratio: 3),
@@ -121,7 +121,7 @@ body {
     screen and (min-resolution: 288dpi),
     screen and (min-resolution: 3dppx) {
       .main-section {
-        background-image: url("../image/hero/desktop-bg.png"), url("../img/about-rest/tablet-bgi-rest@3x.jpg");
+        background-image: /*url("../image/hero/desktop-bg.png"),*/ url("../img/about-rest/tablet-bgi-rest@3x.jpg");
       }
     }
 
@@ -186,7 +186,7 @@ body {
     screen and (min-resolution: 192dpi),
     screen and (min-resolution: 2dppx) {
       .main-section {
-        background-image: url("../image/hero/desktop-bg.png"), url("../img/about-rest/desktop-bgi-rest@2x.jpg");
+        background-image: /*url("../image/hero/desktop-bg.png"),*/ url("../img/about-rest/desktop-bgi-rest@2x.jpg");
       }
     }
   
@@ -210,5 +210,4 @@ body {
   .slide-img~.slim {
     display: none;
   }
-
 }
