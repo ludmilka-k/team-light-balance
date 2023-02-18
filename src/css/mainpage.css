@@ -183,6 +183,11 @@
   }
 }
 
+
+
+/*------------main-page-details-hotel---------- */
+/* -----------     start    ------------------- */
+/* -----------    mobile    --------------------*/
 @media screen and (min-width: 414px) {
   .container {
     width: 414px;
@@ -328,7 +333,7 @@
   border: 2px solid #f3c653;
   background: #ffffff;
 }
-
+/*---------    ---main-page-details-hotel-----        ----- */
 /* ------------------Tablet Container -----------------------*/
 
 @media screen and (min-width: 1024px) {
@@ -438,6 +443,7 @@
     flex-direction: column;
   }
 }
+/*--------     ----main-page-details-hotel----   ------ */
 /* ------------------------Desctop-------------------- */
 
 @media screen and (min-width: 1280px) {
@@ -521,3 +527,5 @@
     display: none;
   }
 }
+/*------------main-page-details-hotel---------- */
+/*-----------         -end-           --------- */
