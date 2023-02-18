@@ -141,6 +141,7 @@
   width: 258px;
   line-height: 1.25;
   letter-spacing: 0.02em;
+  color: var(--body-text-color), #7A7A7A;
 }
 
 .description-hotel .text {
@@ -275,7 +276,7 @@
     margin-bottom: 32px;
   }
 
-  .item-slider {
+  .item-slider-arrow {
     margin-right: 13px;
   }
   .description-hotel-container .swiper-wrapper-slider {
@@ -305,18 +306,18 @@
   }
 }
 /* Возможно общее */
-.item-slider {
+.item-slider-arrow {
   display: flex;
   gap: 32px;
   height: 32px;
   justify-content: flex-end;
 }
 /* Возможно общее */
-.description-hotel-container .item-slider {
+.description-hotel-container .item-slider-arrow {
   justify-content: flex-start;
 }
 /* Возможно общее */
-.slider-icon:hover,
-.slider-icon:focus {
+.slider-icon-arrow:hover,
+.slider-icon-arrow:focus {
   fill: var(--accent-yellow-color);
 }
