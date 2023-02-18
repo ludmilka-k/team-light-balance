@@ -60,6 +60,8 @@
 .amenities {
   padding-top: 32px;
   padding-bottom: 32px;
+}
+.amenities > .container {
   background-color: #fffdee;
 }
 .amenities-titel {
