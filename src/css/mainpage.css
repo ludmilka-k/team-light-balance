@@ -25,18 +25,10 @@ body {
   color: var(--body-text-color);
   background-color: var(--bg-lemon-color);
 }
+
+npm run dev
 */
 
-
-.about-rest-section {
-  background-image:
-    url("../img/about-rest/mobile-bg.png"),
-    url("../img/about-rest/mobile-bgi-rest.jpg");
-  background-color: rgba(0, 0, 0, 0.65);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-}
 
 .about-rest-section .container {
   display: flex;
@@ -46,6 +38,14 @@ body {
   max-height: 735px;
   margin-left: auto;
   margin-right: auto;
+
+  background-image:
+      linear-gradient(rgba(0, 0, 0, 0.76), rgba(0, 0, 0, 0.76)),
+      url("../img/about-rest/mobile-bgi-rest.jpg");
+    background-color: rgba(0, 0, 0, 0.65);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .about-restaurant {
@@ -67,10 +67,10 @@ body {
   margin-bottom: 80px;
 }
 
-.slide-img {
+/*.slide-img {
   width: 100%;
   height: 100%;
-}
+}*/
 
 .button-box {
   display: flex;
@@ -100,10 +100,11 @@ body {
 /*_________________ TABLET ____________________*/
 
 @media screen and (min-width: 1024px) {
-  .about-rest-section {
-    width: 100%;
+  .about-rest-section .container {
+    max-width: 1024px;
+    max-height: 620px;
     background-image:
-    /*url("../image/hero/desktop-bg.png"),*/ url("../img/about-rest/tablet-bgi-rest.jpg");
+    linear-gradient(rgba(0, 0, 0, 0.76), rgba(0, 0, 0, 0.76)), url("../img/about-rest/tablet-bgi-rest.jpg");
   }
 
     @media screen and (min-device-pixel-ratio: 2),
@@ -111,8 +112,9 @@ body {
     screen and (-o-min-device-pixel-ratio: 2/1),
     screen and (min-resolution: 192dpi),
     screen and (min-resolution: 2dppx) {
-      .main-section {
-        background-image: /*url("../image/hero/desktop-bg.png"),*/ url("../img/about-rest/tablet-bgi-rest@2x.jpg");
+      .about-rest-section .container {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.76), rgba(0, 0, 0, 0.76)),
+        url("../img/about-rest/tablet-bgi-rest@2x.jpg");
       }
     }
     @media screen and (min-device-pixel-ratio: 3),
@@ -120,15 +122,12 @@ body {
     screen and (-o-min-device-pixel-ratio: 3/1),
     screen and (min-resolution: 288dpi),
     screen and (min-resolution: 3dppx) {
-      .main-section {
-        background-image: /*url("../image/hero/desktop-bg.png"),*/ url("../img/about-rest/tablet-bgi-rest@3x.jpg");
+      .about-rest-section .container {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.76), rgba(0, 0, 0, 0.76)),
+        url("../img/about-rest/tablet-bgi-rest@3x.jpg");
       }
     }
 
-  .about-rest-section .container {
-    max-width: 1024px;
-    max-height: 620px;
-  }
   .about-restaurant {
     padding-top: 48px;
     padding-left: 278px;
@@ -173,10 +172,11 @@ body {
 /*_____________________ DESKTOP __________________*/
 
 @media screen and (min-width: 1280px) {
-  .about-rest-section {
+  .about-rest-section .container {
+    max-width: 1280px;
     background-image:
-      /*url("../image/hero/desktop-bg.png"),*/
-      url("../img/about-rest/desktop-bgi-rest.jpg");
+    linear-gradient(rgba(0, 0, 0, 0.76), rgba(0, 0, 0, 0.76)),
+    url("../img/about-rest/desktop-bgi-rest.jpg");
   }
 
 
@@ -185,8 +185,9 @@ body {
     screen and (-o-min-device-pixel-ratio: 2/1),
     screen and (min-resolution: 192dpi),
     screen and (min-resolution: 2dppx) {
-      .main-section {
-        background-image: /*url("../image/hero/desktop-bg.png"),*/ url("../img/about-rest/desktop-bgi-rest@2x.jpg");
+      .about-rest-section .container {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.76), rgba(0, 0, 0, 0.76)), 
+        url("../img/about-rest/desktop-bgi-rest@2x.jpg");
       }
     }
   
@@ -195,14 +196,12 @@ body {
     screen and (-o-min-device-pixel-ratio: 3/1),
     screen and (min-resolution: 288dpi),
     screen and (min-resolution: 3dppx) {
-      .main-section {
-        background-image: url("../image/hero/desktop-bg.png"), url("../img/about-rest/desktop-bgi-rest@3x.jpg");
+      .about-rest-section .container {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.76), rgba(0, 0, 0, 0.76)),
+        url("../img/about-rest/desktop-bgi-rest@3x.jpg");
       }
     }
 
-  .about-rest-section .container {
-    max-width: 1280px;
-  }
   .about-restaurant {
     padding-left: 338px;
   }
