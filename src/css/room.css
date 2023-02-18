@@ -3,7 +3,7 @@
   max-width: 1440px;
   padding-top: 341px;
   padding-bottom: 40px;
-  background-image: url(../image/room-2-mobile-1x.jpg);
+  background-image: url(../img/room-2-mobile-1x.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -13,7 +13,7 @@
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
   .room-hero {
-    background-image: url(../image/room-2-mobile-2x.jpg);
+    background-image: url(../img/room-2-mobile-2x.jpg);
   }
 }
 .room-hero-titel {
@@ -47,6 +47,14 @@
   padding: 12px 33px;
   color: #f3c653;
   cursor: pointer;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.open-prices:hover,
+.open-prices:focus,
+.open-prices:active {
+  background-color: #ffffff;
+  border: 2px solid #f3c653;
 }
 /*==============================Ameniries=============================== */
 .amenities {
@@ -117,6 +125,14 @@
   border-radius: 25px;
   margin-bottom: 20px;
   cursor: pointer;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.reserve-btn:hover,
+.reserve-btn:focus,
+.reserve-btn:active {
+  background-color: #f3c653;
+  color: #000000;
 }
 .return-numbers {
   font-family: 'Montserrat', sans-serif;
@@ -132,10 +148,26 @@
   border: 0;
   cursor: pointer;
   margin-left: 16px;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .return-numbers-icon {
   fill: #c79002;
   margin-left: 12px;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.return-numbers:hover,
+.return-numbers:focus,
+.return-numbers:active {
+  color: #f3c653;
+}
+.return-numbers:hover .return-numbers-icon {
+  fill: #f3c653;
+}
+.return-numbers:focus .return-numbers-icon {
+  fill: #f3c653;
+}
+.return-numbers:active .return-numbers-icon {
+  fill: #f3c653;
 }
 
 /* ===============================*/
@@ -152,7 +184,7 @@
   }
   /*==============================Ameniries=============================== */
 }
-
+/* ===============================*/
 @media screen and (min-width: 1024px) {
   .room-hero > .container {
     width: 1024px;
@@ -168,7 +200,7 @@
   .room-hero {
     padding-top: 353px;
     padding-bottom: 102px;
-    background-image: url(../image/room-2-tablet-1x.jpg);
+    background-image: url(../img/room-2-tablet-1x.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -178,7 +210,7 @@
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
     .room-hero {
-      background-image: url(../image/room-2-tablet-2x.jpg);
+      background-image: url(../img/room-2-tablet-2x.jpg);
     }
   }
   .room-hero-titel {
@@ -236,6 +268,7 @@
     margin-left: 497px;
   }
 }
+/* ===============================*/
 @media screen and (min-width: 1280px) {
   .room-hero > .container {
     width: 1280px;
@@ -251,7 +284,7 @@
   .room-hero {
     padding-top: 377px;
     padding-bottom: 48px;
-    background-image: url(../image/room-2-desktop-1x.jpg);
+    background-image: url(../img/room-2-desktop-1x.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -261,7 +294,7 @@
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
     .room-hero {
-      background-image: url(../image/room-2-desktop-2x.jpg);
+      background-image: url(../img/room-2-desktop-2x.jpg);
     }
   }
   .room-hero-text-btn {
