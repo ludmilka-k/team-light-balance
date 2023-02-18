@@ -1,0 +1,274 @@
+@media screen and (min-width: 414px) {
+  .container {
+    width: 414px;
+  }
+}
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+
+.contacts {
+  background-color: #fffdee;
+}
+
+.main-page-details-contacts-header {
+  font-family: 'FilmP3bold';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 43px;
+  letter-spacing: 0.3em;
+  color: #494848;
+  padding-top: 36px;
+}
+
+.contacts-text {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.02em;
+  color: #7a7a7a;
+  margin-top: 12px;
+}
+
+.icon {
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+.contacts-phone-rest {
+  display: flex;
+  align-items: center;
+  margin-top: 16px;
+}
+
+.contacts-rest-text {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #c79002;
+}
+
+.tel-box {
+  background: #ffffff;
+  border: 0.5px solid #f3c653;
+  border-radius: 2px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-tel {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.02em;
+  color: #494848;
+}
+
+.contacts-phone-rest > .header-tel {
+  padding: 8px 8px 6px 0px;
+  margin-left: 20px;
+}
+
+.contacts-phone-hotel {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.hotel-tel {
+  width: 262px;
+  margin-left: 52px;
+}
+
+.hotel-tel > :first-child {
+  padding: 7px 8px 7px 0px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.02em;
+  color: #494848;
+}
+
+.hotel-tel > :last-child {
+  padding: 7px 8px 7px 0px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.02em;
+  color: #494848;
+}
+
+.hotel-tel {
+  display: flex;
+  align-items: center;
+}
+
+.contacts-adress {
+  width: 262px;
+  background: #ffffff;
+  border: 0.5px solid #f3c653;
+  border-radius: 2px;
+  padding: 7px 33px 7px 0px;
+  margin-left: auto;
+}
+
+.contacts-adress-text {
+  width: 183px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.01em;
+  display: flex;
+  align-items: center;
+  color: #494848;
+}
+
+.icon-adress {
+  min-width: 24px;
+  margin-left: 16px;
+  margin-right: 16px;
+}
+
+.adress-text {
+  min-width: 183px;
+}
+
+.contacts-adress-text:span {
+  width: 183px;
+}
+
+.map {
+  margin-top: 32px;
+  padding-bottom: 32px;
+}
+
+@media screen and (min-width: 1024px) {
+  .container {
+    width: 1024px;
+    padding-left: 47px;
+    padding-right: 47px;
+  }
+
+  .main-page-details-contacts-header {
+    font-size: 64px;
+    line-height: 69px;
+  }
+
+  .contacts-text {
+    margin-top: 8px;
+  }
+
+  .tab-cont {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .contacts-phone-rest > .header-tel {
+    margin-left: 0;
+  }
+
+  .hotel-tel {
+    margin-left: 0;
+  }
+
+  .contacts-adress {
+    margin-left: 0;
+  }
+
+  .main-page-details-contacts-header {
+    padding-top: 56px;
+  }
+
+  .contacts-phone-hotel {
+    flex-direction: column;
+    align-items: first baseline;
+    margin-top: 24px;
+    margin-bottom: 48px;
+    gap: 8px;
+  }
+
+  .adress-text {
+    min-width: 233px;
+  }
+
+  .contacts-adress {
+    width: 285px;
+  }
+
+  .adress-text {
+    display: flex;
+    flex-direction: column;
+  }
+  .icon-adress {
+    min-width: 24px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .contacts-phone-rest {
+    flex-direction: column;
+    align-items: first baseline;
+    margin-top: 52px;
+    gap: 8px;
+  }
+
+  .map {
+    margin-top: 69px;
+    padding-bottom: 40px;
+  }
+
+  .map-size {
+    width: 535px;
+    height: 412px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .container {
+    width: 1280px;
+    padding-left: 85px;
+    padding-right: 85px;
+  }
+
+  .contacts-phone-rest {
+    margin-top: 40px;
+  }
+
+  .contacts-text {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .contacts-text {
+    margin-top: 16px;
+  }
+
+  .map-size {
+    width: 634px;
+    height: 412px;
+  }
+
+  .map {
+    margin-top: 64px;
+    padding-bottom: 74px;
+  }
+}
