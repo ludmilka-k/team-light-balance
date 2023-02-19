@@ -104,7 +104,8 @@ border-radius: 25px;
     padding-right: 3px;
     padding-bottom: 9px;
     position: absolute;
-    top: 600px;
+    /* top: 600px; */
+    bottom: 90px;
     width: 285px;
     border: 1px solid rgba(243, 198, 83, 0.7);
     border-radius: 2px;
@@ -226,6 +227,9 @@ letter-spacing: 0.05em;
     background-size: cover;
     
   }
+}
+.hero-address {
+  bottom: 0;
 }
 
         
