@@ -65,6 +65,7 @@
     width: 32px;
     height: 32px;
     fill: #000000;
+    transition: fill var(--transition);
 }
 
 .btn-arrow-hotel:hover .icon-arrow, .btn-arrow-hotel:focus .icon-arrow {
@@ -90,13 +91,13 @@
     color: var(--accent-yellow-color);
     border: 2px solid #FFFDEE;
     border-radius: 25px;
-
+    transition: color var(--transition), background-color var(--transition), border var(--transition);
 }
 
 
 .link-hotel:hover, .link-hotel:focus {
     color: #F3C653;
-    background: #FFFFFF;
+    background-color: #FFFFFF;
     border: 2px solid #F3C653;
     
 }
