@@ -3,7 +3,7 @@
    
     top: 0;
     left: 0;
-    background-image:linear-gradient( to right, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65) ),  url(./img/pexels-pixabay-260922\ 2.jpg);
+    background-image:linear-gradient( to right, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65) ),  url(./img/pexels-pixabay-260922\2.jpg);
     
     background-size: cover;
     background-repeat: no-repeat;
@@ -20,7 +20,7 @@
   (min-resolution: 2dppx) {
   .hero {
     background-image: linear-gradient( to right, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65) ),
-      url(./img/pexels-pixabay-260922\ 2@2x.jpg);
+      url(./img/pexels-pixabay-260922\2@2x.jpg);
     background-size: cover;
     
   }
@@ -226,7 +226,7 @@ letter-spacing: 0.05em;
    
     top: 0;
     left: 0;
-    background-image:linear-gradient( to right, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65) ),  url(./img/room-4768554_1920\ 2\ \(1\).jpg);
+    background-image:linear-gradient( to right, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65) ),  url(./img/room-4768554_1920\2\ \(1\).jpg);
     
     background-size: cover;
     background-repeat: no-repeat;
@@ -243,7 +243,7 @@ letter-spacing: 0.05em;
   (min-resolution: 2dppx) {
   .hero-hotel {
     background-image: linear-gradient( to right, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65) ),
-      url(./img/room-4768554_1920\ 2@2x.jpg);
+      url(./img/room-4768554_1920\2@2x.jpg);
     background-size: cover;
     
   }}
