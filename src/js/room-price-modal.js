@@ -1,14 +1,19 @@
 (() => {
   const refs = {
-    openModalpriceBtn: document.querySelector('[room-price-modal-open]'),
-    closeModalpriceBtn: document.querySelector('[room-price-modal-close]'),
-    roomPriceModal: document.querySelector('[room-price-modal]'),
+    // Find all the buttons 
+    openModalButtons: document.querySelectorAll('[room-price-modal-open]'),
+    closeModalButton: document.querySelector('[room-price-modal-close]'),
+    modal: document.querySelector('[room-price-modal]'),
   };
+  
+  // Add event listener to all buttons
+  refs.openModalButtons.forEach(element => {
+    element.addEventListener('click', toggleModal);
+  });
+  
+  refs.closeModalButton.addEventListener('click', toggleModal);
 
-  refs.openModalpriceBtn.addEventListener('click', toggleModalprice);
-  refs.closeModalpriceBtn.addEventListener('click', toggleModalprice);
-
-  function toggleModalprice() {
-    refs.roomPriceModal.classList.toggle('is-hidden');
+  function toggleModal() {
+    refs.modal.classList.toggle('is-hidden');
   }
 })();
