@@ -113,14 +113,7 @@
   margin-bottom: 20px;
   padding-left: 12px;
 }
-.modal-subtitle {
-  padding-left: 0;
-}
 
-.modal-title-wrap {
-  padding-left: 15px;
-  padding-right: 15px;
-}
 .modal-input {
   font-family: 'Times New Roman';
   font-style: normal;
@@ -136,6 +129,20 @@
   border-radius: 1px;
   padding-left: 12px;
   color: #808080;
+  background-color: var(--bg-lemon-color);
+}
+/* ===============ROOM PRICE================ */
+.modal-subtitle {
+  padding-left: 0;
+}
+.modal-caption {
+  margin-bottom: 28px;
+}
+.modal-title-price-wrap {
+  padding-left: 15px;
+}
+.modal-subtitle {
+  margin-bottom: 20px;
 }
 
 .modal-input::placeholder {
@@ -166,7 +173,7 @@
   color: #808080;
 }
 
-.name-roome {
+/* .name-roome {
   font-family: 'Times New Roman';
   font-style: normal;
   font-weight: 700;
@@ -174,7 +181,7 @@
   line-height: 21.16;
   letter-spacing: 0.05em;
   color: #808080;
-}
+} */
 /*======================= BUTOON============ */
 .modal-book-btn {
   width: 100%;
@@ -186,7 +193,7 @@
   line-height: 1.2;
   color: #ffffff;
   background: #000000;
-  border: 1px solid #F3C653;
+  border: 1px solid #f3c653;
   /* border: 1px solid var(--aссent-yellow-color); */
   border-radius: 2px;
   margin-top: 20px;
@@ -194,10 +201,9 @@
 .modal-book-btn:hover,
 .modal-book-btn:focus {
   color: #000000;
-  background:#F3C653
+  background: #f3c653;
   /* background: var(--aссent-yellow-color); */
 }
-
 
 /* ======================MEDIA=============== */
 @media screen and (min-width: 414px) {
@@ -211,6 +217,15 @@
     width: 384px;
     height: 54px;
   }
+  .modal-room {
+    height: 780px;
+  }
+  .modal-table {
+    height: 688px;
+  }
+  .modal-price {
+    height: 572px;
+  }
 }
 @media screen and (min-width: 1024px) {
   .modal {
@@ -221,23 +236,48 @@
     column-gap: 24px;
     justify-content: center;
   }
+  .modal-price {
+    max-width: 712px;
+    max-height: 489px;
+  }
+  .modal-room {
+    height: 638px;
+  }
+  .modal-table {
+    height: 522px;
+  }
+  .modal-title-price-wrap {
+    padding-left: 60px;
+  }
+
   .modal-input {
     width: 288px;
     height: 64px;
   }
   .modal-form {
     display: flex;
+    row-gap: 28px;
+    column-gap: 16px;
     flex-direction: row;
     padding-right: 60px;
     padding-left: 60px;
     justify-content: flex-start;
     flex-wrap: wrap;
+    margin-top: 20px;
   }
-  .modal-wrap {
+  .modal-book-btn {
+    margin-top: 12px;
+  }
+  .modal-fild-wrap {
     display: flex;
     flex-wrap: wrap;
-    row-gap: 28px;
-    column-gap: 16px;
+    max-width: 288px;
+  }
+  .modal-select {
+    margin-left: 304px;
+  }
+  .modal-text {
+    margin-bottom: 0;
   }
 }
 
