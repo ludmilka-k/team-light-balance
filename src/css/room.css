@@ -101,7 +101,7 @@
   background-color: #fffdee;
 }
 .amenities-titel {
-  font-family: 'Times New Roman', sans-serif;
+  font-family: 'Times New Roman', serif;
   font-style: normal;
   font-weight: 400;
   font-size: 32px;
@@ -124,7 +124,7 @@
   margin-bottom: 32px;
 }
 .amenities-item-titel {
-  font-family: 'Times New Roman', sans-serif;
+  font-family: 'Times New Roman', serif;
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
