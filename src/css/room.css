@@ -5,7 +5,7 @@
   background-image: linear-gradient(
       180deg,
       #000000 0%,
-      rgba(0, 0, 0, 0.55) 54.17%,
+      rgba(0, 0, 0, 0.55) 15%,
       rgba(0, 0, 0, 0) 100%
     ),
     url(../img/room-2-mobile-1x.jpg);
@@ -21,7 +21,7 @@
     background-image: linear-gradient(
         180deg,
         #000000 0%,
-        rgba(0, 0, 0, 0.55) 54.17%,
+        rgba(0, 0, 0, 0.55) 15%,
         rgba(0, 0, 0, 0) 100%
       ),
       url(../img/room-2-mobile-2x.jpg);
@@ -218,7 +218,7 @@
     background-image: linear-gradient(
         180deg,
         #000000 0%,
-        rgba(0, 0, 0, 0.55) 54.17%,
+        rgba(0, 0, 0, 0.55) 15%,
         rgba(0, 0, 0, 0) 100%
       ),
       url(../img/room-2-tablet-1x.jpg);
@@ -234,7 +234,7 @@
       background-image: linear-gradient(
           180deg,
           #000000 0%,
-          rgba(0, 0, 0, 0.55) 54.17%,
+          rgba(0, 0, 0, 0.55) 15%,
           rgba(0, 0, 0, 0) 100%
         ),
         url(../img/room-2-tablet-2x.jpg);
@@ -309,13 +309,13 @@
   }
   /*==============================Hero============================ */
   .room-hero {
-    max-width: 1440px;
+    max-width: 1280px;
     padding-top: 377px;
     padding-bottom: 48px;
     background-image: linear-gradient(
         180deg,
         #000000 0%,
-        rgba(0, 0, 0, 0.55) 54.17%,
+        rgba(0, 0, 0, 0.55) 15%,
         rgba(0, 0, 0, 0) 100%
       ),
       url(../img/room-2-desktop-1x.jpg);
@@ -331,7 +331,7 @@
       background-image: linear-gradient(
           180deg,
           #000000 0%,
-          rgba(0, 0, 0, 0.55) 54.17%,
+          rgba(0, 0, 0, 0.55) 15%,
           rgba(0, 0, 0, 0) 100%
         ),
         url(../img/room-2-desktop-2x.jpg);
