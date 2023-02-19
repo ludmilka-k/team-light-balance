@@ -255,7 +255,7 @@ letter-spacing: 0.05em;
   }}
   @media screen and (min-width: 1024px) {
     .hero-hotel {
-        background-image: linear-gradient( to right, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65) ), url(./img/room@2\ \(1\).jpg);
+        background-image: linear-gradient( to right, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65) ), url(./img/room1.jpg);
     }
     @media (min-device-pixel-ratio: 2),
   (-webkit-min-device-pixel-ratio: 2),
@@ -263,7 +263,7 @@ letter-spacing: 0.05em;
   (min-resolution: 2dppx) {
   .hero-hotel {
     background-image: linear-gradient( to right, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65) ), 
-      url(./img/room@2\ \(2\).jpg);
+      url(./img/room2@.jpg);
     background-size: cover;
     
   }
