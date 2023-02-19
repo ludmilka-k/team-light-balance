@@ -141,7 +141,7 @@
 .modal-title-price-wrap {
   padding-left: 15px;
 }
-.modal-subtitle {
+.modal-title-price-wrap >.modal-subtitle {
   margin-bottom: 20px;
 }
 
