@@ -37,7 +37,7 @@ body {
   justify-content: flex-end;
   margin-top: 32px;
 }
-.logo {
+.emblem {
   font-weight: 700;
   font-size: 32px;
   line-height: 1.15;
@@ -53,7 +53,7 @@ body {
   flex-wrap: wrap;
   gap: 0;
 }
-.logo {
+.emblem {
   font-weight: 700;
   font-size: 32px;
   line-height: 1.15;
@@ -66,7 +66,7 @@ body {
   flex-direction: column;
   margin-right: 140px;
 }
-.title {
+.subject {
   font-family: "Times New Roman'", 'Arial', sans-serif;
   font-size: 24px;
   line-height: 1.16;
@@ -79,8 +79,8 @@ body {
   font-size: 14px;
   line-height: 1.21;
   letter-spacing: 0.02em;
+  margin-left: 20px;
   color: var(--title-text-color);
-  margin-left: 58px;
 }
 .price {
   font-family: 'Montserrat';
@@ -90,7 +90,6 @@ body {
   line-height: 1.25;
   letter-spacing: 0.02em;
   color: var(--title-text-color);
-  margin-left: 63px;
 }
 
 .first-text {
@@ -98,7 +97,7 @@ body {
   align-items: flex-start;
   flex-wrap: wrap;
 }
-.text {
+.desc {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.25;
@@ -119,6 +118,7 @@ body {
 }
 .weight-price {
   display: flex;
+  gap: 60px;
 }
 
 /* ---------------mobel----------------- */
@@ -130,12 +130,13 @@ body {
     padding-right: 15px;
     margin: 0 auto;
   }
-  .title {
+  .subject {
     font-family: "Times New Roman'", 'Arial', sans-serif;
     font-size: 24px;
     line-height: 1.15;
+    margin-bottom: 20px;
   }
-  .text {
+  .desc {
     font-size: 14px;
     line-height: 1.21;
     width: 220px;
@@ -146,18 +147,10 @@ body {
     flex-direction: column;
     margin-right: 0;
   }
-  .weight {
-    margin-left: 8px;
-  }
-  .price {
-    margin-left: 28px;
-  }
-  .weight-price {
-    display: flex;
-  }
+
   .drinks {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-between;
   }
@@ -171,7 +164,7 @@ body {
     padding-right: 15px;
     margin: 0 auto;
   }
-  .text {
+  .desc {
     font-size: 14px;
     line-height: 1.21;
     width: 220px;
@@ -181,13 +174,10 @@ body {
     line-height: 1.21;
   }
   .first {
-    margin-right: 88px;
-  }
-  .weight {
-    margin-left: 44px;
+    margin-right: 140px;
   }
   .side-dishes {
-    margin-right: 88px;
+    margin-right: 140px;
   }
 }
 
@@ -209,7 +199,7 @@ body {
     flex-wrap: wrap;
     gap: 0;
   }
-  .logo {
+  .emblem {
     font-weight: 700;
     font-size: 32px;
     line-height: 1.15;
@@ -222,7 +212,7 @@ body {
     flex-direction: column;
     margin-right: 140px;
   }
-  .title {
+  .subject {
     font-family: "Times New Roman'", 'Arial', sans-serif;
     font-size: 24px;
     line-height: 1.16;
@@ -249,6 +239,10 @@ body {
     margin-left: 63px;
   }
 
+  .weight-price {
+    display: flex;
+    gap: 60px;
+  }
   .side-dishes {
     margin-right: 140px;
   }
@@ -258,7 +252,7 @@ body {
     align-items: flex-start;
     flex-wrap: wrap;
   }
-  .text {
+  .desc {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.25;
@@ -276,7 +270,9 @@ body {
     letter-spacing: 0.02em;
     color: var(--title-text-color);
   }
-  .weight-price {
+
+  .drinks {
     display: flex;
+    flex-direction: column;
   }
 }
