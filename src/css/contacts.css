@@ -10,32 +10,30 @@
 }
 
 .contacts {
-  background-color: #fffdee;
+  background-color: var(--bg-lemon-color);
 }
 
 .main-page-details-contacts-header {
   font-family: 'FilmP3bold';
-  font-style: normal;
   font-weight: 700;
   font-size: 40px;
-  line-height: 43px;
+  line-height: calc(43 / 40);
   letter-spacing: 0.3em;
-  color: #494848;
+  color: var(--appellation-color);
   padding-top: 36px;
 }
 
 .contacts-text {
   font-family: 'Montserrat';
-  font-style: normal;
   font-weight: 600;
   font-size: 16px;
-  line-height: 20px;
+  line-height: calc(20 / 16);
   letter-spacing: 0.02em;
-  color: #7a7a7a;
+  color: var(--appellation-color);
   margin-top: 12px;
 }
 
-.icon {
+.icon-contacts {
   margin-left: 8px;
   margin-right: 8px;
 }
@@ -48,17 +46,17 @@
 
 .contacts-rest-text {
   font-family: 'Montserrat';
-  font-style: normal;
+
   font-weight: 500;
   font-size: 20px;
-  line-height: 24px;
+  line-height: calc(24 / 20);
   letter-spacing: 0.02em;
-  color: #c79002;
+  color: var(--orange-color);
 }
 
 .tel-box {
-  background: #ffffff;
-  border: 0.5px solid #f3c653;
+  background: var(--invert-color);
+  border: 0.5px solid var(--accent-yellow-color);
   border-radius: 2px;
   display: flex;
   justify-content: space-between;
@@ -66,14 +64,13 @@
 
 .header-tel {
   font-family: 'Montserrat';
-  font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 17px;
+  line-height: calc(17 / 14);
   display: flex;
   align-items: center;
   letter-spacing: 0.02em;
-  color: #494848;
+  color: var(--appellation-color);
 }
 
 .contacts-phone-rest > .header-tel {
@@ -97,23 +94,21 @@
 .hotel-tel > :first-child {
   padding: 7px 8px 7px 0px;
   font-family: 'Montserrat';
-  font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 17px;
+  line-height: calc(17 / 14);
   letter-spacing: 0.02em;
-  color: #494848;
+  color: var(--appellation-color);
 }
 
 .hotel-tel > :last-child {
   padding: 7px 8px 7px 0px;
   font-family: 'Montserrat';
-  font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 17px;
+  line-height: calc(17 / 14);
   letter-spacing: 0.02em;
-  color: #494848;
+  color: var(--appellation-color);
 }
 
 .hotel-tel {
@@ -123,8 +118,8 @@
 
 .contacts-adress {
   width: 262px;
-  background: #ffffff;
-  border: 0.5px solid #f3c653;
+  background: var(--invert-color);
+  border: 0.5px solid var(--accent-yellow-color);
   border-radius: 2px;
   padding: 7px 33px 7px 0px;
   margin-left: auto;
@@ -136,11 +131,11 @@
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 20px;
+  line-height: var(20 / 16);
   letter-spacing: 0.01em;
   display: flex;
   align-items: center;
-  color: #494848;
+  color: var(--appellation-color);
 }
 
 .icon-adress {

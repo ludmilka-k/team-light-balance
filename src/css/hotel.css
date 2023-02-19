@@ -180,7 +180,36 @@
 
 /* ===============/room-3-adult_Andriy-Sachyk================== */
 
+/* ===============room-for-2-adult_Andriy-Sachyk================== */
 
+.room-for-2-adult {
+    padding-top: 32px;
+    padding-bottom: 32px;
+    background-color: var(--bg-lemon-color);
+}
+
+
+
+.room-for-2-adult-photo-primery {
+    margin-bottom: 32px;
+    margin-left: auto;
+    box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 2px;
+}
+
+.room-for-2-adult-box-photo-minor {
+    position: relative;
+    transform: translateX(-121px);
+    display: flex;
+    gap: 16px;
+    margin-bottom: 20px;
+}
+
+.room-for-2-adult-photo-minor {
+    box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 2px;
+}
+/* ===============/room-for-2-adult_Andriy-Sachyk================== */
 
 /* Mobile Container */
 @media screen and (min-width: 414px) {
@@ -310,7 +339,46 @@
 
 
 /* ===============/room-3-adult_Andriy-Sachyk================== */
+/* ===============/room-for-2-adult_Andriy-Sachyk================== */
+    .room-for-2-adult {
+        padding-top: 62px;
+        padding-bottom: 40px;
+    }
 
+    .room-for-2-adult-photo-primery {
+        position: absolute;
+        right: 65px;
+        top: -102px;
+        box-shadow: 5px 5px 70px 17px rgba(0, 0, 0, 0.25);
+        z-index: 10;
+    }
+
+    .room-for-2-adult-box-photo-minor {
+        transform: translateX(0);
+        display: flex;
+        gap: 40px;
+        margin-bottom: 20px;
+    }
+
+    .room-for-2-adult-photo-minor {
+        box-shadow: 5px 5px 70px 17px rgba(0, 0, 0, 0.25);
+    }
+
+
+
+    .room-for-2-adult-box-photo-btn {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+
+    .room-for-2-adult-box-photo-btn-link {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+/* ===============/room-for-2-adult_Andriy-Sachyk================== */
 }
 
 /* Desktop Container */
@@ -367,7 +435,7 @@
    }
 
     .room-for-3-adult-photo-primery {
-        top: -110px;
+        top: -111px;
     }
 
     .room-for-3-adult-box-photo-minor {
@@ -376,5 +444,17 @@
     }
 
 /* ===============/room-3-adult_Andriy-Sachyk================== */
+
+/* ===============/room-for-2-adult_Andriy-Sachyk================== */
+    
+    .room-for-2-adult-photo-primery {
+        top: -103px;
+    }
+
+    .room-for-2-adult-box-photo-minor {
+        margin-bottom: 40px;
+
+    }
+/* ===============/room-for-2-adult_Andriy-Sachyk================== */
 
 }
