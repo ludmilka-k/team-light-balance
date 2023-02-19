@@ -1,0 +1,1 @@
+(()=>{const o={openModalButtons:document.querySelectorAll("[room-price-modal-open]"),closeModalButton:document.querySelector("[room-price-modal-close]"),modal:document.querySelector("[room-price-modal]")};o.openModalButtons.forEach(l=>{l.addEventListener("click",e)}),o.closeModalButton.addEventListener("click",e);function e(){o.modal.classList.toggle("is-hidden")}})();
