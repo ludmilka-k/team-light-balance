@@ -37,10 +37,13 @@
   background-color: rgba(0, 0, 0, 0.65);
 }
 .room-hero-slaid-icon {
-  fill: #f3c653;
+  fill: #ffffff;
+}
+.room-hero-slaid-btn:hover .room-hero-slaid-icon{
+  fill: #F3C653;
 }
 .room-hero-titel {
-  font-family: 'Times New Roman', sans-serif;
+  font-family: 'Times New Roman', serif;
   font-style: normal;
   font-weight: 700;
   font-size: 28px;
@@ -65,11 +68,11 @@
 }
 .room-hero-soc {
   display: flex;
-  gap: 72px;
+  justify-content: space-between;
 }
 .room-hero-icons {
   display: flex;
-  gap: 11px;
+  gap: 4px;
   flex-direction: column;
 }
 .open-prices {
@@ -217,7 +220,14 @@
     width: 414px;
   }
   /*==============================Hero============================ */
-
+  .room-hero-soc {
+    display: flex;
+    gap: 70px;
+    justify-content: flex-start;
+  }
+  .room-hero-icons {
+    gap: 11px;
+  }
   /*==============================Ameniries=============================== */
 }
 /* ===============================*/
