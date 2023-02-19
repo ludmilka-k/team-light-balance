@@ -15,7 +15,8 @@
     />
     
     <script type="module" crossorigin src="/team-light-balance/assets/styles-fac82e35.js"></script>
-    <link rel="stylesheet" href="/team-light-balance/assets/styles-581c35ce.css">
+    <script type="module" crossorigin src="/team-light-balance/assets/room-price-modal-a031766a.js"></script>
+    <link rel="stylesheet" href="/team-light-balance/assets/styles-f2781979.css">
   </head>
   <body>
     <header class="header">
@@ -166,7 +167,7 @@
                 </div>
             </div>
             <ul class="list-link-hotel">
-                <li><a class="link-hotel" href="#">Переглянути ціни</a></li>
+                <li><a class="link-hotel" href="#" room-price-modal-open>Переглянути ціни</a></li>
                 <li><a class="link-hotel" href="./room.html">Детальніше</a></li>
             </ul>
         </div>
@@ -354,6 +355,51 @@
 </section>
 
 <!-- =============== /room-for-2-adult_Andriy-Sachyk==================-->
+     <!------------- Room Price Modal window ------------------------>
+
+<div class="blackdrop is-hidden" room-price-modal>
+  <div class="modal modal-price">
+    <button type="button" class="modal-close-btn" room-price-modal-close>
+      <svg class="icon-close" width="24" height="24">
+        <use href="/team-light-balance/assets/icons-8e4a01bb.svg#icon-x"></use>
+      </svg>
+    </button>
+
+    <p class="modal-title">ЦІНИ НА НОМЕР</p>
+
+    <div class="modal-title-price-wrap">
+      <p class="modal-caption">Двомісний люкс</p>
+      <p class="modal-text modal-subtitle">Категорія номеру</p>
+    </div>
+
+    <form class="modal-form">
+      <div class="select-wrapper modal-fild-wrap">
+        <select class="modal-input" name="date-check-in" id="book-night">
+          <option class="modal-input" value="1">1</option>
+          <option class="modal-input" value="2">2</option>
+          <option class="modal-input" value="3">3</option>
+        </select>
+        <label for="book-night" class="user-name-text modal-text"
+          >Кількість ночей</label
+        >
+      </div>
+
+      <div class="modal-fild-wrap">
+        <input
+          id="price-night"
+          class="modal-input"
+          type="text"
+          name="price"
+          placeholder="1000"
+        />
+        <label for="price-night" class="user-name-text modal-text">грн</label>
+      </div>
+
+      <button type="submit" class="modal-book-btn">ЗАБРОНЮВАТИ НОМЕР</button>
+    </form>
+  </div>
+</div>
+
     </main>
     <footer class="footer">
   <div class="container footer-container">
@@ -411,6 +457,7 @@
   </div>
 </footer>
 
+    
     
   </body>
 </html>

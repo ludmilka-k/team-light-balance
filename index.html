@@ -16,9 +16,10 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.css"
     />
     
-    <script type="module" crossorigin src="/team-light-balance/assets/index-a50c63ce.js"></script>
+    <script type="module" crossorigin src="/team-light-balance/assets/index-da27fe93.js"></script>
     <link rel="modulepreload" crossorigin href="/team-light-balance/assets/styles-fac82e35.js">
-    <link rel="stylesheet" href="/team-light-balance/assets/styles-581c35ce.css">
+    <link rel="modulepreload" crossorigin href="/team-light-balance/assets/room-price-modal-a031766a.js">
+    <link rel="stylesheet" href="/team-light-balance/assets/styles-f2781979.css">
   </head>
 
   <body>
@@ -675,7 +676,7 @@
     <p class="modal-title">ЗАБРОНЮВАТИ НОМЕР</p>
 
     <form class="modal-form">
-      <div class="modal-wrap">
+      <div class="modal-fild-wrap">
         <input
           id="user-name"
           class="modal-input"
@@ -684,14 +685,14 @@
           required
           placeholder="Ваше ім’я"
           minlength="5"
-          pattern="[А-Я][а-я]{6,15}"
+          pattern="[A-Za-zА-Яа-я\s]{,20}"
         />
         <label for="user-name" class="user-name-text modal-text"
           >На кого забронювати номер?</label
         >
       </div>
 
-      <div class="modal-wrap">
+      <div class="modal-fild-wrap">
         <input
           id="user-phone"
           class="modal-input"
@@ -708,7 +709,7 @@
         >
       </div>
 
-      <div class="select-wrapper modal-wrap">
+      <div class="select-wrapper modal-fild-wrap modal-select">
         <select class="modal-input" name="type-room" id="type-room">
           <option class="modal-input" value="two-room">Двомісний номер</option>
           <option class="modal-input" value="two-room-lux">
@@ -724,7 +725,7 @@
         >
       </div>
 
-      <div class="select-wrapper modal-wrap">
+      <div class="select-wrapper modal-fild-wrap">
         <select class="modal-input" name="date-check-in" id="date-check-in">
           <option class="modal-input" value="today">Cьогодні</option>
           <option class="modal-input" value="tomorrow">Завтра</option>
@@ -737,7 +738,7 @@
         >
       </div>
 
-      <div class="select-wrapper modal-wrap">
+      <div class="select-wrapper modal-fild-wrap">
         <select class="modal-input" name="date-check-out" id="date-check-out">
           <option class="modal-input" value="today">Cьогодні</option>
           <option class="modal-input" value="tomorrow">Завтра</option>
@@ -768,7 +769,7 @@
     <p class="modal-title">ЗАБРОНЮВАТИ СТОЛИК</p>
 
     <form class="modal-form">
-      <div class="modal-wrap">
+      <div class="modal-fild-wrap">
         <input
           id="user-name-table"
           class="modal-input"
@@ -777,14 +778,14 @@
           required
           placeholder="Ваше ім’я"
           minlength="5"
-          pattern="[А-Я][а-я]{6,15}"
+          pattern="[A-Za-zА-Яа-я\s]{,20}"
         />
         <label for="user-name-table" class="user-name-text modal-text"
           >На кого забронювати столик?</label
         >
       </div>
 
-      <div class="modal-wrap">
+      <div class="modal-fild-wrap">
         <input
           id="user-phone-table"
           class="modal-input"
@@ -801,7 +802,7 @@
         >
       </div>
 
-      <div class="select-wrapper modal-wrap">
+      <div class="select-wrapper modal-fild-wrap">
         <select class="modal-input" name="type-room" id="number-people">
           <option class="modal-input" value="1">1</option>
           <option class="modal-input" value="2">2</option>
@@ -813,7 +814,7 @@
         >
       </div>
 
-      <div class="select-wrapper modal-wrap">
+      <div class="select-wrapper modal-fild-wrap">
         <select
           class="modal-input"
           name="date-check-in"
@@ -847,13 +848,13 @@
 
     <p class="modal-title">ЦІНИ НА НОМЕР</p>
 
-    <div class="modal-title-wrap">
+    <div class="modal-title-price-wrap">
       <p class="modal-caption">Двомісний люкс</p>
       <p class="modal-text modal-subtitle">Категорія номеру</p>
     </div>
 
     <form class="modal-form">
-      <div class="select-wrapper modal-wrap">
+      <div class="select-wrapper modal-fild-wrap">
         <select class="modal-input" name="date-check-in" id="book-night">
           <option class="modal-input" value="1">1</option>
           <option class="modal-input" value="2">2</option>
@@ -864,7 +865,7 @@
         >
       </div>
 
-      <div class="modal-wrap">
+      <div class="modal-fild-wrap">
         <input
           id="price-night"
           class="modal-input"
