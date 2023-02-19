@@ -11,7 +11,7 @@
     <p class="modal-title">ЗАБРОНЮВАТИ СТОЛИК</p>
 
     <form class="modal-form">
-      <div class="modal-wrap">
+      <div class="modal-fild-wrap">
         <input
           id="user-name-table"
           class="modal-input"
@@ -20,14 +20,14 @@
           required
           placeholder="Ваше ім’я"
           minlength="5"
-          pattern="[А-Я][а-я]{6,15}"
+          pattern="[A-Za-zА-Яа-я\s]{,20}"
         />
         <label for="user-name-table" class="user-name-text modal-text"
           >На кого забронювати столик?</label
         >
       </div>
 
-      <div class="modal-wrap">
+      <div class="modal-fild-wrap">
         <input
           id="user-phone-table"
           class="modal-input"
@@ -44,8 +44,8 @@
         >
       </div>
 
-      <div class="select-wrapper modal-wrap">
-        <select class="modal-input" name="type-room" id="number-people">
+      <div class="select-wrapper modal-fild-wrap  ">
+        <select class="modal-input modal-select" name="type-room" id="number-people">
           <option class="modal-input" value="1">1</option>
           <option class="modal-input" value="2">2</option>
           <option class="number-people" value="3">3</option>
@@ -56,9 +56,9 @@
         >
       </div>
 
-      <div class="select-wrapper modal-wrap">
+      <div class="select-wrapper modal-fild-wrap ">
         <select
-          class="modal-input"
+          class="modal-input modal-select"
           name="date-check-in"
           id="date-checkin-table"
         >

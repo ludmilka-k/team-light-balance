@@ -1,14 +1,19 @@
 (() => {
   const refs = {
-    openModaltableBtn: document.querySelector('[book-table-modal-open]'),
-    closeModaltableBtn: document.querySelector('[book-table-modal-close]'),
-    bookTableModal: document.querySelector('[book-table-modal]'),
+    // Find all the buttons 
+    openModalButtons: document.querySelectorAll('[book-table-modal-open]'),
+    closeModalButton: document.querySelector('[book-table-modal-close]'),
+    modal: document.querySelector('[book-table-modal]'),
   };
+  
+  // Add event listener to all buttons
+  refs.openModalButtons.forEach(element => {
+    element.addEventListener('click', toggleModal);
+  });
+  
+  refs.closeModalButton.addEventListener('click', toggleModal);
 
-  refs.openModaltableBtn.addEventListener('click', toggleModaltable);
-  refs.closeModaltableBtn.addEventListener('click', toggleModaltable);
-
-  function toggleModaltable() {
-    refs.bookTableModal.classList.toggle('is-hidden');
+  function toggleModal() {
+    refs.modal.classList.toggle('is-hidden');
   }
 })();

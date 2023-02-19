@@ -1,8 +1,15 @@
 /*==============================Hero============================ */
 .room-hero {
-  padding-top: 341px;
-  padding-bottom: 40px;
-  background-image: url(../img/room-2-mobile-1x.jpg);
+  height: 740px;
+  padding-top: 330px;
+  padding-bottom: 14px;
+  background-image: linear-gradient(
+      180deg,
+      #000000 0%,
+      rgba(0, 0, 0, 0.55) 15%,
+      rgba(0, 0, 0, 0) 100%
+    ),
+    url(../img/room-2-mobile-1x.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -12,11 +19,31 @@
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
   .room-hero {
-    background-image: url(../img/room-2-mobile-2x.jpg);
+    background-image: linear-gradient(
+        180deg,
+        #000000 0%,
+        rgba(0, 0, 0, 0.55) 15%,
+        rgba(0, 0, 0, 0) 100%
+      ),
+      url(../img/room-2-mobile-2x.jpg);
   }
 }
+.room-hero-slaid {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 93px;
+}
+.room-hero-slaid-btn {
+  background-color: rgba(0, 0, 0, 0.65);
+}
+.room-hero-slaid-icon {
+  fill: #ffffff;
+}
+.room-hero-slaid-btn:hover .room-hero-slaid-icon{
+  fill: #F3C653;
+}
 .room-hero-titel {
-  font-family: 'Times New Roman', sans-serif;
+  font-family: 'Times New Roman', serif;
   font-style: normal;
   font-weight: 700;
   font-size: 28px;
@@ -34,7 +61,19 @@
   line-height: 1.25;
   letter-spacing: 0.02em;
   color: #ffffff;
-  margin-bottom: 30px;
+  margin-bottom: 17px;
+}
+.room-hero-address {
+  display: none;
+}
+.room-hero-soc {
+  display: flex;
+  justify-content: space-between;
+}
+.room-hero-icons {
+  display: flex;
+  gap: 4px;
+  flex-direction: column;
 }
 .open-prices {
   font-family: 'Montserrat', sans-serif;
@@ -62,7 +101,7 @@
   background-color: #fffdee;
 }
 .amenities-titel {
-  font-family: 'Times New Roman', sans-serif;
+  font-family: 'Times New Roman', serif;
   font-style: normal;
   font-weight: 400;
   font-size: 32px;
@@ -85,7 +124,7 @@
   margin-bottom: 32px;
 }
 .amenities-item-titel {
-  font-family: 'Times New Roman', sans-serif;
+  font-family: 'Times New Roman', serif;
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
@@ -181,8 +220,13 @@
     width: 414px;
   }
   /*==============================Hero============================ */
-  .open-prices {
-    margin-left: 94px;
+  .room-hero-soc {
+    display: flex;
+    gap: 70px;
+    justify-content: flex-start;
+  }
+  .room-hero-icons {
+    gap: 11px;
   }
   /*==============================Ameniries=============================== */
 }
@@ -201,9 +245,16 @@
   /*==============================Hero============================ */
   .room-hero {
     max-width: 1024px;
-    padding-top: 353px;
-    padding-bottom: 102px;
-    background-image: url(../img/room-2-tablet-1x.jpg);
+    height: 718px;
+    padding-top: 340px;
+    padding-bottom: 22px;
+    background-image: linear-gradient(
+        180deg,
+        #000000 0%,
+        rgba(0, 0, 0, 0.55) 15%,
+        rgba(0, 0, 0, 0) 100%
+      ),
+      url(../img/room-2-tablet-1x.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -213,8 +264,17 @@
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
     .room-hero {
-      background-image: url(../img/room-2-tablet-2x.jpg);
+      background-image: linear-gradient(
+          180deg,
+          #000000 0%,
+          rgba(0, 0, 0, 0.55) 15%,
+          rgba(0, 0, 0, 0) 100%
+        ),
+        url(../img/room-2-tablet-2x.jpg);
     }
+  }
+  .room-hero-slaid {
+    margin-bottom: 88px;
   }
   .room-hero-titel {
     font-size: 36px;
@@ -229,14 +289,48 @@
     line-height: calc(20 / 16);
     letter-spacing: 0.02em;
     color: #ffffff;
-    margin-bottom: 0;
+    margin-bottom: 24px;
+  }
+  .room-hero-soc {
+    display: flex;
+    gap: 0;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+  .room-hero-address {
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    padding-top: 8px;
+    padding-left: 3px;
+    padding-right: 3px;
+    padding-bottom: 9px;
+    align-items: center;
+    justify-content: center;
+    bottom: 90px;
+    width: 285px;
+    height: 56px;
+    border: 1px solid rgba(243, 198, 83, 0.7);
+    border-radius: 2px;
+  }
+  .room-hero-soc-address {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+  }
+  .room-hero-icons {
+    display: flex;
+    gap: 21px;
+    flex-direction: row;
+  }
+  .room-hero-btn {
+    position: relative;
+    bottom: 40px;
   }
 
   .open-prices {
     background: rgba(0, 0, 0, 0.4);
     border: 2px solid #ffffff;
     border-radius: 25px;
-    margin-left: 698px;
   }
   /*==============================Ameniries=============================== */
   .amenities {
@@ -285,10 +379,17 @@
   }
   /*==============================Hero============================ */
   .room-hero {
-    max-width: 1440px;
-    padding-top: 377px;
+    max-width: 1280px;
+    height: 720px;
+    padding-top: 412px;
     padding-bottom: 48px;
-    background-image: url(../img/room-2-desktop-1x.jpg);
+    background-image: linear-gradient(
+        180deg,
+        #000000 0%,
+        rgba(0, 0, 0, 0.55) 15%,
+        rgba(0, 0, 0, 0) 100%
+      ),
+      url(../img/room-2-desktop-1x.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -298,13 +399,34 @@
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
     .room-hero {
-      background-image: url(../img/room-2-desktop-2x.jpg);
+      background-image: linear-gradient(
+          180deg,
+          #000000 0%,
+          rgba(0, 0, 0, 0.55) 15%,
+          rgba(0, 0, 0, 0) 100%
+        ),
+        url(../img/room-2-desktop-2x.jpg);
     }
+  }
+  .room-hero-slaid {
+    margin-bottom: 72px;
+  }
+  .room-hero-after-titel {
+    margin-bottom: 0;
+  }
+  .room-hero-soc-address {
+    display: none;
   }
   .room-hero-text-btn {
     display: flex;
     align-items: center;
-    gap: 478px;
+    justify-content: space-between;
+  }
+  .room-hero-btn {
+    position: static;
+  }
+  .room-hero-address {
+    display: none;
   }
   .open-prices {
     margin-left: 0;
