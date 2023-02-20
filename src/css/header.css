@@ -209,7 +209,8 @@ height: 30px;
             display: none;
         }
         .logo {
-    font-family: 'Film P3';
+    font-family: 'FilmP3Bold';
+    text-transform: uppercase;
 font-style: normal;
 font-weight: 700;
 font-size: 40px;
