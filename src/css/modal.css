@@ -141,9 +141,9 @@
 .modal-title-price-wrap {
   padding-left: 15px;
 }
-.modal-title-price-wrap >.modal-subtitle {
+/* .modal-title-price-wrap >.modal-subtitle {
   margin-bottom: 20px;
-}
+} */
 
 .modal-input::placeholder {
   font-family: 'Times New Roman';
