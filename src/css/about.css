@@ -317,6 +317,9 @@
   justify-content: flex-start;
 }
 /* Возможно общее */
+.slider-icon-arrow{
+transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 .slider-icon-arrow:hover,
 .slider-icon-arrow:focus {
   fill: var(--accent-yellow-color);
