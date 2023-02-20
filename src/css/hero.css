@@ -30,7 +30,8 @@
     margin-bottom: 24px;
     text-align: center;
     
-font-family: 'Film P3';
+font-family: 'FilmP3Bold';
+text-transform: uppercase;
 font-style: normal;
 font-weight: 700;
 font-size: 96px;
@@ -203,7 +204,8 @@ border-radius: 25px;
         .hero-title-one {
     margin-bottom: 16px;
     text-align: center;
-    font-family: 'Film P3';
+    font-family: 'FilmP3Bold';
+text-transform: uppercase;
 font-style: normal;
 font-weight: 700;
 font-size: 128px;
