@@ -183,9 +183,7 @@ border-radius: 25px;
     
   }
 }
-.hero-address {
-  bottom: 0;
-}
+
 .title-btn {
     gap: 145px;
     justify-content: unset;
@@ -282,6 +280,9 @@ letter-spacing: 0.05em;
     background-size: cover;
     
   }
+}
+.hero-address {
+  bottom: 0;
 }
 
         
