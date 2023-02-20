@@ -3,9 +3,11 @@
   flex-direction: column;
   align-items: center;
   max-width: 414px;
-  max-height: 735px;
+  height: 735px;
   margin-left: auto;
   margin-right: auto;
+  padding-top: 30px;
+  padding-bottom: 40px;
 
   background-image:
     linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
@@ -17,8 +19,7 @@
 }
 
 .about-restaurant {
-  padding-top: 24px;
-  padding-left: 140px;
+  margin-left: 140px;
   color: var(--invert-color);
 }
 
@@ -43,9 +44,13 @@
   justify-content: space-between;
   gap: 32px;
   max-width: 98px;
-  height: 32px;
+  max-height: 32px;
   margin-top: 16px;
   margin-bottom: 32px;
+}
+
+.slider-icon {
+  fill: var(--invert-color);
 }
 
 .button-box {
@@ -55,7 +60,6 @@
   align-items: center;
   gap: 16px;
   max-width: 100%;
-  margin-bottom: 40px;
 }
 
 .button-box .btn {
@@ -80,19 +84,50 @@
   background: var(--invert-color);
 }
 
-@media screen and (max-width: 1023.9px) {
-  .slide-bar {
-    max-width: 370px;
-    height: 270px;
-  }
-
-  .slide-img {
-    width: 274px;
-    height: 270px;
+@media screen and (max-width: 320px) {
+  .about-rest-section .container {
+    overflow-x: scroll;
+    overflow-y: scroll;
   }
 }
 
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1023.9px) {
+  .tablet {
+    margin: 0;
+  }
+
+  .slide-bar-arrow {
+    align-items: flex-start;
+    overflow: hidden;
+    margin-left: 150px;
+  }
+
+
+  .slide-bar {
+    margin-right: 20px;
+    overflow: hidden;
+  }
+
+  .slide-img {
+    width: 270px;
+    height: 270px;
+  }
+  .slide-img:nth-child(n+2) {
+    width: 162px;
+    height: 270px;
+
+  }
+
+  .slide-img:nth-child(n+3) {
+    display: none;
+  }
+
+  /*.slide-arrow {
+    margin-left: 500px;
+  }*/
+}
+
+@media screen and (max-width: 1279.9px) {
   .slide-img ~ .cube {
     display: none;
   }
@@ -132,9 +167,12 @@
     }
   }
 
-  .about-restaurant {
+  .about-rest-section .container {
     padding-top: 48px;
-    padding-left: 278px;
+  }
+
+  .about-restaurant {
+    margin-left: 231px;
   }
 
   .about-restaurant h4 {
@@ -182,7 +220,6 @@
     .button-box .btn {
       width: 236px;
     }
-
 }
 
 /*_____________________ DESKTOP __________________*/
@@ -220,7 +257,7 @@
   }
 
   .about-restaurant {
-    padding-left: 338px;
+    margin-left: 253px;
   }
   .slide-bar {
     margin-left: 32px;
