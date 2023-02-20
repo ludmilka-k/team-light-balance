@@ -160,6 +160,13 @@ border-radius: 25px;
     border: 1px solid rgba(243, 198, 83, 0.7);
     border-radius: 2px;
 }
+@media screen and ( min-width: 414px) {
+  .hero {
+    max-width: 414px;
+
+  }
+  
+}
 @media screen and (max-width: 1024px) {
     .hero-address {
         display: none;
@@ -180,6 +187,7 @@ border-radius: 25px;
       url(../img/tablet2@.jpg);
     background-size: cover;
     height: 720px;
+    max-width: 1024px;
     
   }
 }
@@ -269,6 +277,7 @@ letter-spacing: 0.05em;
         }
         .hero {
             background-image: linear-gradient( to right, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65) ), url(../img/desktop1.jpg);
+            max-width: 1440px;
         }
         @media (min-device-pixel-ratio: 2),
   (-webkit-min-device-pixel-ratio: 2),
@@ -278,6 +287,7 @@ letter-spacing: 0.05em;
     background-image: linear-gradient( to right, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65) ),
       url(../img/desktop2@.jpg);
     background-size: cover;
+    
     
   }
 }
