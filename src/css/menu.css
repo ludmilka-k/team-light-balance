@@ -1,278 +1,163 @@
-@font-face {
-  font-family: 'Times New Roman';
-  font-style: normal;
-  font-weight: 700;
-  font-display: swap;
-  src: local('Times New Roman'),
-    url('/fonts/FontsFree-Net-times-new-roman-bold.ttf') format('ttf'),
-    url('/fonts/FontsFree-Net-times-new-roman-bold.woff2') format('woff2');
+.servis-btn-menu {
+  display: flex;
+  justify-content: center;
 }
-body {
-  font-family: "Times New Roman'", 'Arial', sans-serif;
-}
-
-.Menu {
-  background: var(--bg-dark-lemon-color);
-}
-.btn {
-  font-family: 'Montserrat';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.25;
-  letter-spacing: 0.02em;
-  padding: 14px 24px;
-  background: #000000;
-  border: 2px solid var(--bg-dark-lemon-color);
+.book-table-menu {
+  padding: 12px 24px;
+  background: var(--title-text-color);
+  color: var(--accent-yellow-color);
+  border: 2px solid #ffffff;
   border-radius: 25px;
-  color: var(--aссent-yellow-color);
 }
-.btn:hover,
-.btn:focus {
-  border: 2px solid #f3c653;
-  background: #ffffff;
-}
-.servis-btn {
-  display: flex;
-  justify-content: flex-end;
-  margin-top: 32px;
-}
-.emblem {
-  font-weight: 700;
-  font-size: 32px;
-  line-height: 1.15;
-  color: var(--title-text-color);
-  margin-bottom: 40px;
-  padding-top: 58px;
-}
-.Menu {
-  padding-top: 58px;
-}
-.Menu > .container {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0;
-}
-.emblem {
-  font-weight: 700;
-  font-size: 32px;
-  line-height: 1.15;
-  color: var(--title-text-color);
-  margin-bottom: 40px;
-  margin-left: 15px;
-}
-.first {
-  display: flex;
-  flex-direction: column;
-  margin-right: 140px;
-}
-.subject {
-  font-family: "Times New Roman'", 'Arial', sans-serif;
-  font-size: 24px;
-  line-height: 1.16;
-  color: var(--title-text-color);
-}
-.weight {
-  font-family: 'Montserrat';
-  font-style: normal;
-  font-weight: 300;
-  font-size: 14px;
-  line-height: 1.21;
-  letter-spacing: 0.02em;
-  margin-left: 20px;
-  color: var(--title-text-color);
-}
-.price {
-  font-family: 'Montserrat';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.25;
-  letter-spacing: 0.02em;
-  color: var(--title-text-color);
-}
-
-.first-text {
-  display: flex;
-  align-items: flex-start;
-  flex-wrap: wrap;
-}
-.desc {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.25;
-  letter-spacing: 0.02em;
-  color: var(--title-text-color);
-  width: 259px;
-  margin-left: 4px;
-  display: flex;
-  flex-direction: column;
-  margin-bottom: 20px;
-}
-.text-menu {
-  font-weight: 400;
-  font-size: 10px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: var(--title-text-color);
-}
-.weight-price {
-  display: flex;
-  gap: 60px;
-}
-
-/* ---------------mobel----------------- */
 
 @media screen and (min-width: 414px) {
   .container {
-    min-width: 384px;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin: 0 auto;
+    width: 414px;
   }
-  .subject {
-    font-family: "Times New Roman'", 'Arial', sans-serif;
+}
+@media screen and (min-width: 1024px) {
+  .container {
+    width: 1024px;
+    padding-left: 47px;
+    padding-right: 47px;
+  }
+  .servis-btn-menu {
+    justify-content: flex-end;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .container {
+    width: 1280px;
+    padding-left: 85px;
+    padding-right: 85px;
+  }
+  .menu-assortment .subject {
+    margin-bottom: 16px;
+    font-weight: 700;
     font-size: 24px;
-    line-height: 1.15;
-    margin-bottom: 20px;
+    line-height: 1.16;
+    font-family: 'Times New Roman', Times, serif;
   }
-  .desc {
-    font-size: 14px;
-    line-height: 1.21;
-    width: 220px;
-    margin-bottom: 20px;
+  .menu-assortment .ingredients {
+    margin: 0;
+    font-size: 16px;
+    line-height: 1.25;
+    font-family: 'Montserrat';
   }
-  .first {
-    display: flex;
-    flex-direction: column;
-    margin-right: 0;
+}
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.menu-assortment {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  color: var(--title-text-color);
+}
+.menu-assortment .emblem {
+  margin: 0;
+  margin-bottom: 32px;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 1.23;
+  font-family: 'Times New Roman', Times, serif;
+}
+.menu-assortment .subject {
+  margin: 0;
+  margin-bottom: 16px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.15;
+  font-family: 'Times New Roman', Times, serif;
+}
+.menu-assortment .desc {
+  margin: 0;
+  margin-bottom: 4px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.2;
+  font-family: 'Montserrat';
+}
+.menu-assortment .ingredients {
+  margin: 0;
+  font-size: 10px;
+  line-height: 1.2;
+  font-weight: 400;
+  font-family: 'Montserrat';
+}
+.menu-assortment .first-text {
+  margin-bottom: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.menu-assortment .first-text.first-text:last-child {
+  margin-bottom: 0;
+}
+.weight-price {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+@media screen and (min-width: 414px) {
+  .weight-price {
+    gap: 32px;
   }
+}
+.dishname {
+  width: 221px;
+  margin-right: 32px;
+}
+.dessert-drink .dishname {
+  margin-bottom: 8px;
+}
+.menu-assortment .weight {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  font-family: 'Montserrat';
+}
+.menu-assortment .price {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  font-family: 'Montserrat';
+}
+.menu-assortment .menuparagraph {
+  margin-bottom: 32px;
+}
+.menu-assortment .menu-assortment-item {
+  margin-bottom: 16px;
+}
+.menu-assortment .menu-assortment-item:last-child {
+  margin-bottom: 0;
+}
+.menu-assortment-item .dessert {
+  margin-bottom: 16px;
+}
 
-  .drinks {
+@media screen and (min-width: 1024px) {
+  .menu-assortment .emblem {
+    margin-bottom: 40px;
+  }
+  .menuparagraph {
     display: flex;
-    flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-between;
   }
-}
-/* --------------------tablet------------------ */
-
-@media screen and (min-width: 1024px) {
-  .container {
-    width: 994px;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin: 0 auto;
+  .menuparagraph .menu-assortment-item {
+    margin-right: 88px;
   }
-  .desc {
-    font-size: 14px;
-    line-height: 1.21;
-    width: 220px;
+  .menuparagraph .menu-assortment-item:nth-child(2n) {
+    margin-right: 0px;
   }
-  .price {
-    font-size: 14px;
-    line-height: 1.21;
+  .menu-assortment .menu-assortment-item {
+    margin-bottom: 20px;
   }
-  .first {
-    margin-right: 140px;
-  }
-  .side-dishes {
-    margin-right: 140px;
-  }
-}
-
-/* --------------desktop--------------- */
-
-@media screen and (min-width: 1280px) {
-  .container {
-    width: 1240px;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin: 0 auto;
-  }
-
-  .Menu {
-    padding-top: 58px;
-  }
-  .Menu > .container {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0;
-  }
-  .emblem {
-    font-weight: 700;
-    font-size: 32px;
-    line-height: 1.15;
-    color: var(--title-text-color);
-    margin-bottom: 40px;
-    margin-left: 15px;
-  }
-  .first {
-    display: flex;
-    flex-direction: column;
-    margin-right: 140px;
-  }
-  .subject {
-    font-family: "Times New Roman'", 'Arial', sans-serif;
-    font-size: 24px;
-    line-height: 1.16;
-    color: var(--title-text-color);
-  }
-  .weight {
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 300;
-    font-size: 14px;
-    line-height: 1.21;
-    letter-spacing: 0.02em;
-    color: var(--title-text-color);
-    margin-left: 58px;
-  }
-  .price {
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.25;
-    letter-spacing: 0.02em;
-    color: var(--title-text-color);
-    margin-left: 63px;
-  }
-
-  .weight-price {
-    display: flex;
-    gap: 60px;
-  }
-  .side-dishes {
-    margin-right: 140px;
-  }
-
-  .first-text {
-    display: flex;
-    align-items: flex-start;
-    flex-wrap: wrap;
-  }
-  .desc {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.25;
-    letter-spacing: 0.02em;
-    color: var(--title-text-color);
-    width: 259px;
-    margin-left: 4px;
-    display: flex;
-    flex-direction: column;
-  }
-  .text-menu {
-    font-weight: 400;
-    font-size: 10px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: var(--title-text-color);
-  }
-
-  .drinks {
-    display: flex;
-    flex-direction: column;
+  .menu-assortment .menu-assortment-item:nth-last-child(-n + 2) {
+    margin-bottom: 0;
   }
 }
