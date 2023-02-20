@@ -195,11 +195,13 @@
   /* border: 1px solid var(--aссent-yellow-color); */
   border-radius: 2px;
   margin-top: 20px;
+  overflow-y: scroll;
+  transition: color var(--transition), background-color var(--transition);
 }
 .modal-book-btn:hover,
 .modal-book-btn:focus {
   color: #000000;
-  background: #f3c653;
+  background-color: #f3c653;
   /* background: var(--aссent-yellow-color); */
 }
 
