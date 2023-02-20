@@ -122,7 +122,7 @@
   line-height: 1.15;
   letter-spacing: 0.05em;
   width: 90%;
-  height: 54px;
+  height:90%;
   background-color: #fffdee80;
   margin-bottom: 8px;
   border: 1px solid #c79002;
@@ -130,6 +130,7 @@
   padding-left: 12px;
   color: #808080;
   background-color: var(--bg-lemon-color);
+  overflow: scroll;
 }
 /* ===============ROOM PRICE================ */
 .modal-subtitle {
