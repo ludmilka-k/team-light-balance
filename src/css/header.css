@@ -65,6 +65,7 @@ overflow: hidden;
 .list-navigation {
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
 }
 .header-container {
     display: flex;
@@ -75,8 +76,8 @@ overflow: hidden;
    
 }
 .logo {
-font-family: 'FilmP3Bold';
-text-transform: uppercase;
+    font-family: 'FilmP3Bold';
+    text-transform: uppercase;
 font-style: normal;
 font-weight: 700;
 font-size: 36px;
@@ -87,15 +88,41 @@ letter-spacing: 0.3em;
 
 
 
+
 }
 .link-header {
 font-weight: 500;
 font-size: 16px;
 line-height: 20px;
 
+
 letter-spacing: 0.02em;
 color: var(--accent-yellow-color);
 }
+
+/* ======================================== */
+.link-contact {
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .address {
     display: flex;
     padding-top: 8px;
@@ -159,9 +186,13 @@ height: 30px;
         
       
         }
-        .navigation-list:nth-child(2) {
+        .tel-contact {
         border: 1px solid rgba(243, 198, 83, 0.7);
         border-radius: 2px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-right: 8px;
+        margin-left: 32px;
        }
        .navigation-list:nth-child(4) {
         border: 1px solid rgba(243, 198, 83, 0.7);
@@ -178,12 +209,12 @@ height: 30px;
             display: none;
         }
         .logo {
-    font-family: 'FilmP3Bold';
-text-transform: uppercase;
+    font-family: 'Film P3';
 font-style: normal;
 font-weight: 700;
 font-size: 40px;
 line-height: 43px;
+
 
 letter-spacing: 0.3em;
 color: var(--invert-color);
@@ -255,7 +286,7 @@ color: var(--invert-color);
     
 }
 @media screen and (max-width:1024px) {
-    .tel-contact {
+    .span-tel {
         display: none;
         
     }
@@ -273,6 +304,7 @@ color: var(--invert-color);
             font-weight: 700;
             font-size: 40px;
             line-height: 43px;
+
 
             letter-spacing: 0.3em;
             color: var(--invert-color);
