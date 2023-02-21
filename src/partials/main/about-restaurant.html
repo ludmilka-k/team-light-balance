@@ -43,6 +43,7 @@
           />
         </picture>
       </li>
+
       <li class="description-rest-item">
         <picture>
           <source
@@ -71,6 +72,7 @@
           />
           <img src="./img/mobile-restaurant.jpg" alt="Restaurant interior" />
         </picture>
+
         <p class="text">
           Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
           sint. Velit officia consequat duis enim velit mollit. Exercitation
@@ -78,64 +80,126 @@
         </p>
       </li>
     </ul>
-    <div class="swiper-wrapper-slider">
-      <picture>
-        <source
-          media="(max-width: 1023px)"
-          srcset="
-            ./img/mobile-wineglass.jpg    1x,
-            ./img/mobile-wineglass-2x.jpg 2x
-          "
-          type="image/jpeg"
-        />
-        <source
-          media="(min-width: 1024px) and (max-width: 1279px)"
-          srcset="
-            ./img/tablet-wineglass.jpg    1x,
-            ./img/tablet-wineglass-2x.jpg 2x
-          "
-          type="image/jpeg"
-        />
-        <source
-          media="(min-width: 1280px)"
-          srcset="
-            ./img/desktop-wineglass.jpg    1x,
-            ./img/desktop-wineglass-2x.jpg 2x
-          "
-          type="image/jpeg"
-        />
-        <img src="./img/mobile-wineglass.jpg" alt="Wineglass" />
-      </picture>
-      <picture>
-        <source
-          media="(max-width: 1023px)"
-          srcset="./img/mobile-serving.jpg 1x, ./img/mobile-serving-2x.jpg 2x"
-          type="image/jpeg"
-        />
-        <source
-          media="(min-width: 1024px) and (max-width: 1279px)"
-          srcset="./img/tablet-serving.jpg 1x, ./img/tablet-serving-2x.jpg 2x"
-          type="image/jpeg"
-        />
-        <source
-          media="(min-width: 1280px)"
-          srcset="./img/desktop-serving.jpg 1x, ./img/desktop-serving-2x.jpg 2x"
-          type="image/jpeg"
-        />
-        <img src="./img/mobile-serving.jpg" alt="Serving" />
-      </picture>
-      <div class="item-slider-arrow">
-        <button type="button" href="">
-          <svg class="slider-icon-arrow" width="32" height="32">
-            <use href="./img/symbol-defs.svg#icon-cil_arrow-left"></use>
-          </svg>
-        </button>
-        <button type="button" href="">
-          <svg class="slider-icon-arrow" width="32" height="32">
-            <use href="./img/symbol-defs.svg#icon-cil_arrow-right"></use>
-          </svg>
-        </button>
+
+
+    <div style='display: flex; flex-direction: column'>
+        <div class="swiper-wrapper-slider">
+          <div id="descriptionRestSwiper" class='swiper about-rest-swiper'>
+            <div class='swiper-wrapper'>
+              <div class='swiper-slide details-small-slide'>
+                <picture>
+                  <source
+                    media="(max-width: 1023px)"
+                    srcset="
+                    ./img/mobile-wineglass.jpg    1x,
+                    ./img/mobile-wineglass-2x.jpg 2x
+                  "
+                    type="image/jpeg"
+                  />
+                  <source
+                    media="(min-width: 1024px) and (max-width: 1279px)"
+                    srcset="
+                    ./img/tablet-wineglass.jpg    1x,
+                    ./img/tablet-wineglass-2x.jpg 2x
+                  "
+                    type="image/jpeg"
+                  />
+                  <source
+                    media="(min-width: 1280px)"
+                    srcset="
+                    ./img/desktop-wineglass.jpg    1x,
+                    ./img/desktop-wineglass-2x.jpg 2x
+                  "
+                    type="image/jpeg"
+                  />
+                  <img src="./img/mobile-wineglass.jpg" alt="Wineglass" class='about-slide-image'/>
+                </picture>
+              </div>
+
+              <div class='swiper-slide details-small-slide'>
+                <picture>
+                  <source
+                    media="(max-width: 1023px)"
+                    srcset="./img/mobile-serving.jpg 1x, ./img/mobile-serving-2x.jpg 2x"
+                    type="image/jpeg"
+                  />
+                  <source
+                    media="(min-width: 1024px) and (max-width: 1279px)"
+                    srcset="./img/tablet-serving.jpg 1x, ./img/tablet-serving-2x.jpg 2x"
+                    type="image/jpeg"
+                  />
+                  <source
+                    media="(min-width: 1280px)"
+                    srcset="./img/desktop-serving.jpg 1x, ./img/desktop-serving-2x.jpg 2x"
+                    type="image/jpeg"
+                  />
+                  <img src="./img/mobile-serving.jpg" alt="Serving" class='about-slide-image'/>
+                </picture>
+              </div>
+              <div class='swiper-slide details-small-slide'>
+                <picture>
+                  <source
+                    media="(max-width: 1023px)"
+                    srcset="./img/mobile-serving.jpg 1x, ./img/mobile-serving-2x.jpg 2x"
+                    type="image/jpeg"
+                  />
+                  <source
+                    media="(min-width: 1024px) and (max-width: 1279px)"
+                    srcset="./img/tablet-serving.jpg 1x, ./img/tablet-serving-2x.jpg 2x"
+                    type="image/jpeg"
+                  />
+                  <source
+                    media="(min-width: 1280px)"
+                    srcset="./img/desktop-serving.jpg 1x, ./img/desktop-serving-2x.jpg 2x"
+                    type="image/jpeg"
+                  />
+                  <img src="./img/mobile-serving.jpg" alt="Serving" class='about-slide-image'/>
+                </picture>
+              </div>
+              <div class='swiper-slide details-small-slide'>
+                <picture>
+                  <source
+                    media="(max-width: 1023px)"
+                    srcset="./img/mobile-serving.jpg 1x, ./img/mobile-serving-2x.jpg 2x"
+                    type="image/jpeg"
+                  />
+                  <source
+                    media="(min-width: 1024px) and (max-width: 1279px)"
+                    srcset="./img/tablet-serving.jpg 1x, ./img/tablet-serving-2x.jpg 2x"
+                    type="image/jpeg"
+                  />
+                  <source
+                    media="(min-width: 1280px)"
+                    srcset="./img/desktop-serving.jpg 1x, ./img/desktop-serving-2x.jpg 2x"
+                    type="image/jpeg"
+                  />
+                  <img src="./img/mobile-serving.jpg" alt="Serving" class='about-slide-image'/>
+                </picture>
+              </div>
+
+
+
+            </div>
+          </div>
+        </div>
+        <div class="item-slider-arrow">
+
+          <div id="description-rest-swiper-button-prev">
+            <svg class="slider-icon-arrow" width="32" height="32">
+              <use href="./img/symbol-defs.svg#icon-cil_arrow-left"></use>
+            </svg>
+          </div>
+
+          <div id="description-rest-swiper-button-next">
+            <svg class="slider-icon-arrow" width="32" height="32">
+              <use href="./img/symbol-defs.svg#icon-cil_arrow-right"></use>
+            </svg>
+          </div>
+
+        </div>
       </div>
+
+
   </div>
 </section>
 
@@ -207,6 +271,7 @@
             />
           </li>
         </ul>
+
         <div class="slide-arrow">
           <a href="">
             <svg class="slider-icon" width="32" height="32">
@@ -220,7 +285,7 @@
           </a>
         </div>
       </div>
-      
+
       <div class="button-box">
         <button class="btn" type="button" book-table-modal-open>
           Забронювати столик

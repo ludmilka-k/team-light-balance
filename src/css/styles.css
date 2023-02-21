@@ -2,6 +2,7 @@
 @import url('./root.css');
 @import url('./reset.css');
 @import url('./fonts.css');
+/* @import url('./swiper-bundle.min.css'); */
 @import url('./menu.css');
 @import url('./header.css');
 @import url('./hero.css');
@@ -13,6 +14,7 @@
 @import url('./room.css');
 @import url('./modal.css');
 @import url('./contacts.css');
+@import url('./slider.css');
 @import url('./base.css');
 
 
