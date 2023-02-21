@@ -1,4 +1,13 @@
 /* --------------- About Styles ---------------- */
+
+
+    /* Add-Andriy */
+.section-about-our-hotel{
+  padding-top: 16px;
+  padding-bottom: 20px;
+}
+
+
 .description-rest-container,
 .description-kitchen-container,
 .description-hotel-container {
@@ -7,27 +16,39 @@
   font-family: Montserrat, sans-serif;
   font-weight: 600;
 }
-.description-rest,
+/* .description-rest,
 .description-kitchen {
   padding-top: 16px;
   padding-bottom: 20px;
-}
+} */
 .description-hotel {
   padding-top: 18px;
   padding-bottom: 20px;
 }
 @media screen and (min-width: 1024px) {
-  .description-rest,
+  /* .description-rest,
   .description-kitchen,
   .description-hotel {
     position: relative;
     padding-top: 120px;
     padding-bottom: 32px;
+  } */
+
+    /* Add-Andriy */
+  .section-about-our-hotel{
+    padding-top: 120px;
+    padding-bottom: 32px;
   }
+
 }
 @media screen and (min-width: 1280px) {
-  .description-rest,
+  /* .description-rest,
   .description-hotel {
+    padding-bottom: 50px;
+  } */
+
+    /* Add-Andriy */
+  .section-about-our-hotel{
     padding-bottom: 50px;
   }
 }
