@@ -60,6 +60,7 @@
   border-radius: 2px;
   display: flex;
   justify-content: space-between;
+  transition:transform var(--transition);
 }
 
 .header-tel {
@@ -266,4 +267,7 @@
     margin-top: 64px;
     padding-bottom: 74px;
   }
+}
+.tab-cont .contacts-phone .tel-box:hover {
+  transform: scaleX(1.1);
 }
