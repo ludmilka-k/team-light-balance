@@ -1,18 +1,18 @@
 /* --------------- Root styles ----------------*/
 :root {
-    --title-text-color: #000000;
-    --body-text-color: #7A7A7A;
-    --helper-text-color: #B4B4B4;
-    --invert-color: #FFFFFF;
-    --accent-yellow-color: #F3C653;
-    --orange-color: #C79002;
-    --bg-lemon-color: #FFFDEE;
-    --bg-dark-lemon-color: #F0ECD6;
-    --footer-color: #0E0C07; 
-    --appellation-color:#494848;
-    --main-font-size: 12px; 
-  
-    --outline-style: solid;
-  
-    --transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  }
+  --title-text-color: #000000;
+  --body-text-color: #7a7a7a;
+  --helper-text-color: #b4b4b4;
+  --invert-color: #ffffff;
+  --accent-yellow-color: #f3c653;
+  --orange-color: #c79002;
+  --bg-lemon-color: #fffdee;
+  --bg-dark-lemon-color: #f0ecd6;
+  --footer-color: #0e0c07;
+  --appellation-color: #494848;
+  --main-font-size: 12px;
+
+  --outline-style: solid;
+
+  --transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
