@@ -7,6 +7,22 @@
   padding-bottom: 20px;
 }
 
+<<<<<<< Updated upstream
+=======
+    /* Add-Andriy */  
+.section-about-our-hotel{
+  padding-top: 18px;
+  padding-bottom: 20px;
+}
+
+  /* Add-Andriy */
+  .section-about-our-kitchen {
+    padding-top: 16px;
+    padding-bottom: 20px;
+  }
+
+
+>>>>>>> Stashed changes
 
 .description-rest-container,
 .description-kitchen-container,
@@ -26,20 +42,36 @@
   padding-bottom: 20px;
 }
 @media screen and (min-width: 1024px) {
-  /* .description-rest,
+  .description-rest,
   .description-kitchen,
   .description-hotel {
     position: relative;
-    padding-top: 120px;
-    padding-bottom: 32px;
-  } */
+    /*padding-top: 120px;
+    padding-bottom: 32px;*/
+  }
 
     /* Add-Andriy */
-  .section-about-our-hotel{
+  .section-about-our-hotel {
     padding-top: 120px;
     padding-bottom: 32px;
   }
 
+<<<<<<< Updated upstream
+=======
+
+  /* Add-Andriy */
+  .section-about-our-hotel {
+    padding-top: 120px;
+    padding-bottom: 32px;
+  }
+
+  /* Add-Andriy */
+  .section-about-our-kitchen{
+    padding-top: 120px;
+    padding-bottom: 32px;
+  }
+
+>>>>>>> Stashed changes
 }
 @media screen and (min-width: 1280px) {
   /* .description-rest,
@@ -48,7 +80,7 @@
   } */
 
     /* Add-Andriy */
-  .section-about-our-hotel{
+  .section-about-our-hotel {
     padding-bottom: 50px;
   }
 }
