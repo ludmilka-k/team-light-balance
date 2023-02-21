@@ -306,16 +306,19 @@ color: var(--invert-color);
 }
 .link-header:hover {
     transform: translateY(-30%);
-    color: var(--invert-color)
+    color: var(--invert-color);
+    transition: var(--transition);
 }
 .tel-contact:hover {
    transform: scaleX(1.1);
+   transition: var(--transition);
 }
 
 
 .header-social-link:hover {
     transform: translateY(-30%);
-    color: var(--invert-color)
+    color: var(--invert-color);
+    transition: var(--transition);
 }
 .header-social-link {
     display: block;
@@ -345,4 +348,7 @@ color: var(--invert-color);
     margin-right: 8px;
     min-width: 20px;
 }
-
+.span-adr-two {
+    display: block;
+    width: 179px;
+}
