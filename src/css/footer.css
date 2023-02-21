@@ -8,14 +8,30 @@
   padding-right: 15px;
   margin: 0 auto;
 }
-.footer-container {
+
+  /*Add_Andriy*/
+.footer{  
   background-color: var(--footer-color);
   padding-top: 40px;
+  padding-bottom: 42px;
+}
+
+.footer-container {
+  /*padding-top: 40px;
   padding-bottom: 41px;
-  height: 240px;
+  height: 240px;*/
   display: flex;
   justify-content: space-between;
 }
+
+  /*Add_Andriy*/
+.footer-wraper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
 .footer-logo {
   display: block;
   font-family: 'FilmP3Bold';
@@ -24,8 +40,8 @@
   line-height: calc(43 / 40);
   letter-spacing: 0.3em;
   text-transform: uppercase;
-  margin-top: 58px;
-  margin-left: 44px;
+  /*margin-top: 58px;
+  margin-left: 44px;*/
   color: var(--accent-yellow-color);
 }
 .footer-nav-list {
@@ -33,6 +49,8 @@
   justify-content: center;
   flex-direction: column;
   gap: 16px;
+  /*Add_Andriy*/
+  margin-bottom: 32px;
 }
 .footer-nav-item {
   display: block;
@@ -88,16 +106,19 @@
   }
 
   .footer-container {
-    padding-top: 80px;
+    /*padding-top: 80px;
     padding-bottom: 80px;
-    height: 304px;
+    height: 304px;*/
     justify-content: space-between;
   }
+
 .footer-logo {
+  /*Add_Andriy*/
+  width: 202px;
   font-size: 64px;
-  line-height: calc(69 /64); 
-  margin-top: 37px;
-  margin-left: 107px; 
+  line-height: calc(69/64); 
+  /*margin-top: 37px;
+  margin-left: 107px;*/ 
 }
 
 .footer-wrap {
