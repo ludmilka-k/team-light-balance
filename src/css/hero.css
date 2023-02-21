@@ -497,8 +497,18 @@ letter-spacing: 0.05em;
 .hero-address:hover {
 
 transform: scaleX(1.1);
+transition: var(--transition);
 }
 .hero-social-link:hover {
   transform: translateY(-30%);
-  color: var(--invert-color)
+  color: var(--invert-color);
+  transition: var(--transition);
+}
+.span-adr-hero {
+  display: block;
+  width: 233px;
+}
+.hero-social-link {
+  display: block;
+  width: 100%;
 }
