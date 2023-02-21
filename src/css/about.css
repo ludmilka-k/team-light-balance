@@ -1,18 +1,16 @@
 /* --------------- About Styles ---------------- */
 
-
-    /* Add-Andriy */
-.section-about-our-hotel{
+/* Add-Andriy */
+.section-about-our-hotel {
   padding-top: 16px;
   padding-bottom: 20px;
 }
 
-    /* Add-Andriy */  
-.section-about-our-hotel{
+/* Add-Andriy */
+.section-about-our-hotel {
   padding-top: 18px;
   padding-bottom: 20px;
 }
-
 
 .description-rest-container,
 .description-kitchen-container,
@@ -40,19 +38,17 @@
     padding-bottom: 32px;
   } */
 
-    /* Add-Andriy */
-  .section-about-our-hotel{
-    padding-top: 120px;
-    padding-bottom: 32px;
-  }
-
-
   /* Add-Andriy */
   .section-about-our-hotel {
     padding-top: 120px;
     padding-bottom: 32px;
   }
 
+  /* Add-Andriy */
+  .section-about-our-hotel {
+    padding-top: 120px;
+    padding-bottom: 32px;
+  }
 }
 @media screen and (min-width: 1280px) {
   /* .description-rest,
@@ -60,8 +56,8 @@
     padding-bottom: 50px;
   } */
 
-    /* Add-Andriy */
-  .section-about-our-hotel{
+  /* Add-Andriy */
+  .section-about-our-hotel {
     padding-bottom: 50px;
   }
 
@@ -69,8 +65,6 @@
   .section-about-our-hotel {
     padding-bottom: 50px;
   }
-
-
 }
 .description-rest img,
 .description-kitchen img,
@@ -92,7 +86,7 @@
   .container {
     overflow-x: visible;
     overflow-y: visible;
-    }
+  }
   .description-rest .first-image,
   .description-kitchen .first-image {
     position: absolute;
@@ -182,7 +176,7 @@
   width: 258px;
   line-height: 1.25;
   letter-spacing: 0.02em;
-  color: var(--body-text-color), #7A7A7A;
+  color: var(--body-text-color), #7a7a7a;
 }
 
 .description-hotel .text {
@@ -346,6 +340,12 @@
     margin-bottom: -147px;
   }
 }
+.item-slider-arrow button {
+  display: inline-block;
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
 /* Возможно общее */
 .item-slider-arrow {
   display: flex;
@@ -353,13 +353,14 @@
   height: 32px;
   justify-content: flex-end;
 }
+
 /* Возможно общее */
 .description-hotel-container .item-slider-arrow {
   justify-content: flex-start;
 }
 /* Возможно общее */
-.slider-icon-arrow{
-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+.slider-icon-arrow {
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .slider-icon-arrow:hover,
 .slider-icon-arrow:focus {
