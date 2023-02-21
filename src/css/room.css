@@ -53,6 +53,7 @@
   color: #ffffff;
   margin-bottom: 14px;
 }
+
 .room-hero-after-titel {
   font-family: 'Montserrat', sans-serif;
   max-width: 325px;
@@ -70,6 +71,7 @@
 .room-hero-soc {
   display: flex;
   justify-content: space-between;
+  cursor: pointer;
 }
 .room-hero-icons {
   display: flex;
@@ -312,7 +314,11 @@
     height: 56px;
     border: 1px solid rgba(243, 198, 83, 0.7);
     border-radius: 2px;
+    transition: transform 250ms linear;
   }
+  .room-hero-address:hover{
+    transform: scale(1.1);
+     }
   .room-hero-soc-address {
     display: flex;
     gap: 40px;

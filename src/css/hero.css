@@ -38,7 +38,25 @@ font-size: 96px;
 line-height: 103px;
 letter-spacing: 0.3em;
 color: var(--invert-color);
-
+animation-name: Changetitel;
+animation-duration: 3000ms;
+}
+@keyframes Changetitel {
+ 0% { transform: scale(0.2);
+ }
+ 30% {
+  transform:translateY(-50px);
+   }
+ 40% {
+  transform: scale(1.2) ;
+ }
+ 60% {transform: translateY(-25);
+   }
+  80% {
+    transform: translateY(0);
+   }
+ 100% {transform: scale(1);
+   }
 }
 .hero-title-two {
     margin-bottom: 40px;
@@ -497,8 +515,18 @@ letter-spacing: 0.05em;
 .hero-address:hover {
 
 transform: scaleX(1.1);
+transition: var(--transition);
 }
 .hero-social-link:hover {
   transform: translateY(-30%);
-  color: var(--invert-color)
+  color: var(--invert-color);
+  transition: var(--transition);
+}
+.span-adr-hero {
+  display: block;
+  width: 233px;
+}
+.hero-social-link {
+  display: block;
+  width: 100%;
 }
