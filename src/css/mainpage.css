@@ -53,7 +53,7 @@
   fill: var(--invert-color);
 }
 
-.button-box {
+.box-button {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -62,7 +62,7 @@
   max-width: 100%;
 }
 
-.button-box .btn {
+.box-button .btn {
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 700;
@@ -102,7 +102,6 @@
     margin-left: 150px;
   }
 
-
   .slide-bar {
     margin-right: 20px;
     overflow: hidden;
@@ -115,16 +114,11 @@
   .slide-img:nth-child(n+2) {
     width: 162px;
     height: 270px;
-
   }
 
   .slide-img:nth-child(n+3) {
     display: none;
   }
-
-  /*.slide-arrow {
-    margin-left: 500px;
-  }*/
 }
 
 @media screen and (max-width: 1279.9px) {
@@ -209,7 +203,7 @@
     margin-right: 34px;
   }
 
-  .button-box {
+  .box-button {
     position: absolute;
     left: 0;
     bottom: 0;
@@ -217,9 +211,9 @@
     margin-bottom: 0;
   }
 
-    .button-box .btn {
-      width: 236px;
-    }
+  .box-button .btn {
+    width: 236px;
+  }
 }
 
 /*_____________________ DESKTOP __________________*/
