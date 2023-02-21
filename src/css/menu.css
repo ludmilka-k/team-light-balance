@@ -7,6 +7,26 @@
     gap: 20px;
     display: flex;
   }
+  .dishname {
+    max-width: 220px;
+  }
+  .menu-first {
+    margin-bottom: 11px;
+  }
+  .menu-assortment .dessert-drink .first-text {
+    margin-bottom: 8px;
+  }
+  .menu-assortment .first-text {
+    margin-bottom: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 32px;
+  }
+  .servis-btn-menu {
+    display: flex;
+    justify-content: center;
+  }
 }
 
 @media screen and (min-width: 1024px) {
@@ -14,6 +34,16 @@
     width: 1024px;
     padding-left: 47px;
     padding-right: 47px;
+  }
+  .menu-first {
+    margin-bottom: 20px;
+  }
+  .menu-assortment .first-text {
+    margin-bottom: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 40px;
   }
   .servis-btn-menu {
     justify-content: flex-end;
@@ -24,7 +54,6 @@
   .weight-price {
     display: flex;
     justify-content: space-between;
-    gap: 47px;
   }
   .menuparagraph {
     display: flex;
@@ -34,21 +63,17 @@
   .menuparagraph .menu-assortment-item {
     margin-right: 88px;
   }
-  .menuparagraph .menu-assortment-item:nth-child(2n) {
+  .menuparagraph .menu-assortment-item {
     margin-right: 0px;
-  }
-  .menu-assortment .menu-assortment-item {
-    margin-bottom: 20px;
-  }
-  .menu-assortment .menu-assortment-item:nth-last-child(-n + 2) {
-    margin-bottom: 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
   }
   .dessert-drink .dishname {
     margin-bottom: 0;
-    width: 239px;
+  }
+  .dishname {
+    width: 221px;
+  }
+  .menu-assortment .dessert-drink .first-text {
+    margin-bottom: 11px;
   }
 }
 @media screen and (min-width: 1280px) {
@@ -56,6 +81,14 @@
     width: 1280px;
     padding-left: 85px;
     padding-right: 85px;
+  }
+  .menu-first {
+    margin-bottom: 20px;
+  }
+  .menu-assortment .first-text {
+    margin-bottom: 6px;
+    display: flex;
+    align-items: center;
   }
   .menu-assortment .subject {
     margin-bottom: 16px;
@@ -80,14 +113,6 @@
     padding-top: 58px;
     padding-bottom: 40px;
   }
-  .menuparagraph .first-dish,
-  .menuparagraph .side-dishes {
-    width: 411px;
-  }
-  .menuparagraph .salads,
-  .menuparagraph .dessert-drink {
-    width: 430px;
-  }
   .weight-price {
     display: flex;
     justify-content: space-between;
@@ -95,7 +120,12 @@
   }
   .dessert-drink .dishname {
     margin-bottom: 0;
-    width: 239px;
+  }
+  .dishname {
+    width: 257px;
+  }
+  .menu-assortment .dessert-drink .first-text {
+    margin-bottom: 11px;
   }
 }
 ul {
@@ -139,21 +169,8 @@ ul {
   font-weight: 400;
   font-family: 'Montserrat';
 }
-.menu-assortment .first-text {
-  margin-bottom: 6px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-.menu-assortment .dessert-drink .first-text {
-  margin-bottom: 8px;
-}
 .menu-assortment .first-text.first-text:last-child {
   margin-bottom: 0;
-}
-
-.dishname {
-  width: 221px;
 }
 .dessert-drink .dishname {
   margin-bottom: 0;
@@ -176,13 +193,10 @@ ul {
   margin-bottom: 32px;
 }
 .menu-assortment .menu-assortment-item {
-  margin-bottom: 16px;
-}
-.menu-assortment .menu-assortment-item:last-child {
-  margin-bottom: 0;
+  margin-bottom: 20px;
 }
 .menu-assortment-item .dessert {
-  margin-bottom: 16px;
+  margin-bottom: 20px;
 }
 .servis-btn-menu {
   display: flex;
