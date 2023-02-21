@@ -149,7 +149,8 @@ border-radius: 25px;
     margin-top: 45px;
 }
 .hero-address {
-    display: flex;
+    
+
     padding-top: 8px;
     padding-left:3px ;
     padding-right: 3px;
@@ -237,15 +238,16 @@ letter-spacing: 0.3em;
 
 }
 .text-address {
-    font-weight: 400;
-font-size: 16px;
-line-height: 20px;
-letter-spacing: 0.01em;
-width: 233px;
-height: 40px;
+  font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.01em;
+    display: flex;
+    width: 233px;
+    height: 40px;
 }
 .icon-address {
-    width: 24px;
+    min-width: 24px;
     height: 24px;
 }
 .hero-title-one {
@@ -486,4 +488,17 @@ letter-spacing: 0.05em;
     .hotel {
         margin-bottom: 249px;
     }
+}
+
+
+
+
+
+.hero-address:hover {
+
+transform: scaleX(1.1);
+}
+.hero-social-link:hover {
+  transform: translateY(-30%);
+  color: var(--invert-color)
 }
