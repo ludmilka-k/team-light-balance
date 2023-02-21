@@ -85,10 +85,14 @@ line-height: 39px;
 color: var(--invert-color);
 
 letter-spacing: 0.3em;
+transition: transform 250ms linear;
 
 
 
-
+}
+.logo:hover, .logo:focus{
+    transform:scale(1.15);
+    color: var(--accent-yellow-color);
 }
 .link-header {
 font-weight: 500;
@@ -206,6 +210,7 @@ letter-spacing: 0.3em;
 color: var(--invert-color);
 
 }
+
 .link-header {
     font-weight: 500;
 font-size: 20px;
