@@ -38,9 +38,10 @@
 }
 .room-hero-slaid-icon {
   fill: #ffffff;
+  background-color: rgba(0, 0, 0, 0.65);
 }
-.room-hero-slaid-btn:hover .room-hero-slaid-icon{
-  fill: #F3C653;
+.room-hero-slaid-btn:hover .room-hero-slaid-icon {
+  fill: #f3c653;
 }
 .room-hero-titel {
   font-family: 'Times New Roman', serif;
