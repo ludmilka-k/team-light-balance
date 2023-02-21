@@ -52,7 +52,7 @@ color: var(--invert-color);
 letter-spacing: 0.02em;
 }
 .hero-title-three {
-    margin-bottom: 113px;
+    
      text-align: center;
      font-weight: 700;
 font-size: 32px;
@@ -62,6 +62,57 @@ color: var(--invert-color);
 
 letter-spacing: 0.05em;
 }
+/* ========================================================= */
+/* ========================================================= */
+/* ========================================================= */
+.title-btn {
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 344px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ========================================================= */
+/* ========================================================= */
+/* ========================================================= */
 .hero-btn {
     display: inline-block;
     justify-content: center;
@@ -95,7 +146,7 @@ border-radius: 25px;
 .hero-icons {
     display: flex;
     gap: 23px;
-    margin-top: 61px;
+    margin-top: 45px;
 }
 .hero-address {
     display: flex;
@@ -104,17 +155,10 @@ border-radius: 25px;
     padding-right: 3px;
     padding-bottom: 9px;
     position: absolute;
-    /* top: 600px; */
-    bottom: 90px;
+    bottom: 50px;
     width: 285px;
     border: 1px solid rgba(243, 198, 83, 0.7);
     border-radius: 2px;
-}
-@media screen and (min-width: 414px) {
-  .hero {
-    max-width: 414px;
-  }
-  
 }
 @media screen and (max-width: 1024px) {
     .hero-address {
@@ -126,7 +170,6 @@ border-radius: 25px;
 @media screen and (min-width: 1024px) {
     .hero {
         background-image: linear-gradient( to right, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65) ), url(../img/tablet1.jpg);
-        max-width: 1024px;
     }
     @media (min-device-pixel-ratio: 2),
   (-webkit-min-device-pixel-ratio: 2),
@@ -136,8 +179,19 @@ border-radius: 25px;
     background-image: linear-gradient( to right, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65) ), 
       url(../img/tablet2@.jpg);
     background-size: cover;
+    height: 720px;
     
   }
+}
+
+.title-btn {
+    gap: 145px;
+    justify-content: unset;
+    height: unset;
+}
+.hero-icons {
+    margin-top: 25px;
+
 }
     
     .hero-btn {
@@ -166,7 +220,7 @@ letter-spacing: 0.3em;
     text-align: center;
 }
         .hero-title-three {
-    margin-bottom: 145px;
+    
      text-align: center;
 }
 .hero { 
@@ -215,7 +269,6 @@ letter-spacing: 0.05em;
         }
         .hero {
             background-image: linear-gradient( to right, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65) ), url(../img/desktop1.jpg);
-            max-width: 1440px;
         }
         @media (min-device-pixel-ratio: 2),
   (-webkit-min-device-pixel-ratio: 2),
@@ -267,16 +320,9 @@ letter-spacing: 0.05em;
     background-size: cover;
     
   }}
-  @media screen and (min-width: 414px) {
-    .hero-hotel {
-      max-width: 414px;
-    }
-    
-  }
   @media screen and (min-width: 1024px) {
     .hero-hotel {
         background-image: linear-gradient( to right, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65) ), url(../img/room1.jpg);
-        max-width: 1024px;
     }
     @media (min-device-pixel-ratio: 2),
   (-webkit-min-device-pixel-ratio: 2),
@@ -299,7 +345,6 @@ letter-spacing: 0.05em;
         }
         .hero-hotel {
             background-image: linear-gradient( to right, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65) ), url(../img/room3.jpg);
-            max-width: 1440px;
         }
         @media (min-device-pixel-ratio: 2),
   (-webkit-min-device-pixel-ratio: 2),
@@ -346,16 +391,9 @@ letter-spacing: 0.05em;
     background-size: cover;
     
   }}
-  @media screen and (min-width: 414px) {
-    .hero-restaurant {
-      max-width: 414px;
-    }
-    
-  }
   @media screen and (min-width: 1024px) {
     .hero-restaurant {
         background-image: linear-gradient( to right, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65) ), url(../img/rest2.jpg);
-        max-width: 1024px;
     }
     @media (min-device-pixel-ratio: 2),
   (-webkit-min-device-pixel-ratio: 2),
@@ -378,7 +416,6 @@ letter-spacing: 0.05em;
         }
         .hero-restaurant {
             background-image: linear-gradient( to right, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65) ), url(../img/rest3.jpg);
-            max-width: 1440px;
         }
         @media (min-device-pixel-ratio: 2),
   (-webkit-min-device-pixel-ratio: 2),
