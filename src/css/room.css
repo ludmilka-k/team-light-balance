@@ -78,6 +78,14 @@
   gap: 4px;
   flex-direction: column;
 }
+.room-hero-soc-icon {
+  display: block;
+  transition: transform 250ms linear;
+}
+.room-hero-soc-icon:hover,
+.room-hero-soc-icon:focus {
+  transform: translateY(-30%);
+}
 .open-prices {
   font-family: 'Montserrat', sans-serif;
   width: 232px;
@@ -316,9 +324,9 @@
     border-radius: 2px;
     transition: transform 250ms linear;
   }
-  .room-hero-address:hover{
+  .room-hero-address:hover {
     transform: scale(1.1);
-     }
+  }
   .room-hero-soc-address {
     display: flex;
     gap: 40px;
