@@ -346,6 +346,12 @@
     margin-bottom: -147px;
   }
 }
+.item-slider-arrow button {
+  display: inline-block;
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
 /* Возможно общее */
 .item-slider-arrow {
   display: flex;
@@ -353,13 +359,14 @@
   height: 32px;
   justify-content: flex-end;
 }
+
 /* Возможно общее */
 .description-hotel-container .item-slider-arrow {
   justify-content: flex-start;
 }
 /* Возможно общее */
-.slider-icon-arrow{
-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+.slider-icon-arrow {
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .slider-icon-arrow:hover,
 .slider-icon-arrow:focus {
