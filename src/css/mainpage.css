@@ -9,8 +9,7 @@
   padding-top: 30px;
   padding-bottom: 40px;
 
-  background-image:
-    linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
+  background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
     url('../img/about-rest/mobile-bgi-rest.jpg');
   background-color: rgba(0, 0, 0, 0.65);
   background-repeat: no-repeat;
@@ -35,7 +34,7 @@
   margin-bottom: 0px;
 }
 
-.slide-img:not(:nth-child(n+3)) {
+.slide-img:not(:nth-child(n + 3)) {
   margin-right: 20px;
 }
 
@@ -72,7 +71,7 @@
   background-color: transparent;
   border: 2px solid var(--invert-color);
   border-radius: 25px;
-  color: #F3C653;
+  color: #f3c653;
 
   display: inline-block;
   max-width: 236px;
@@ -80,7 +79,7 @@
 
 .btn:hover,
 .btn:focus {
-  border: 2px solid #F3C653;
+  border: 2px solid #f3c653;
   background: var(--invert-color);
 }
 
@@ -133,9 +132,8 @@
   .about-rest-section .container {
     max-width: 1024px;
     max-height: 620px;
-    background-image:
-    linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
-    url('../img/about-rest/tablet-bgi-rest.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
+      url('../img/about-rest/tablet-bgi-rest.jpg');
   }
 
   @media screen and (min-device-pixel-ratio: 2),
@@ -144,9 +142,11 @@
     screen and (min-resolution: 192dpi),
     screen and (min-resolution: 2dppx) {
     .about-rest-section .container {
-      background-image: 
-      linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
-      url('../img/about-rest/tablet-bgi-rest@2x.jpg');
+      background-image: linear-gradient(
+          rgba(0, 0, 0, 0.65),
+          rgba(0, 0, 0, 0.65)
+        ),
+        url('../img/about-rest/tablet-bgi-rest@2x.jpg');
     }
   }
   @media screen and (min-device-pixel-ratio: 3),
@@ -155,9 +155,11 @@
     screen and (min-resolution: 288dpi),
     screen and (min-resolution: 3dppx) {
     .about-rest-section .container {
-      background-image: 
-      linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
-      url('../img/about-rest/tablet-bgi-rest@3x.jpg');
+      background-image: linear-gradient(
+          rgba(0, 0, 0, 0.65),
+          rgba(0, 0, 0, 0.65)
+        ),
+        url('../img/about-rest/tablet-bgi-rest@3x.jpg');
     }
   }
 
@@ -199,7 +201,7 @@
     margin-left: 29px;
   }
 
-  .slide-img:not(:nth-child(n+3)) {
+  .slide-img:not(:nth-child(n + 3)) {
     margin-right: 34px;
   }
 
@@ -221,9 +223,8 @@
 @media screen and (min-width: 1280px) {
   .about-rest-section .container {
     max-width: 1280px;
-    background-image: 
-    linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
-    url('../img/about-rest/desktop-bgi-rest.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
+      url('../img/about-rest/desktop-bgi-rest.jpg');
   }
 
   @media screen and (min-device-pixel-ratio: 2),
@@ -232,9 +233,11 @@
     screen and (min-resolution: 192dpi),
     screen and (min-resolution: 2dppx) {
     .about-rest-section .container {
-      background-image: 
-      linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
-      url('../img/about-rest/desktop-bgi-rest@2x.jpg');
+      background-image: linear-gradient(
+          rgba(0, 0, 0, 0.65),
+          rgba(0, 0, 0, 0.65)
+        ),
+        url('../img/about-rest/desktop-bgi-rest@2x.jpg');
     }
   }
 
@@ -244,9 +247,11 @@
     screen and (min-resolution: 288dpi),
     screen and (min-resolution: 3dppx) {
     .about-rest-section .container {
-      background-image: 
-      linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
-      url('../img/about-rest/desktop-bgi-rest@3x.jpg');
+      background-image: linear-gradient(
+          rgba(0, 0, 0, 0.65),
+          rgba(0, 0, 0, 0.65)
+        ),
+        url('../img/about-rest/desktop-bgi-rest@3x.jpg');
     }
   }
 
@@ -257,7 +262,7 @@
     margin-left: 32px;
   }
 
-  .slide-img:not(:nth-child(n+3)) {
+  .slide-img:not(:nth-child(n + 3)) {
     margin-right: 70px;
   }
 
@@ -265,8 +270,6 @@
     display: none;
   }
 }
-
-
 
 /*------------main-page-details-hotel---------- */
 /* -----------     start    ------------------- */
@@ -313,7 +316,7 @@
 
 .main-page-details-hotel-header {
   font-family: 'FilmP3bold';
-    font-weight: 700;
+  font-weight: 700;
   font-size: 40px;
   line-height: calc(43 / 40);
   letter-spacing: 0.3em;
@@ -327,7 +330,7 @@
 .main-page-details-hotel-header2 {
   width: 73px;
   font-family: 'Montserrat';
-    font-weight: 700;
+  font-weight: 700;
   font-size: 20px;
   line-height: calc(24 / 20);
   letter-spacing: 0.02em;
@@ -338,7 +341,7 @@
 
 .main-page-details-hotel-text {
   font-family: 'Montserrat';
-   font-weight: 600;
+  font-weight: 600;
   font-size: 12px;
   line-height: calc(15 / 12);
   letter-spacing: 0.02em;
@@ -352,7 +355,7 @@
   margin-bottom: 16px;
 }
 
-.main-page-details-hotel-galery-item1 {
+.main-page-details-hotel-galery-item:nth-child(1) {
   margin-left: -15px;
 }
 
@@ -365,8 +368,7 @@
   justify-content: space-between;
   align-items: center;
   line-height: 11px;
- }
-
+}
 
 .slider-icon-hotel-det {
   fill: var(--invert-color);
@@ -375,9 +377,8 @@
 
 .slider-icon-hotel-det:hover,
 .slider-icon-hotel-det:focus {
-   fill: var(--accent-yellow-color);
+  fill: var(--accent-yellow-color);
 }
-
 
 .main-page-details-hotel-header-button {
   display: flex;
@@ -407,9 +408,8 @@
   border: 2px solid var(--bg-dark-lemon-color);
   border-radius: 25px;
   color: var(--accent-yellow-color);
- transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
 }
 
 .room-price.btn-hotel-det {
@@ -517,7 +517,7 @@
     margin-bottom: 0;
     gap: 34px;
   }
-  .main-page-details-hotel-galery-item1 {
+  .main-page-details-hotel-galery-item:nth-child(1) {
     margin-left: 0;
   }
 
