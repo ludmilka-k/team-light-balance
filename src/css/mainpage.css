@@ -1,3 +1,30 @@
+.about-rest-section {
+  font-family: 'Montserrat';
+  font-weight: 600;
+  font-size: 12px;
+  line-height: calc(15 / 12);
+  letter-spacing: 0.02em;
+  color: rgba(186, 186, 186, 1);
+}
+
+.title-details-restaurant {
+  font-family: ‘FilmP3bold’;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: calc(43 / 40);
+  letter-spacing: 0.3em;
+  color: var(--invert-color);
+}
+
+.heading-details-restaurant {
+  font-family: 'Montserrat';
+  font-weight: 700;
+  font-size: 20px;
+  line-height: calc(24 / 20);
+  letter-spacing: 0.02em;
+  color: var(--invert-color);
+}
+
 .about-rest-section .container {
   display: flex;
   flex-direction: column;
@@ -6,7 +33,7 @@
   height: 735px;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 30px;
+  padding-top: 24px;
   padding-bottom: 40px;
 
   background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
@@ -18,7 +45,7 @@
 }
 
 .about-restaurant {
-  margin-left: 140px;
+  margin-left: 126px;
   color: var(--invert-color);
 }
 
@@ -31,7 +58,7 @@
   display: flex;
   flex-direction: row;
   margin-top: 48px;
-  margin-bottom: 0px;
+  margin-bottom: 16px;
 }
 
 .slide-img:not(:nth-child(n + 3)) {
@@ -44,7 +71,6 @@
   gap: 32px;
   max-width: 98px;
   max-height: 32px;
-  margin-top: 16px;
   margin-bottom: 32px;
 }
 
@@ -182,7 +208,6 @@
     height: 270px;
     padding: 0;
     margin-top: 40px;
-    margin-bottom: 96px;
   }
 
   .slide-bar-arrow {
@@ -198,7 +223,9 @@
   }
 
   .slide-arrow {
+    margin-top: 24px;
     margin-left: 29px;
+    margin-bottom: 0;
   }
 
   .slide-img:not(:nth-child(n + 3)) {
