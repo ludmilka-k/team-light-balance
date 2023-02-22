@@ -15,11 +15,16 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.css"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+
     
     <script type="module" crossorigin src="/team-light-balance/assets/styles-fac82e35.js"></script>
     <script type="module" crossorigin src="/team-light-balance/assets/room-price-modal-ae428cbb.js"></script>
     <script type="module" crossorigin src="/team-light-balance/assets/book-table-modal-4904763a.js"></script>
-    <link rel="stylesheet" href="/team-light-balance/assets/styles-57bf7def.css">
+    <link rel="stylesheet" href="/team-light-balance/assets/styles-9b7be926.css">
   </head>
 
   <body>
@@ -209,6 +214,7 @@
           />
         </picture>
       </li>
+
       <li class="description-rest-item">
         <picture>
           <source
@@ -228,6 +234,7 @@
           />
           <img src="/team-light-balance/assets/mobile-restaurant-2fa7dde8.jpg" alt="Restaurant interior" />
         </picture>
+
         <p class="text">
           Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
           sint. Velit officia consequat duis enim velit mollit. Exercitation
@@ -235,65 +242,219 @@
         </p>
       </li>
     </ul>
-    <div class="swiper-wrapper-slider">
-      <picture>
-        <source
-          media="(max-width: 1023px)"
-          srcset="/team-light-balance/assets/mobile-wineglass-268dcd66.jpg 1x, /team-light-balance/assets/mobile-wineglass-2x-cc638991.jpg 2x"
-          type="image/jpeg"
-        />
-        <source
-          media="(min-width: 1024px) and (max-width: 1279px)"
-          srcset="/team-light-balance/assets/tablet-wineglass-b4334289.jpg 1x, /team-light-balance/assets/tablet-wineglass-2x-6a659734.jpg 2x"
-          type="image/jpeg"
-        />
-        <source
-          media="(min-width: 1280px)"
-          srcset="/team-light-balance/assets/desktop-wineglass-b76f0566.jpg 1x, /team-light-balance/assets/desktop-wineglass-2x-29e8ebdf.jpg 2x"
-          type="image/jpeg"
-        />
-        <img src="/team-light-balance/assets/mobile-wineglass-268dcd66.jpg" alt="Wineglass" />
-      </picture>
-      <picture>
-        <source
-          media="(max-width: 1023px)"
-          srcset="/team-light-balance/assets/mobile-serving-6e6f5a97.jpg 1x, /team-light-balance/assets/mobile-serving-2x-5bdcbc0f.jpg 2x"
-          type="image/jpeg"
-        />
-        <source
-          media="(min-width: 1024px) and (max-width: 1279px)"
-          srcset="/team-light-balance/assets/tablet-serving-8f29082c.jpg 1x, /team-light-balance/assets/tablet-serving-2x-f8e61048.jpg 2x"
-          type="image/jpeg"
-        />
-        <source
-          media="(min-width: 1280px)"
-          srcset="/team-light-balance/assets/desktop-serving-0247e794.jpg 1x, /team-light-balance/assets/desktop-serving-2x-faccb842.jpg 2x"
-          type="image/jpeg"
-        />
-        <img src="/team-light-balance/assets/mobile-serving-6e6f5a97.jpg" alt="Serving" />
-      </picture>
-    </div>
-      <div class="item-slider-arrow">
-        <button type="button">
-          <svg class="slider-icon-arrow" width="32" height="32">
-            <use href="/team-light-balance/assets/symbol-defs-0946ab52.svg#icon-cil_arrow-left"></use>
-          </svg>
-        </button>
-        <button type="button" >
-          <svg class="slider-icon-arrow" width="32" height="32">
-            <use href="/team-light-balance/assets/symbol-defs-0946ab52.svg#icon-cil_arrow-right"></use>
-          </svg>
-        </button>
+
+
+    <div style='display: flex; flex-direction: column'>
+        <div class="swiper-wrapper-slider">
+          <div id="descriptionRestSwiper" class='swiper about-rest-swiper'>
+            <div class='swiper-wrapper'>
+              <div class='swiper-slide details-small-slide'>
+                <picture>
+                  <source
+                    media="(max-width: 1023px)"
+                    srcset="/team-light-balance/assets/mobile-wineglass-268dcd66.jpg 1x, /team-light-balance/assets/mobile-wineglass-2x-cc638991.jpg 2x"
+                    type="image/jpeg"
+                  />
+                  <source
+                    media="(min-width: 1024px) and (max-width: 1279px)"
+                    srcset="/team-light-balance/assets/tablet-wineglass-b4334289.jpg 1x, /team-light-balance/assets/tablet-wineglass-2x-6a659734.jpg 2x"
+                    type="image/jpeg"
+                  />
+                  <source
+                    media="(min-width: 1280px)"
+                    srcset="/team-light-balance/assets/desktop-wineglass-b76f0566.jpg 1x, /team-light-balance/assets/desktop-wineglass-2x-29e8ebdf.jpg 2x"
+                    type="image/jpeg"
+                  />
+                  <img src="/team-light-balance/assets/mobile-wineglass-268dcd66.jpg" alt="Wineglass" class='about-slide-image'/>
+                </picture>
+              </div>
+
+              <div class='swiper-slide details-small-slide'>
+                <picture>
+                  <source
+                    media="(max-width: 1023px)"
+                    srcset="/team-light-balance/assets/mobile-serving-6e6f5a97.jpg 1x, /team-light-balance/assets/mobile-serving-2x-5bdcbc0f.jpg 2x"
+                    type="image/jpeg"
+                  />
+                  <source
+                    media="(min-width: 1024px) and (max-width: 1279px)"
+                    srcset="/team-light-balance/assets/tablet-serving-8f29082c.jpg 1x, /team-light-balance/assets/tablet-serving-2x-f8e61048.jpg 2x"
+                    type="image/jpeg"
+                  />
+                  <source
+                    media="(min-width: 1280px)"
+                    srcset="/team-light-balance/assets/desktop-serving-0247e794.jpg 1x, /team-light-balance/assets/desktop-serving-2x-faccb842.jpg 2x"
+                    type="image/jpeg"
+                  />
+                  <img src="/team-light-balance/assets/mobile-serving-6e6f5a97.jpg" alt="Serving" class='about-slide-image'/>
+                </picture>
+              </div>
+              <div class='swiper-slide details-small-slide'>
+                <picture>
+                  <source
+                    media="(max-width: 1023px)"
+                    srcset="/team-light-balance/assets/mobile-serving-6e6f5a97.jpg 1x, /team-light-balance/assets/mobile-serving-2x-5bdcbc0f.jpg 2x"
+                    type="image/jpeg"
+                  />
+                  <source
+                    media="(min-width: 1024px) and (max-width: 1279px)"
+                    srcset="/team-light-balance/assets/tablet-serving-8f29082c.jpg 1x, /team-light-balance/assets/tablet-serving-2x-f8e61048.jpg 2x"
+                    type="image/jpeg"
+                  />
+                  <source
+                    media="(min-width: 1280px)"
+                    srcset="/team-light-balance/assets/desktop-serving-0247e794.jpg 1x, /team-light-balance/assets/desktop-serving-2x-faccb842.jpg 2x"
+                    type="image/jpeg"
+                  />
+                  <img src="/team-light-balance/assets/mobile-serving-6e6f5a97.jpg" alt="Serving" class='about-slide-image'/>
+                </picture>
+              </div>
+              <div class='swiper-slide details-small-slide'>
+                <picture>
+                  <source
+                    media="(max-width: 1023px)"
+                    srcset="/team-light-balance/assets/mobile-serving-6e6f5a97.jpg 1x, /team-light-balance/assets/mobile-serving-2x-5bdcbc0f.jpg 2x"
+                    type="image/jpeg"
+                  />
+                  <source
+                    media="(min-width: 1024px) and (max-width: 1279px)"
+                    srcset="/team-light-balance/assets/tablet-serving-8f29082c.jpg 1x, /team-light-balance/assets/tablet-serving-2x-f8e61048.jpg 2x"
+                    type="image/jpeg"
+                  />
+                  <source
+                    media="(min-width: 1280px)"
+                    srcset="/team-light-balance/assets/desktop-serving-0247e794.jpg 1x, /team-light-balance/assets/desktop-serving-2x-faccb842.jpg 2x"
+                    type="image/jpeg"
+                  />
+                  <img src="/team-light-balance/assets/mobile-serving-6e6f5a97.jpg" alt="Serving" class='about-slide-image'/>
+                </picture>
+              </div>
+
+
+
+            </div>
+          </div>
+        </div>
+        <div class="item-slider-arrow">
+
+          <div id="description-rest-swiper-button-prev">
+            <svg class="slider-icon-arrow" width="32" height="32">
+              <use href="/team-light-balance/assets/symbol-defs-0946ab52.svg#icon-cil_arrow-left"></use>
+            </svg>
+          </div>
+
+          <div id="description-rest-swiper-button-next">
+            <svg class="slider-icon-arrow" width="32" height="32">
+              <use href="/team-light-balance/assets/symbol-defs-0946ab52.svg#icon-cil_arrow-right"></use>
+            </svg>
+          </div>
+
+        </div>
       </div>
+
+
   </div>
 </section>
 
+<!-- <section class="about-rest-section">
+  <div class="container"> -->
+    <!--hide h2-->
+    <!-- <h2 class="section-title visually-hidden">About Restaurant Mimino</h2>
+    <div class="about-restaurant">
+      <h3>Міміно</h3>
+      <h4>Ресторан</h4>
+      <p>
+        Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+        sint. Velit officia consequat duis enim velit mollit.
+      </p>
+    </div>
+    <div class="tablet">
+      <div class="slide-bar-arrow">
+        <ul class="slide-bar">
+          <li class="slide-img list">
+            <img
+              srcset="
+                ./img/about-rest/steak.jpg    1x,
+                ./img/about-rest/steak@2x.jpg 2x,
+                ./img/about-rest/steak@3x.jpg 3x
+              "
+              src="./img/about-rest/steak.jpg"
+              alt="steak photo"
+              width="270"
+              height="270"
+            />
+          </li>
+          <li class="slide-img list">
+            <img
+              srcset="
+                ./img/about-rest/fish.jpg    1x,
+                ./img/about-rest/fish@2x.jpg 2x,
+                ./img/about-rest/fish@3x.jpg 3x
+              "
+              src="./img/about-rest/fish.jpg"
+              alt="fried fish photo"
+              width="162"
+              height="270"
+            />
+          </li>
+          <li class="slide-img slim list">
+            <img
+              srcset="
+                ./img/about-rest/appetizer.jpg    1x,
+                ./img/about-rest/appetizer@2x.jpg 2x,
+                ./img/about-rest/appetizer@3x.jpg 3x
+              "
+              src="./img/about-rest/appetizer.jpg"
+              alt="appetizer photo"
+              width="162"
+              height="270"
+            />
+          </li>
+          <li class="slide-img cube list">
+            <img
+              srcset="
+                ./img/about-rest/appetizer-pc.jpg    1x,
+                ./img/about-rest/appetizer-pc@2x.jpg 2x,
+                ./img/about-rest/appetizer-pc@3x.jpg 3x
+              "
+              src="./img/about-rest/appetizer-pc.jpg"
+              alt="appetizer photo"
+              width="270"
+              height="270"
+            />
+          </li>
+        </ul>
+
+        <div class="slide-arrow">
+          <a href="">
+            <svg class="slider-icon" width="32" height="32">
+              <use href="./img/symbol-defs.svg#icon-cil_arrow-left"></use>
+            </svg>
+          </a>
+          <a href="">
+            <svg class="slider-icon" width="32" height="32">
+              <use href="./img/symbol-defs.svg#icon-cil_arrow-right"></use>
+            </svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="button-box">
+        <button class="btn" type="button" book-table-modal-open>
+          Забронювати столик
+        </button>
+        <button class="btn" type="button">Переглянути меню</button>
+      </div>
+    </div>
+  </div>
+</section> -->
+
       <section class="about-rest-section">
   <div class="container">
-    <!--hide h2-->
+    <!-- hide h2 -->
     <h2 class="section-title visually-hidden">About Restaurant Mimino</h2>
     <div class="about-restaurant">
-      <h3 class="title-details-restaurant">Міміно</h3>
+       <h3 class='main-page-details-hotel-header-res'>MIMIHO</h3>
       <h4 class="heading-details-restaurant">Ресторан</h4>
       <p>
         Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
@@ -317,24 +478,26 @@
           </li>
         </ul>
         <div class="slide-arrow">
-          <a href="">
+          <img class="slider-icon" width="32" height="32" src="/team-light-balance/assets/cil_arrow-left-954dcb3f.svg" alt="icon">
+          <img class="slider-icon" width="32" height="32" src="/team-light-balance/assets/cil_arrow-right-52dae685.svg" alt="icon">
+          <!-- <a href="#">
             <svg class="slider-icon" width="32" height="32">
-              <use href="/team-light-balance/assets/symbol-defs-0946ab52.svg#icon-cil_arrow-left"></use>
+              <use href="./img/symbol-defs.svg#icon-cil_arrow-left"></use>
             </svg>
-          </a>
-          <a href="">
+          </a> -->
+          <!-- <a href="">
             <svg class="slider-icon" width="32" height="32">
-              <use href="/team-light-balance/assets/symbol-defs-0946ab52.svg#icon-cil_arrow-right"></use>
+              <use href="./img/symbol-defs.svg#icon-cil_arrow-right"></use>
             </svg>
-          </a>
+          </a> -->
         </div>
       </div>
 
       <div class="box-button">
-        <button class="btn" type="button" book-table-modal-open>
+        <button class="btn-about-rest" type="button" book-table-modal-open>
           Забронювати столик
         </button>
-        <button class="btn" type="button">Переглянути меню</button>
+        <button class="btn-about-rest" type="button">Переглянути меню</button>
       </div>
     </div>
   </div>
@@ -401,139 +564,605 @@
         </p>
       </li>
     </ul>
-    <div class="swiper-wrapper-slider">
-      <picture>
-        <source
-          media="(max-width: 1023px)"
-          srcset="/team-light-balance/assets/mobile-registration-a392c49c.jpg 1x, /team-light-balance/assets/mobile-registration-2x-8b9c5401.jpg 2x"
-          type="image/jpeg"
-        />
-        <source
-          media="(min-width: 1024px) and (max-width: 1279px)"
-          srcset="/team-light-balance/assets/tablet-registration-994c28f7.jpg 1x, /team-light-balance/assets/tablet-registration-2x-348f4c05.jpg 2x"
-          type="image/jpeg"
-        />
-        <source
-          media="(min-width: 1280px)"
-          srcset="/team-light-balance/assets/desktop-registration-81e1ec47.jpg 1x, /team-light-balance/assets/desktop-registration-2x-c2fe70b2.jpg 2x"
-          type="image/jpeg"
-        />
-        <img src="/team-light-balance/assets/mobile-registration-a392c49c.jpg" alt="Hotel registration" />
-      </picture>
-      <picture>
-        <source
-          media="(max-width: 1023px)"
-          srcset="/team-light-balance/assets/mobile-towels-fc2a89fe.jpg 1x, /team-light-balance/assets/mobile-towels-2x-9cb3d485.jpg 2x"
-          type="image/jpeg"
-        />
-        <source
-          media="(min-width: 1024px) and (max-width: 1279px)"
-          srcset="data:image/jpeg;base64,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 1x, /team-light-balance/assets/tablet-towels-2x-d53ab5fe.jpg 2x"
-          type="image/jpeg"
-        />
-        <source
-          media="(min-width: 1280px)"
-          srcset="/team-light-balance/assets/desktop-towels-d367075f.jpg 1x, /team-light-balance/assets/desktop-towels-2x-854c1a8a.jpg 2x"
-          type="image/jpeg"
-        />
-        <img src="/team-light-balance/assets/mobile-towels-fc2a89fe.jpg" alt="White towels" />
-      </picture>
+
+    <div class="swiper-wrapper-slider-left">
+
+      <div id="aboutSwiper" class='swiper small-swiper'>
+        <!-- Additional required wrapper -->
+        <div class='swiper-wrapper'>
+          <!-- Slides -->
+          <div class='swiper-slide small-slide'>
+            <picture>
+            <source
+              media="(max-width: 1023px)"
+              srcset="/team-light-balance/assets/mobile-registration-a392c49c.jpg 1x, /team-light-balance/assets/mobile-registration-2x-8b9c5401.jpg 2x"
+              type="image/jpeg"
+            />
+            <source
+              media="(min-width: 1024px) and (max-width: 1279px)"
+              srcset="/team-light-balance/assets/tablet-registration-994c28f7.jpg 1x, /team-light-balance/assets/tablet-registration-2x-348f4c05.jpg 2x"
+              type="image/jpeg"
+            />
+            <source
+              media="(min-width: 1280px)"
+              srcset="/team-light-balance/assets/desktop-registration-81e1ec47.jpg 1x, /team-light-balance/assets/desktop-registration-2x-c2fe70b2.jpg 2x"
+              type="image/jpeg"
+            />
+            <img src="/team-light-balance/assets/mobile-registration-a392c49c.jpg" alt="Hotel registration" />
+          </picture>
+          </div>
+
+          <div class='swiper-slide small-slide'>
+            <picture>
+            <source
+              media="(max-width: 1023px)"
+              srcset="/team-light-balance/assets/mobile-towels-fc2a89fe.jpg 1x, /team-light-balance/assets/mobile-towels-2x-9cb3d485.jpg 2x"
+              type="image/jpeg"
+            />
+            <source
+              media="(min-width: 1024px) and (max-width: 1279px)"
+              srcset="data:image/jpeg;base64,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 1x, /team-light-balance/assets/tablet-towels-2x-d53ab5fe.jpg 2x"
+              type="image/jpeg"
+            />
+            <source
+              media="(min-width: 1280px)"
+              srcset="/team-light-balance/assets/desktop-towels-d367075f.jpg 1x, /team-light-balance/assets/desktop-towels-2x-854c1a8a.jpg 2x"
+              type="image/jpeg"
+            />
+            <img src="/team-light-balance/assets/mobile-towels-fc2a89fe.jpg" alt="White towels" />
+          </picture>
+          </div>
+
+          <div class='swiper-slide small-slide'>
+            <picture>
+              <source
+                media="(max-width: 1023px)"
+                srcset="/team-light-balance/assets/mobile-towels-fc2a89fe.jpg 1x, /team-light-balance/assets/mobile-towels-2x-9cb3d485.jpg 2x"
+                type="image/jpeg"
+              />
+              <source
+                media="(min-width: 1024px) and (max-width: 1279px)"
+                srcset="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAgICAgJCAkKCgkNDgwODRMREBARExwUFhQWFBwrGx8bGx8bKyYuJSMlLiZENS8vNUROQj5CTl9VVV93cXecnNEBCAgICAkICQoKCQ0ODA4NExEQEBETHBQWFBYUHCsbHxsbHxsrJi4lIyUuJkQ1Ly81RE5CPkJOX1VVX3dxd5yc0f/CABEIAMIAwgMBIgACEQEDEQH/xAAwAAABBQEBAAAAAAAAAAAAAAAEAAIDBQYBBwEBAQEBAAAAAAAAAAAAAAAAAAECA//aAAwDAQACEAMQAAAAhKmDy4MWLAxgZa6YuoPiVrOkwJYinhlhFjWWdcpdXaaFMuJsRay8+hHMqXe2BlVvVZ4lTFKy8jdBmwTAONVZ09pE74XqQIQMHBEiraVx4Ab6JgPQ9ZgjI5qRtkYRcdw4uo8CO3IeWXH0wEZjl+4isyLJaiXQMWng1iM6NfxAwOlEDdlmtNqRNfHZ2B0ROMUGOXUeTRQwc6+HrjQ7uDmpLAPYlVYwWRODENRed0NbFeu9juqzFjWua6PSBpIIjQTQFGI8cgsxOdFfI89MqajU6kJI8lSE1xQE0ro4KUUAUAOVrc5DSGpbnbTQ+vM5XSB0dTUech7kzF82021hqve6eyhy+4rIU+fr5bK2C2dQU2gCsyAeyz+Q0rXDuLpf3+C1Wlm6DtTKFBLXOIqyKxjoLxxinFK5stxDheWNMG7OAzyBFGy9pcm970VtVHGnTls1PRO/rihdPSxBeBEBVVbVY6driNktfElzVWtNz9/SwbRXVWB9dHDrGrvqu2KTRi6ixeBKBQ2YwFNPBHA0OOJyYsbYdyIbfsdKot6SD66zrCvHbWxabHzo03MeNfWsWWRu+Gu0Eml4CPJ4C11yjIw7FkUZ5naHgKqYEfMXAVLdjGIJ1zoy79NwzfdC0oFeo172Lbq5wcm8HqNHXQ8JVxHVHIdHfEStf0iXeDY5uA6c4iUyCeRtSXsSWVreD+MkE9iHs4jrmoinj6OkhYdUTyXjIidJDVGiRiSSNSV8SRMkh7EhcSOxpR16RE9KoJ0iJ6Q/qQkkf//EADoQAAEDAwEFBQUHAwUBAAAAAAEAAgMEESESBTFBUXETIjJhgQYQI1KRFBUzNEJyoUNi0SAkU7HBgv/aAAgBAQABPwCppx2PqF2TdIUsY7J/RRxN7JvRTRN1R9UIW3b1RcC+m6IuUh+E/ooD8FiJTB/vD+1FQ/m5ugXBRj/czlDcmfmZyr4VSbQSdFT4gj6IOwqzM1OP7k84Qo5iAbb0aihfDKyd5a9ouFFWxTRtIKkdeF/RRu+E3opn96PqhJ4Vr+JB0QdhSH4L+igPwGdESmH/AHbv2+6H81Oh4VBmeo6rcFH7PUxiD7nW4XJTtgxAeNyf7PxStdGZXC6Z7OBrAwzHCk2DO0gNkB6p3szJJLG99QBp4AJns9Tfrke5DZ1MABnA5qsdd01uSpJntcBdNeTA8+SY74Y6Kd/eZ1Xad4JriXw9E12E8/Cf0UH4LEVF+ak6IFQZqZz5oizVTfizn+5AXLRzIUbbRMHknNRjBsVpBRF0WohWTq2SdjibXdvUdEWlpCAIp39EPwx0U7u+zqg/vN6qM9+Lom7lIfgv6KE/CZ0VwofzMvRXVKfjz/uROFS+Kc/3KlZ2lTC0cXBAWaAj7nC2UDdP7q81dqbsqoY38AhNpZhbuFPpajsnjSV9mn0AaDuU1HUue0iNy+xVeoO7I2BUb7PiHIJsmE+T4L1E/wCGzogVCfjzIFUh+JOf7lfuqkOJv3rYMHaVReRhgRuiUSpTaNRkWUjLssojcFvEKykrtltvdwKO1NmNAtGSeim2zT7mQlP2xk2p0/bE5FmwtCh++NoEsp4C/npGB1Kh9kdrkh7nwstvBd/gFRezzmkCatjHPS0lfcez9BaauQ9AAvuqjbhssoA44Kp9j0koOl8zulgn+z0EZe9s7mk/NlO2PI1heKiJwHUKh2K8do6WphbqN7A3Kl2fSxgXqiRzDUyi2dEw6ZpTc3vhbFmpacvjMvee7BIsijxQybKrdpjAVMMXKjfd7mqQGKYngVcIxt5BOazmE9zBc3WHZC9ndiMrZX1FQD2ERFxbxnko5mMYYoIgyNu5rBYBSTyNF9wUkbJ4u0YcjfZMaQ6zlSU4mfY4YPEVLUNjZogjxyCMkv8AUYLdcpsY0TBm53BStdHK4AlF7zvcVZNC2RVulYYpDdzdx5hPGMLDgHBVrS4MURHg8lC4iZ5UjBKy60uTi/NyVA0kO6qobaNyjZZjFTxNodkUsLBYuYHu8y7Ke97KUGJty7N1DVOJDJmAXwSFEGtBkaRpvZVcWklzR3VCC2kp2B1i8An1VfXMpSWgjHDiVBWGTvPheAea7Mxzh7ct48jdV8OmUlWQQWy3EVsVuNwnYURGog8VUDVG4DeBhQ2eA4eMYKjwX333VMbhyOm5TmqnZ3T1VS20ZTW9xijLKzZlNMPCIgCPNuCo67sZOymB7Jxs077FFtM7UYXNdzschU7QIJQRZt04Nkpxb9OCpTpZFIL6WgKopoal4mZYtdlPkjYwBxAcTZoWWU4YcuK2gbkK1vdcLZMR1mcjAwE+Ukgprhc3Tn3IIKIkjm1sGDvTwHtDxgqABrCiclGMEFU7cO6lVI+E5Mb8NnRbE2wyhkNPUX7Cbj8p5qekikEU8TmvZe4IyFJS07Ze2a3vEAY4gKaqbotuVFq+zzSOFtb+70AUUrdD4pDg7iUykDA5u7KipY4gbtub3BOUZWGcNySMqsy7USpJ2tBJKfXxswXZ5KKplkcHaMeaG2XhrWxwMaAEzbR/qQ+rSoK2mnsGSWPI4K0lWWlWcFoPJW7pVO3uH9xU8ZcxwaCStk+z01SyN9ReKK3Rzkdn7OpriKkY4j9TxqP8p1VIG6C2zbbgFUxvsTHI5pPmtoU1dJZwqZDpINr2BsqOuZPA0NNi0WLTvBT5AGkkqq2tUw3EEx9cr2fqK2vZUvnk1NBAbgBGjIvoDQVWbMqHuJNSAOQCqNmvtpc+9uRsmUMMRJDM8zkprQEPcLg3C2dtIktimPk1yx7rhXCj9nYR+JO49MKHYezoRYQ3/cbqClp2HuQsaByCmne2UkOFk6Ua9Tb3O8IaJW+EtI5hT0xa7qpI8m4yqyicSZYJHRyc2m10dpTxxmOSNznjF74Wx9gGoAq9o+A5ZFuB6qN0TGhkQa1o3AYXbW3qR7ZRpcQDz5qej1xghSxvY4ggqyt7wtnzCeAaidTcFaDweUGu+ZaX8x7sqeXsmFg8RGVEx9RIQDgeJyf2cA0xt6nimTSmaz/CVNUSROdcahvt/hVjQ7RIzc4Ap4GVs/ZkVTVGSVt448kcyqiZ1y22FEyedxLe6wb3KOmpQQSNTt13ZVVTAElrMeSgqHx4cdTP5CqaaOeLXHlSRljiD77IBbLfpncwmwcEJIhjVddo3zXaj5VlNOkOdyCqnyuceF1TWhjawNOm29SuOokFU04lBuL6XkXW0W5aByVIdUDoz+jcpmkByoWiChaXb33cruqJuzZgcSpJGxMbEwWaBYLWAmTnQ27CWO4o0el8juFrhRVP2edgJ7j3WVdS+KQbrohD3BUf5mL91kImN3AKwV2qyGI5OibGZ6ljD4b6ndAque7rN3DghU1Er5WBjWtaPEDclU0cTYWBv6lXtGMcFC7s5QPmNlVRai4Ab1VODWsYP0tAVAPhzy342U8pAJLt5sFEzXML3N3AKZgAaAmPc6llaDctcWqYEb+Dgg4y0hHEFSNsT7wqAaqqPyynPAWu/vt3XjyVMA2odfeQQq2nqZpdERDG6u87jbyUcMcTAxg6niVRguLmXs0G6q5NWGi6hF6mMcgXFSHvEquyG23EXUA0Ubg35ypWOLSXb+HkoZYo5YS5wy4BVbsgKlxHUuHEjHoqhuSCFR3tM09VOO+UUSmlbJj/ABJSPILQSbuNgtw7oss/8gQQVREWzNa02JO9TPeHhvZ3u4AlOglc8sw1UtL9nLiZC7VzVXIN97ADKpZGlrngEF3MWNlPKACqZ4rKeKxy3uu9FDII6h0R3OGOqqYna9F96jpHySCIsu0nfyVYAHDyCpNUcMsrh4j3eirJQNTyFREkuuN7bqpHfd1TzZF6YS97WNy4myhdFBEyMEHSP5RqR849E6Vh3uJXwfl/lds8FNqRxapQ2Utex3eapCy5KdKCbqScHzTtTnFz3Y4BTVLI2qrr257y2R7QwUld2cknw5SGnyPAquhuC4HfkEKOr77O2adQ/VzTHgAuZm4XZyTuu4aWA5J49FWStNmt3BSASPzubkqAdnE5x3lTm5KqZQHWUlUd0Yu5Q9sDqc6x8k0v+d31Qc/53fVCWUfrcu3l+YpwiG6MlCJx8MRHqm07/MeqEBHifceYRoYXEkucUKKDm76p9BTEZ1fVS7Bo5b3dKOjlL7IbOeSS+c9XXCPspStFopAP/lUdHUww/Z5XNfG3wOByPJGJr97VA4MjDCRcKoq2tBu8BPqQ89045qJoeR8oVRO1otdT1DWhznHARE08jnvdYE4aEyFg3BBoVh/oBaNzVrJWfdhX5I+ZVzwCLSd5RaFpuuzUlLC8EOH0JB/hSbBpHv1dtPf9103YLWnUah9uAICGzrNsJz9FLsVzySap30TvZ6GQEOqZPoEPZyBn9R5X3HTj9bl9zQDiV90xL7qjR2YwcF92jk1WQICLiVY8Srjh7sBF3JEklANXaBBxduGFpHErAV7hG4OEHXCLUDbB+iLQ7rzVgE9vIeiDrm3H+ArA7vUrs3f8aJsfdewV7q4C1Hp7itS7zun8JrWjJTnnp/2gSSgAnyAYGf8ApAOcbk/4QAAut6dYf4G9Z5eiJzzP8BWOeXEp7L7sN/7QxbGeAVn/ADoXPkEXgY48lf1KuTu+qu0ZB9Vrv5BXPQInh/AQaOOfJHcg7z9Uee4c0D6D+SnGzf8AxBtznJ5IBDJxnzWAN/qi4XuMBXxyCa0Wz9E9wvb+EPqVpt/6V8PzV3nqrgYb6lA/RXuM4ar4Bt0CJtk70CSbNyeJ5JoAuBv4lDJPBqJGnkEObvQJx9XJu/zRPL1KaRwwOaJuOTUHADOByRJdk+gTjpOcu4BNBBu7Lk95GG+IoBxNh6lNAAxu4lONxc7l2j+DUfAV/TCHhan+MIeIriUzEJTfAFyR8ab4nIcUPAVJ4Anbmp28I/iBDxFM/Ecm/qQ3FD8MJ3hapOHu/8QAHxEAAwACAgIDAAAAAAAAAAAAAAEREDAgIRJBAjFQ/9oACAECAQE/ANC7IyMjPHT8dEIRkZBfWlYeFtReHiyYaKJPDWU+fvd6EMeFzvfJM8i8Ys9nZGRkZPyP/8QAGREBAQEBAQEAAAAAAAAAAAAAEQABMEBg/9oACAEDAQE/AOGzMzx3izM2+9n6f//Z 1x, /team-light-balance/assets/tablet-towels-2x-d53ab5fe.jpg 2x"
+                type="image/jpeg"
+              />
+              <source
+                media="(min-width: 1280px)"
+                srcset="/team-light-balance/assets/desktop-towels-d367075f.jpg 1x, /team-light-balance/assets/desktop-towels-2x-854c1a8a.jpg 2x"
+                type="image/jpeg"
+              />
+              <img src="/team-light-balance/assets/mobile-towels-fc2a89fe.jpg" alt="White towels" />
+            </picture>
+          </div>
+
+          <div class='swiper-slide small-slide'>
+            <picture>
+              <source
+                media="(max-width: 1023px)"
+                srcset="/team-light-balance/assets/mobile-towels-fc2a89fe.jpg 1x, /team-light-balance/assets/mobile-towels-2x-9cb3d485.jpg 2x"
+                type="image/jpeg"
+              />
+              <source
+                media="(min-width: 1024px) and (max-width: 1279px)"
+                srcset="data:image/jpeg;base64,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 1x, /team-light-balance/assets/tablet-towels-2x-d53ab5fe.jpg 2x"
+                type="image/jpeg"
+              />
+              <source
+                media="(min-width: 1280px)"
+                srcset="/team-light-balance/assets/desktop-towels-d367075f.jpg 1x, /team-light-balance/assets/desktop-towels-2x-854c1a8a.jpg 2x"
+                type="image/jpeg"
+              />
+              <img src="/team-light-balance/assets/mobile-towels-fc2a89fe.jpg" alt="White towels" />
+            </picture>
+          </div>
+
+          <div class='swiper-slide small-slide'>
+            <picture>
+              <source
+                media="(max-width: 1023px)"
+                srcset="/team-light-balance/assets/mobile-towels-fc2a89fe.jpg 1x, /team-light-balance/assets/mobile-towels-2x-9cb3d485.jpg 2x"
+                type="image/jpeg"
+              />
+              <source
+                media="(min-width: 1024px) and (max-width: 1279px)"
+                srcset="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAgICAgJCAkKCgkNDgwODRMREBARExwUFhQWFBwrGx8bGx8bKyYuJSMlLiZENS8vNUROQj5CTl9VVV93cXecnNEBCAgICAkICQoKCQ0ODA4NExEQEBETHBQWFBYUHCsbHxsbHxsrJi4lIyUuJkQ1Ly81RE5CPkJOX1VVX3dxd5yc0f/CABEIAMIAwgMBIgACEQEDEQH/xAAwAAABBQEBAAAAAAAAAAAAAAAEAAIDBQYBBwEBAQEBAAAAAAAAAAAAAAAAAAECA//aAAwDAQACEAMQAAAAhKmDy4MWLAxgZa6YuoPiVrOkwJYinhlhFjWWdcpdXaaFMuJsRay8+hHMqXe2BlVvVZ4lTFKy8jdBmwTAONVZ09pE74XqQIQMHBEiraVx4Ab6JgPQ9ZgjI5qRtkYRcdw4uo8CO3IeWXH0wEZjl+4isyLJaiXQMWng1iM6NfxAwOlEDdlmtNqRNfHZ2B0ROMUGOXUeTRQwc6+HrjQ7uDmpLAPYlVYwWRODENRed0NbFeu9juqzFjWua6PSBpIIjQTQFGI8cgsxOdFfI89MqajU6kJI8lSE1xQE0ro4KUUAUAOVrc5DSGpbnbTQ+vM5XSB0dTUech7kzF82021hqve6eyhy+4rIU+fr5bK2C2dQU2gCsyAeyz+Q0rXDuLpf3+C1Wlm6DtTKFBLXOIqyKxjoLxxinFK5stxDheWNMG7OAzyBFGy9pcm970VtVHGnTls1PRO/rihdPSxBeBEBVVbVY6driNktfElzVWtNz9/SwbRXVWB9dHDrGrvqu2KTRi6ixeBKBQ2YwFNPBHA0OOJyYsbYdyIbfsdKot6SD66zrCvHbWxabHzo03MeNfWsWWRu+Gu0Eml4CPJ4C11yjIw7FkUZ5naHgKqYEfMXAVLdjGIJ1zoy79NwzfdC0oFeo172Lbq5wcm8HqNHXQ8JVxHVHIdHfEStf0iXeDY5uA6c4iUyCeRtSXsSWVreD+MkE9iHs4jrmoinj6OkhYdUTyXjIidJDVGiRiSSNSV8SRMkh7EhcSOxpR16RE9KoJ0iJ6Q/qQkkf//EADoQAAEDAwEFBQUHAwUBAAAAAAEAAgMEESESBTFBUXETIjJhgQYQI1KRFBUzNEJyoUNi0SAkU7HBgv/aAAgBAQABPwCppx2PqF2TdIUsY7J/RRxN7JvRTRN1R9UIW3b1RcC+m6IuUh+E/ooD8FiJTB/vD+1FQ/m5ugXBRj/czlDcmfmZyr4VSbQSdFT4gj6IOwqzM1OP7k84Qo5iAbb0aihfDKyd5a9ouFFWxTRtIKkdeF/RRu+E3opn96PqhJ4Vr+JB0QdhSH4L+igPwGdESmH/AHbv2+6H81Oh4VBmeo6rcFH7PUxiD7nW4XJTtgxAeNyf7PxStdGZXC6Z7OBrAwzHCk2DO0gNkB6p3szJJLG99QBp4AJns9Tfrke5DZ1MABnA5qsdd01uSpJntcBdNeTA8+SY74Y6Kd/eZ1Xad4JriXw9E12E8/Cf0UH4LEVF+ak6IFQZqZz5oizVTfizn+5AXLRzIUbbRMHknNRjBsVpBRF0WohWTq2SdjibXdvUdEWlpCAIp39EPwx0U7u+zqg/vN6qM9+Lom7lIfgv6KE/CZ0VwofzMvRXVKfjz/uROFS+Kc/3KlZ2lTC0cXBAWaAj7nC2UDdP7q81dqbsqoY38AhNpZhbuFPpajsnjSV9mn0AaDuU1HUue0iNy+xVeoO7I2BUb7PiHIJsmE+T4L1E/wCGzogVCfjzIFUh+JOf7lfuqkOJv3rYMHaVReRhgRuiUSpTaNRkWUjLssojcFvEKykrtltvdwKO1NmNAtGSeim2zT7mQlP2xk2p0/bE5FmwtCh++NoEsp4C/npGB1Kh9kdrkh7nwstvBd/gFRezzmkCatjHPS0lfcez9BaauQ9AAvuqjbhssoA44Kp9j0koOl8zulgn+z0EZe9s7mk/NlO2PI1heKiJwHUKh2K8do6WphbqN7A3Kl2fSxgXqiRzDUyi2dEw6ZpTc3vhbFmpacvjMvee7BIsijxQybKrdpjAVMMXKjfd7mqQGKYngVcIxt5BOazmE9zBc3WHZC9ndiMrZX1FQD2ERFxbxnko5mMYYoIgyNu5rBYBSTyNF9wUkbJ4u0YcjfZMaQ6zlSU4mfY4YPEVLUNjZogjxyCMkv8AUYLdcpsY0TBm53BStdHK4AlF7zvcVZNC2RVulYYpDdzdx5hPGMLDgHBVrS4MURHg8lC4iZ5UjBKy60uTi/NyVA0kO6qobaNyjZZjFTxNodkUsLBYuYHu8y7Ke97KUGJty7N1DVOJDJmAXwSFEGtBkaRpvZVcWklzR3VCC2kp2B1i8An1VfXMpSWgjHDiVBWGTvPheAea7Mxzh7ct48jdV8OmUlWQQWy3EVsVuNwnYURGog8VUDVG4DeBhQ2eA4eMYKjwX333VMbhyOm5TmqnZ3T1VS20ZTW9xijLKzZlNMPCIgCPNuCo67sZOymB7Jxs077FFtM7UYXNdzschU7QIJQRZt04Nkpxb9OCpTpZFIL6WgKopoal4mZYtdlPkjYwBxAcTZoWWU4YcuK2gbkK1vdcLZMR1mcjAwE+Ukgprhc3Tn3IIKIkjm1sGDvTwHtDxgqABrCiclGMEFU7cO6lVI+E5Mb8NnRbE2wyhkNPUX7Cbj8p5qekikEU8TmvZe4IyFJS07Ze2a3vEAY4gKaqbotuVFq+zzSOFtb+70AUUrdD4pDg7iUykDA5u7KipY4gbtub3BOUZWGcNySMqsy7USpJ2tBJKfXxswXZ5KKplkcHaMeaG2XhrWxwMaAEzbR/qQ+rSoK2mnsGSWPI4K0lWWlWcFoPJW7pVO3uH9xU8ZcxwaCStk+z01SyN9ReKK3Rzkdn7OpriKkY4j9TxqP8p1VIG6C2zbbgFUxvsTHI5pPmtoU1dJZwqZDpINr2BsqOuZPA0NNi0WLTvBT5AGkkqq2tUw3EEx9cr2fqK2vZUvnk1NBAbgBGjIvoDQVWbMqHuJNSAOQCqNmvtpc+9uRsmUMMRJDM8zkprQEPcLg3C2dtIktimPk1yx7rhXCj9nYR+JO49MKHYezoRYQ3/cbqClp2HuQsaByCmne2UkOFk6Ua9Tb3O8IaJW+EtI5hT0xa7qpI8m4yqyicSZYJHRyc2m10dpTxxmOSNznjF74Wx9gGoAq9o+A5ZFuB6qN0TGhkQa1o3AYXbW3qR7ZRpcQDz5qej1xghSxvY4ggqyt7wtnzCeAaidTcFaDweUGu+ZaX8x7sqeXsmFg8RGVEx9RIQDgeJyf2cA0xt6nimTSmaz/CVNUSROdcahvt/hVjQ7RIzc4Ap4GVs/ZkVTVGSVt448kcyqiZ1y22FEyedxLe6wb3KOmpQQSNTt13ZVVTAElrMeSgqHx4cdTP5CqaaOeLXHlSRljiD77IBbLfpncwmwcEJIhjVddo3zXaj5VlNOkOdyCqnyuceF1TWhjawNOm29SuOokFU04lBuL6XkXW0W5aByVIdUDoz+jcpmkByoWiChaXb33cruqJuzZgcSpJGxMbEwWaBYLWAmTnQ27CWO4o0el8juFrhRVP2edgJ7j3WVdS+KQbrohD3BUf5mL91kImN3AKwV2qyGI5OibGZ6ljD4b6ndAque7rN3DghU1Er5WBjWtaPEDclU0cTYWBv6lXtGMcFC7s5QPmNlVRai4Ab1VODWsYP0tAVAPhzy342U8pAJLt5sFEzXML3N3AKZgAaAmPc6llaDctcWqYEb+Dgg4y0hHEFSNsT7wqAaqqPyynPAWu/vt3XjyVMA2odfeQQq2nqZpdERDG6u87jbyUcMcTAxg6niVRguLmXs0G6q5NWGi6hF6mMcgXFSHvEquyG23EXUA0Ubg35ypWOLSXb+HkoZYo5YS5wy4BVbsgKlxHUuHEjHoqhuSCFR3tM09VOO+UUSmlbJj/ABJSPILQSbuNgtw7oss/8gQQVREWzNa02JO9TPeHhvZ3u4AlOglc8sw1UtL9nLiZC7VzVXIN97ADKpZGlrngEF3MWNlPKACqZ4rKeKxy3uu9FDII6h0R3OGOqqYna9F96jpHySCIsu0nfyVYAHDyCpNUcMsrh4j3eirJQNTyFREkuuN7bqpHfd1TzZF6YS97WNy4myhdFBEyMEHSP5RqR849E6Vh3uJXwfl/lds8FNqRxapQ2Utex3eapCy5KdKCbqScHzTtTnFz3Y4BTVLI2qrr257y2R7QwUld2cknw5SGnyPAquhuC4HfkEKOr77O2adQ/VzTHgAuZm4XZyTuu4aWA5J49FWStNmt3BSASPzubkqAdnE5x3lTm5KqZQHWUlUd0Yu5Q9sDqc6x8k0v+d31Qc/53fVCWUfrcu3l+YpwiG6MlCJx8MRHqm07/MeqEBHifceYRoYXEkucUKKDm76p9BTEZ1fVS7Bo5b3dKOjlL7IbOeSS+c9XXCPspStFopAP/lUdHUww/Z5XNfG3wOByPJGJr97VA4MjDCRcKoq2tBu8BPqQ89045qJoeR8oVRO1otdT1DWhznHARE08jnvdYE4aEyFg3BBoVh/oBaNzVrJWfdhX5I+ZVzwCLSd5RaFpuuzUlLC8EOH0JB/hSbBpHv1dtPf9103YLWnUah9uAICGzrNsJz9FLsVzySap30TvZ6GQEOqZPoEPZyBn9R5X3HTj9bl9zQDiV90xL7qjR2YwcF92jk1WQICLiVY8Srjh7sBF3JEklANXaBBxduGFpHErAV7hG4OEHXCLUDbB+iLQ7rzVgE9vIeiDrm3H+ArA7vUrs3f8aJsfdewV7q4C1Hp7itS7zun8JrWjJTnnp/2gSSgAnyAYGf8ApAOcbk/4QAAut6dYf4G9Z5eiJzzP8BWOeXEp7L7sN/7QxbGeAVn/ADoXPkEXgY48lf1KuTu+qu0ZB9Vrv5BXPQInh/AQaOOfJHcg7z9Uee4c0D6D+SnGzf8AxBtznJ5IBDJxnzWAN/qi4XuMBXxyCa0Wz9E9wvb+EPqVpt/6V8PzV3nqrgYb6lA/RXuM4ar4Bt0CJtk70CSbNyeJ5JoAuBv4lDJPBqJGnkEObvQJx9XJu/zRPL1KaRwwOaJuOTUHADOByRJdk+gTjpOcu4BNBBu7Lk95GG+IoBxNh6lNAAxu4lONxc7l2j+DUfAV/TCHhan+MIeIriUzEJTfAFyR8ab4nIcUPAVJ4Anbmp28I/iBDxFM/Ecm/qQ3FD8MJ3hapOHu/8QAHxEAAwACAgIDAAAAAAAAAAAAAAEREDAgIRJBAjFQ/9oACAECAQE/ANC7IyMjPHT8dEIRkZBfWlYeFtReHiyYaKJPDWU+fvd6EMeFzvfJM8i8Ys9nZGRkZPyP/8QAGREBAQEBAQEAAAAAAAAAAAAAEQABMEBg/9oACAEDAQE/AOGzMzx3izM2+9n6f//Z 1x, /team-light-balance/assets/tablet-towels-2x-d53ab5fe.jpg 2x"
+                type="image/jpeg"
+              />
+              <source
+                media="(min-width: 1280px)"
+                srcset="/team-light-balance/assets/desktop-towels-d367075f.jpg 1x, /team-light-balance/assets/desktop-towels-2x-854c1a8a.jpg 2x"
+                type="image/jpeg"
+              />
+              <img src="/team-light-balance/assets/mobile-towels-fc2a89fe.jpg" alt="White towels" />
+            </picture>
+          </div>
+
+          <div class='swiper-slide small-slide'>
+            <picture>
+              <source
+                media="(max-width: 1023px)"
+                srcset="/team-light-balance/assets/mobile-towels-fc2a89fe.jpg 1x, /team-light-balance/assets/mobile-towels-2x-9cb3d485.jpg 2x"
+                type="image/jpeg"
+              />
+              <source
+                media="(min-width: 1024px) and (max-width: 1279px)"
+                srcset="data:image/jpeg;base64,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 1x, /team-light-balance/assets/tablet-towels-2x-d53ab5fe.jpg 2x"
+                type="image/jpeg"
+              />
+              <source
+                media="(min-width: 1280px)"
+                srcset="/team-light-balance/assets/desktop-towels-d367075f.jpg 1x, /team-light-balance/assets/desktop-towels-2x-854c1a8a.jpg 2x"
+                type="image/jpeg"
+              />
+              <img src="/team-light-balance/assets/mobile-towels-fc2a89fe.jpg" alt="White towels" />
+            </picture>
+          </div>
+
+        </div>
+      </div>
+
     </div>
+
     <!-- /* Возможно общее */ -->
     <div class="item-slider-arrow">
-      <button type="button" href="">
+
+      <div id="about-swiper-button-next" type="button">
         <svg class="slider-icon-arrow" width="32" height="32">
           <use href="/team-light-balance/assets/symbol-defs-0946ab52.svg#icon-cil_arrow-left"></use>
         </svg>
-      </button>
-      <button type="button" href="">
+      </div>
+
+      <div id="about-swiper-button-prev" type="button" >
         <svg class="slider-icon-arrow" width="32" height="32">
           <use href="/team-light-balance/assets/symbol-defs-0946ab52.svg#icon-cil_arrow-right"></use>
         </svg>
-      </button>
+      </div>
+
     </div>
   </div>
 </section>
 
       <!-- main-page-details-hotel -->
-<section class="main-page-details-hotel container">
-  <div class="main-page-details-hotel-header-0">
-    <h2 class="main-page-details-hotel visually-hidden">
+<section class='main-page-details-hotel container'>
+  <div class='main-page-details-hotel-header-0'>
+    <h2 class='main-page-details-hotel visually-hidden'>
       main-page-details-hotel-header
     </h2>
-    <h3 class="main-page-details-hotel-header">MIMIHO</h3>
-    <h6 class="main-page-details-hotel-header2">Готель</h6>
-    <div class="main-page-details-hotel-text-desk">
-      <span class="top-text"
-        >Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+    <h3 class='main-page-details-hotel-header'>MIMIHO</h3>
+    <h6 class='main-page-details-hotel-header2'>Готель</h6>
+    <div class='main-page-details-hotel-text-desk'>
+      <span class='top-text'
+      >Amet minim mollit non deserunt ullamco est sit aliqua dolor do
         amet</span
       >
-      <span class="bottom-text"
-        >amet sint. Velit officia consequat duis enim velit mollit.
+      <span class='bottom-text'
+      >amet sint. Velit officia consequat duis enim velit mollit.
       </span>
     </div>
-    <div class="main-page-details-hotel-text">
+    <div class='main-page-details-hotel-text'>
       <span
-        >Amet minim mollit non deserunt ullamco est sit aliqua dolor do</span
+      >Amet minim mollit non deserunt ullamco est sit aliqua dolor do</span
       >
-      <span class="bottom-text"
-        >amet sint. Velit officia consequat duis enim velit mollit.
+      <span class='bottom-text'
+      >amet sint. Velit officia consequat duis enim velit mollit.
       </span>
     </div>
   </div>
 
-  <div class="tablet-galery">
-    <div class="mobil-galery">
-      <ul class="main-page-details-hotel-galery list">
-        <li class="main-page-details-hotel-galery-item">
-          <img
-            class="galery-item1"
-            src="data:image/jpeg;base64,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"
-            alt="foto"
-            srcset="data:image/jpeg;base64,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 1x, /team-light-balance/assets/img1-mob-2x-b175b18e.jpg 2x"
-            width="80"
-            height="270"
-          />
-        </li>
-        <li class="main-page-details-hotel-galery-item">
-          <img
-            class="galery-item2"
-            src="/team-light-balance/assets/img2-mob-1x-1fe873e6.jpg"
-            alt="foto"
-            srcset="/team-light-balance/assets/img2-mob-1x-1fe873e6.jpg 1x, /team-light-balance/assets/img2-mob-2x-bdc48a08.jpg 2x"
-            width="274"
-            height="270"
-          />
-        </li>
-        <!-- <li class="main-page-details-hotel-galery-item">
-          <img
-            class="galery-item3"
-            src="./img/img2-mob-1x.jpg"
-            alt="foto"
-            width="274"
-            height="270"
-          />
-        </li> -->
-      </ul>
+  <div class='tablet-galery'>
+
+    <div class='mobil-galery'>
+      <div id="mobDetailsSwiper" class='swiper'>
+        <!-- Additional required wrapper -->
+        <div class='swiper-wrapper'>
+          <!-- Slides -->
+          <div class='swiper-slide details-small-slide'>
+            <img
+              class='slide-card slide-image'
+              src='/team-light-balance/assets/img1-slider-tab-1x-329c0cf8.jpg'
+              alt='foto'
+            />
+          </div>
+
+          <div class='swiper-slide details-small-slide'>
+            <img
+              class='slide-card slide-image'
+              src='/team-light-balance/assets/img2-slider-tab-1x-9dce06b9.jpg'
+              alt='foto'
+            />
+          </div>
+
+          <div class='swiper-slide details-big-slide'>
+            <img
+              class='slide-card slide-image'
+              src='/team-light-balance/assets/img3-slider-tab-1x-e2c951d7.jpg'
+              alt='foto'
+            />
+          </div>
+
+          <div class='swiper-slide details-small-slide'>
+            <img
+              class='lide-card slide-image'
+              src='/team-light-balance/assets/img4-slider-tab-1x-749d1433.jpg'
+              alt='foto'
+            />
+          </div>
+
+          <div class='swiper-slide details-small-slide'>
+            <img
+              class='slide-card slide-image'
+              src='/team-light-balance/assets/img5-slider-tab-1x-dc0b164a.jpg'
+              alt='foto'
+            />
+          </div>
+
+          <div class='swiper-slide details-small-slide'>
+            <img
+              class='slide-card slide-image'
+              src='/team-light-balance/assets/img6-slider-tab-1x-b6ce2d05.jpg'
+              alt='foto'
+            />
+          </div>
+
+          <div class='swiper-slide details-big-slide'>
+            <img
+              class='slide-card slide-image'
+              src='/team-light-balance/assets/img7-slider-tab-1x-e1c04514.jpg'
+              alt='foto'
+            />
+          </div>
+
+          <div class='swiper-slide details-small-slide'>
+            <img
+              class='slide-card slide-image'
+              src='/team-light-balance/assets/img8-slider-tab-1x-91d80e8f.jpg'
+              alt='foto'
+            />
+          </div>
+
+          <div class='swiper-slide details-small-slide'>
+            <img
+              class='slide-card slide-image'
+              src='/team-light-balance/assets/img9-slider-tab-1x-ffb063e1.jpg'
+              alt='foto'
+            />
+          </div>
+
+          <div class='swiper-slide details-small-slide'>
+            <img
+              class='slide-card slide-image'
+              src='/team-light-balance/assets/img10-slider-tab-1x-638cd21b.jpg'
+              alt='foto'
+            />
+          </div>
+
+          <div class='swiper-slide details-small-slide'>
+            <img
+              class='slide-card slide-image'
+              src='/team-light-balance/assets/img12-slider-tab-1x-d69dbb18.jpg'
+              alt='foto'
+            />
+          </div>
+
+          <div class='swiper-slide details-small-slide'>
+            <img
+              class='slide-card slide-image'
+              src='/team-light-balance/assets/img13-slider-tab-1x-41d4d5ef.jpg'
+              alt='foto'
+            />
+          </div>
+
+          <div class='swiper-slide details-small-slide'>
+            <img
+              class='slide-card slide-image'
+              src='/team-light-balance/assets/img14-slider-tab-1x-457a3c63.jpg'
+              alt='foto'
+            />
+          </div>
+
+          <div class='swiper-slide details-small-slide'>
+            <img
+              class='slide-card slide-image'
+              src='/team-light-balance/assets/img15-slider-tab-1x-d13ff898.jpg'
+              alt='foto'
+            />
+          </div>
+
+          <div class='swiper-slide details-small-slide'>
+            <img
+              class='slide-card slide-image'
+              src='/team-light-balance/assets/img16-slider-tab-1x-ea783b74.jpg'
+              alt='foto'
+            />
+          </div>
+
+          <div class='slider-bottom details-small-slide'>
+            <h2 class='visually-hidden'>slider</h2>
+          </div>
+        </div>
+      </div>
     </div>
-    <div class="desk-galery">
-      <ul class="main-page-details-hotel-galery list">
+
+    <div class='desk-galery'>
+      <div id="deskDetailsSwiper" class='swiper'>
+        <!-- Additional required wrapper -->
+        <div class='swiper-wrapper'>
+          <!-- Slides -->
+          <div class='swiper-slide details-small-slide'>
+            <img
+              class='slide-card slide-image'
+              src='/team-light-balance/assets/img1-slider-tab-1x-329c0cf8.jpg'
+              alt='foto'
+            />
+          </div>
+
+          <div class='swiper-slide details-small-slide'>
+            <img
+              class='slide-card slide-image'
+              src='/team-light-balance/assets/img2-slider-tab-1x-9dce06b9.jpg'
+              alt='foto'
+            />
+          </div>
+
+          <div class='swiper-slide details-big-slide'>
+            <img
+              class='slide-card slide-image'
+              src='/team-light-balance/assets/img3-slider-tab-1x-e2c951d7.jpg'
+              alt='foto'
+            />
+          </div>
+
+          <div class='swiper-slide details-small-slide'>
+            <img
+              class='lide-card slide-image'
+              src='/team-light-balance/assets/img4-slider-tab-1x-749d1433.jpg'
+              alt='foto'
+            />
+          </div>
+
+          <div class='swiper-slide details-small-slide'>
+            <img
+              class='slide-card slide-image'
+              src='/team-light-balance/assets/img5-slider-tab-1x-dc0b164a.jpg'
+              alt='foto'
+            />
+          </div>
+
+          <div class='swiper-slide details-small-slide'>
+            <img
+              class='slide-card slide-image'
+              src='/team-light-balance/assets/img6-slider-tab-1x-b6ce2d05.jpg'
+              alt='foto'
+            />
+          </div>
+
+          <div class='swiper-slide details-big-slide'>
+            <img
+              class='slide-card slide-image'
+              src='/team-light-balance/assets/img7-slider-tab-1x-e1c04514.jpg'
+              alt='foto'
+            />
+          </div>
+
+          <div class='swiper-slide details-small-slide'>
+            <img
+              class='slide-card slide-image'
+              src='/team-light-balance/assets/img8-slider-tab-1x-91d80e8f.jpg'
+              alt='foto'
+            />
+          </div>
+
+          <div class='swiper-slide details-small-slide'>
+            <img
+              class='slide-card slide-image'
+              src='/team-light-balance/assets/img9-slider-tab-1x-ffb063e1.jpg'
+              alt='foto'
+            />
+          </div>
+
+          <div class='swiper-slide details-small-slide'>
+            <img
+              class='slide-card slide-image'
+              src='/team-light-balance/assets/img10-slider-tab-1x-638cd21b.jpg'
+              alt='foto'
+            />
+          </div>
+
+          <div class='swiper-slide details-small-slide'>
+            <img
+              class='slide-card slide-image'
+              src='/team-light-balance/assets/img12-slider-tab-1x-d69dbb18.jpg'
+              alt='foto'
+            />
+          </div>
+
+          <div class='swiper-slide details-small-slide'>
+            <img
+              class='slide-card slide-image'
+              src='/team-light-balance/assets/img13-slider-tab-1x-41d4d5ef.jpg'
+              alt='foto'
+            />
+          </div>
+
+          <div class='swiper-slide details-small-slide'>
+            <img
+              class='slide-card slide-image'
+              src='/team-light-balance/assets/img14-slider-tab-1x-457a3c63.jpg'
+              alt='foto'
+            />
+          </div>
+
+          <div class='swiper-slide details-small-slide'>
+            <img
+              class='slide-card slide-image'
+              src='/team-light-balance/assets/img15-slider-tab-1x-d13ff898.jpg'
+              alt='foto'
+            />
+          </div>
+
+          <div class='swiper-slide details-small-slide'>
+            <img
+              class='slide-card slide-image'
+              src='/team-light-balance/assets/img16-slider-tab-1x-ea783b74.jpg'
+              alt='foto'
+            />
+          </div>
+
+          <div class='slider-bottom details-small-slide'>
+            <h2 class='visually-hidden'>slider</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class='tab-galery'>
+      <!-- Slider main container -->
+      <div id="detailsSwiper" class='swiper'>
+        <!-- Additional required wrapper -->
+        <div class='swiper-wrapper'>
+          <!-- Slides -->
+          <div class='swiper-slide details-small-slide'>
+            <img
+              class='slide-card slide-image'
+              src='/team-light-balance/assets/img1-slider-tab-1x-329c0cf8.jpg'
+              alt='foto'
+            />
+          </div>
+
+          <div class='swiper-slide details-small-slide'>
+            <img
+              class='slide-card slide-image'
+              src='/team-light-balance/assets/img2-slider-tab-1x-9dce06b9.jpg'
+              alt='foto'
+            />
+          </div>
+
+          <div class='swiper-slide details-big-slide'>
+            <img
+              class='slide-card slide-image'
+              src='/team-light-balance/assets/img3-slider-tab-1x-e2c951d7.jpg'
+              alt='foto'
+            />
+          </div>
+
+          <div class='swiper-slide details-small-slide'>
+            <img
+              class='lide-card slide-image'
+              src='/team-light-balance/assets/img4-slider-tab-1x-749d1433.jpg'
+              alt='foto'
+            />
+          </div>
+
+          <div class='swiper-slide details-small-slide'>
+            <img
+              class='slide-card slide-image'
+              src='/team-light-balance/assets/img5-slider-tab-1x-dc0b164a.jpg'
+              alt='foto'
+            />
+          </div>
+
+          <div class='swiper-slide details-small-slide'>
+            <img
+              class='slide-card slide-image'
+              src='/team-light-balance/assets/img6-slider-tab-1x-b6ce2d05.jpg'
+              alt='foto'
+            />
+          </div>
+
+          <div class='swiper-slide details-big-slide'>
+            <img
+              class='slide-card slide-image'
+              src='/team-light-balance/assets/img7-slider-tab-1x-e1c04514.jpg'
+              alt='foto'
+            />
+          </div>
+
+          <div class='swiper-slide details-small-slide'>
+            <img
+              class='slide-card slide-image'
+              src='/team-light-balance/assets/img8-slider-tab-1x-91d80e8f.jpg'
+              alt='foto'
+            />
+          </div>
+
+          <div class='swiper-slide details-small-slide'>
+            <img
+              class='slide-card slide-image'
+              src='/team-light-balance/assets/img9-slider-tab-1x-ffb063e1.jpg'
+              alt='foto'
+            />
+          </div>
+
+          <div class='swiper-slide details-small-slide'>
+            <img
+              class='slide-card slide-image'
+              src='/team-light-balance/assets/img10-slider-tab-1x-638cd21b.jpg'
+              alt='foto'
+            />
+          </div>
+
+          <div class='swiper-slide details-small-slide'>
+            <img
+              class='slide-card slide-image'
+              src='/team-light-balance/assets/img12-slider-tab-1x-d69dbb18.jpg'
+              alt='foto'
+            />
+          </div>
+
+          <div class='swiper-slide details-small-slide'>
+            <img
+              class='slide-card slide-image'
+              src='/team-light-balance/assets/img13-slider-tab-1x-41d4d5ef.jpg'
+              alt='foto'
+            />
+          </div>
+
+          <div class='swiper-slide details-small-slide'>
+            <img
+              class='slide-card slide-image'
+              src='/team-light-balance/assets/img14-slider-tab-1x-457a3c63.jpg'
+              alt='foto'
+            />
+          </div>
+
+          <div class='swiper-slide details-small-slide'>
+            <img
+              class='slide-card slide-image'
+              src='/team-light-balance/assets/img15-slider-tab-1x-d13ff898.jpg'
+              alt='foto'
+            />
+          </div>
+
+          <div class='swiper-slide details-small-slide'>
+            <img
+              class='slide-card slide-image'
+              src='/team-light-balance/assets/img16-slider-tab-1x-ea783b74.jpg'
+              alt='foto'
+            />
+          </div>
+
+          <div class='slider-bottom details-small-slide'>
+            <h2 class='visually-hidden'>slider</h2>
+          </div>
+        </div>
+      </div>
+
+      <!-- <ul class="main-page-details-hotel-galery list">
         <li class="main-page-details-hotel-galery-item">
           <img
             class="galery-item1"
-            src="/team-light-balance/assets/img1-desk-1x-7683bdf0.jpg"
+            src="./img/img1-tab-1x.jpg"
             alt="foto"
-            srcset="/team-light-balance/assets/img1-desk-1x-7683bdf0.jpg 1x, /team-light-balance/assets/img1-desk-2x-afb8238a.jpg 2x"
-            width="270"
+            srcset="./img/img1-tab-1x.jpg 1x, ./img/img1-tab-2x.jpg 2x"
+            width="162"
             height="270"
           />
         </li>
         <li class="main-page-details-hotel-galery-item">
           <img
             class="galery-item2"
-            src="/team-light-balance/assets/img2-desk-1x-4d693e48.jpg"
+            src="./img/img2-tab-1x.jpg"
             alt="foto"
-            srcset="/team-light-balance/assets/img2-desk-1x-4d693e48.jpg 1x, /team-light-balance/assets/img2-desk-2x-e1644823.jpg 2x"
+            srcset="./img/img2-tab-1x.jpg 1x, ./img/img2-tab-2x.jpg 2x"
             width="162"
             height="270"
           />
@@ -541,75 +1170,44 @@
         <li class="main-page-details-hotel-galery-item">
           <img
             class="galery-item3"
-            src="/team-light-balance/assets/img3-desk-1x-c4b313da.jpg"
+            src="./img/img3-tab-1x.jpg"
             alt="foto"
-            srcset="/team-light-balance/assets/img3-desk-1x-c4b313da.jpg 1x, /team-light-balance/assets/img3-desk-2x-8fe4ab23.jpg 2x"
+            srcset="./img/img3-tab-1x.jpg 1x, ./img/img3-tab-2x.jpg 2x"
             width="270"
             height="270"
           />
         </li>
-      </ul>
+      </ul> -->
+
     </div>
-    <div class="tab-galery">
-      <ul class="main-page-details-hotel-galery list">
-        <li class="main-page-details-hotel-galery-item">
-          <img
-            class="galery-item1"
-            src="/team-light-balance/assets/img1-tab-1x-93edbdb7.jpg"
-            alt="foto"
-            srcset="/team-light-balance/assets/img1-tab-1x-93edbdb7.jpg 1x, /team-light-balance/assets/img1-tab-2x-0f2c2083.jpg 2x"
-            width="162"
-            height="270"
-          />
-        </li>
-        <li class="main-page-details-hotel-galery-item">
-          <img
-            class="galery-item2"
-            src="/team-light-balance/assets/img2-desk-1x-4d693e48.jpg"
-            alt="foto"
-            srcset="/team-light-balance/assets/img2-desk-1x-4d693e48.jpg 1x, /team-light-balance/assets/img2-desk-2x-e1644823.jpg 2x"
-            width="162"
-            height="270"
-          />
-        </li>
-        <li class="main-page-details-hotel-galery-item">
-          <img
-            class="galery-item3"
-            src="/team-light-balance/assets/img3-tab-1x-b39fd08c.jpg"
-            alt="foto"
-            srcset="/team-light-balance/assets/img3-tab-1x-b39fd08c.jpg 1x, /team-light-balance/assets/img3-tab-2x-2e9c11d7.jpg 2x"
-            width="270"
-            height="270"
-          />
-        </li>
-      </ul>
-    </div>
-    <div class="tablet-svg">
+
+     <div class="tablet-svg">
       <div class="main-page-details-hotel-galery-item-slider">
-        <a href="">
+        <div id="mob-swiper-button-prev">
           <svg class="slider-icon-hotel-det" width="32" height="32">
             <use href="/team-light-balance/assets/symbol-defs-0946ab52.svg#icon-cil_arrow-left"></use>
           </svg>
-        </a>
-        <a href="">
+        </div>
+        <div id="mob-swiper-button-next">
           <svg class="slider-icon-hotel-det" width="32" height="32">
             <use href="/team-light-balance/assets/symbol-defs-0946ab52.svg#icon-cil_arrow-right"></use>
           </svg>
-        </a>
+        </div>
       </div>
     </div>
-    <div class="button-flex">
-      <div class="main-page-details-hotel-header-button">
+
+    <div class='button-flex'>
+      <div class='main-page-details-hotel-header-button'>
         <button
-          type="button"
-          class="book-room btn-hotel-det"
+          type='button'
+          class='book-room btn-hotel-det'
           book-room-modal-open
         >
           Забронювати номер
         </button>
         <button
-          type="button"
-          class="room-price btn-hotel-det"
+          type='button'
+          class='room-price btn-hotel-det'
           room-price-modal-open
         >
           Переглянути ціни
@@ -617,20 +1215,25 @@
       </div>
     </div>
   </div>
-  <div class="mobile-svg">
-    <div class="main-page-details-hotel-galery-item-slider">
-      <a href="">
-        <svg class="slider-icon-hotel-det" width="32" height="32">
-          <use href="/team-light-balance/assets/symbol-defs-0946ab52.svg#icon-cil_arrow-left"></use>
+
+  <div class='mobile-svg'>
+    <div class='main-page-details-hotel-galery-item-slider'>
+
+      <div id='swiper-button-prev'>
+        <svg class='slider-icon-hotel-det' width='32' height='32'>
+          <use href='/team-light-balance/assets/symbol-defs-0946ab52.svg#icon-cil_arrow-left'></use>
         </svg>
-      </a>
-      <a href="">
-        <svg class="slider-icon-hotel-det" width="32" height="32">
-          <use href="/team-light-balance/assets/symbol-defs-0946ab52.svg#icon-cil_arrow-right"></use>
+      </div>
+
+      <div id='swiper-button-next'>
+        <svg class='slider-icon-hotel-det' width='32' height='32'>
+          <use href='/team-light-balance/assets/symbol-defs-0946ab52.svg#icon-cil_arrow-right'></use>
         </svg>
-      </a>
+      </div>
+
     </div>
   </div>
+
 </section>
 
       <!-- section contacts -->
@@ -966,10 +1569,13 @@
   </div>
 </footer>
 
-   
+
     
     
     
     
+    <!-- <script src="/js/swiper-bundle.min.js"></script>-->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="/js/slider.js"></script>
   </body>
 </html>
