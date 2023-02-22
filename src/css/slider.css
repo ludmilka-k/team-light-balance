@@ -1,6 +1,6 @@
 .swiper {
-  width: 660px;
-  height: 300px;
+  width: 270px;
+  height: 290px;
 }
 
 .details-small-slide {
@@ -41,7 +41,7 @@
 .about-rest-swiper {
   height: 194px;
   width: 428px;
-  margin-right: 0;
+  /* margin-right: 0; */
 }
 
 .about-rest-swiper img {
@@ -49,27 +49,53 @@
 }
 
 .swiper-wrapper-slider-left {
-  margin-right: auto;
+  /* margin-right: auto; */
   margin-bottom: 20px;
 }
 
-@media screen and (min-width: 414px) {
-  .swiper-wrapper-slider-left {
-    margin-right: 69px;
-  }
-
-  .swiper-wrapper-slider-left .swiper {
-    width: 50%;
-    padding-right: 69px;
-  }
+.description-hotel.img {
+  max-width: 194px;
 }
 
 .swiper {
   /*! margin-left:auto; */
-  margin-right: auto;
+  /* margin-right: auto; */
   position: relative;
   overflow: hidden;
   list-style: none;
   padding: 0;
   z-index: 1;
+}
+
+@media screen and (min-width: 1024px) {
+  /* .swiper-wrapper-slider-left {
+    margin-right: 69px;
+  } */
+
+  .swiper-wrapper-slider-left .swiper {
+    width: 500px;
+    height: 220px;
+    margin-left: 0px;
+  }
+  
+   .swiper.about-rest-swiper {
+     width: 450px;
+    height: 220px;
+  }
+  .swiper {
+    width: 660px;
+    height: 290px;
+  }
+}
+
+
+@media screen and (min-width: 1280px) {
+  .swiper {
+    width: 780px;
+    height: 290px;
+  }
+  .swiper.about-rest-swiper {
+     width: 450px;
+    height: 220px;
+  }
 }
