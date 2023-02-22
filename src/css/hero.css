@@ -92,42 +92,6 @@ letter-spacing: 0.05em;
     height: 344px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* ========================================================= */
 /* ========================================================= */
 /* ========================================================= */
@@ -318,9 +282,6 @@ letter-spacing: 0.05em;
 
         
     }
-
-
-
     /* ====================================hotel=============================== */
     /* ====================================hotel=============================== */
     /* ====================================hotel=============================== */
@@ -351,9 +312,16 @@ letter-spacing: 0.05em;
     background-size: cover;
     
   }}
+  @media screen and (min-width: 414px) {
+    .hero-hotel {
+      max-width: 414px;
+    }
+    
+  }
   @media screen and (min-width: 1024px) {
     .hero-hotel {
         background-image: linear-gradient( to right, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65) ), url(../img/room1.jpg);
+        max-width: 1024px;
     }
     @media (min-device-pixel-ratio: 2),
   (-webkit-min-device-pixel-ratio: 2),
@@ -376,6 +344,7 @@ letter-spacing: 0.05em;
         }
         .hero-hotel {
             background-image: linear-gradient( to right, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65) ), url(../img/room3.jpg);
+            max-width: 1440px;
         }
         @media (min-device-pixel-ratio: 2),
   (-webkit-min-device-pixel-ratio: 2),
@@ -422,9 +391,14 @@ letter-spacing: 0.05em;
     background-size: cover;
     
   }}
+  @media screen and (min-width: 414px) {
+    .hero-restaurant {
+      max-width: 414px;
+    }}
   @media screen and (min-width: 1024px) {
     .hero-restaurant {
         background-image: linear-gradient( to right, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65) ), url(../img/rest2.jpg);
+        max-width: 1024px;
     }
     @media (min-device-pixel-ratio: 2),
   (-webkit-min-device-pixel-ratio: 2),
@@ -447,6 +421,7 @@ letter-spacing: 0.05em;
         }
         .hero-restaurant {
             background-image: linear-gradient( to right, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65) ), url(../img/rest3.jpg);
+            max-width: 1440px;
         }
         @media (min-device-pixel-ratio: 2),
   (-webkit-min-device-pixel-ratio: 2),
@@ -461,18 +436,7 @@ letter-spacing: 0.05em;
 }
 
         
-    }
-
-
-
-
-
-
-
-
-
-
-
+}
     /* ========================================================================== */
     @media screen and (max-width:1024px) {
         .li-btn:nth-child(3) {
@@ -507,9 +471,6 @@ letter-spacing: 0.05em;
         margin-bottom: 249px;
     }
 }
-
-
-
 
 
 .hero-address:hover {

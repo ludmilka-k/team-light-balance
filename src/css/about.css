@@ -1,19 +1,12 @@
 /* --------------- About Styles ---------------- */
-
-
-    /* Add-Andriy */
-.section-about-our-hotel{
+.section-about-our-hotel {
   padding-top: 16px;
   padding-bottom: 20px;
 }
-
-    /* Add-Andriy */  
-.description-hotel-container .section-about-our-hotel{
+.description-hotel-container .section-about-our-hotel {
   padding-top: 18px;
   padding-bottom: 20px;
 }
-
-
 .description-rest-container,
 .description-kitchen-container,
 .description-hotel-container {
@@ -22,56 +15,22 @@
   font-family: Montserrat, sans-serif;
   font-weight: 600;
 }
-/* .description-rest,
-.description-kitchen {
-  padding-top: 16px;
-  padding-bottom: 20px;
-} */
-/* .description-hotel {
-  padding-top: 18px;
-  padding-bottom: 20px;
-} */
-@media screen and (min-width: 1024px) {
-  /* .description-rest,
-  .description-kitchen,
-  .description-hotel {
-    position: relative;
-    padding-top: 120px;
-    padding-bottom: 32px;
-  } */
 
-    /* Add-Andriy */
-  .section-about-our-hotel{
+@media screen and (min-width: 1024px) {
+  .section-about-our-hotel {
     overflow-x: visible;
     position: relative;
     padding-top: 120px;
     padding-bottom: 32px;
   }
-
-  /* .description-rest-container .container,
-  .description-kitchen-container .container,
-  .description-hotel-container .container{
-    position: static;
-  } */
-
 }
 @media screen and (min-width: 1280px) {
-  /* .description-rest,
-  .description-hotel {
-    padding-bottom: 50px;
-  } */
-
-    /* Add-Andriy */
-  .section-about-our-hotel{
-    padding-bottom: 50px;
-  }
-
-  /* Add-Andriy */
   .section-about-our-hotel {
     padding-bottom: 50px;
   }
-
-
+  .section-about-our-hotel {
+    padding-bottom: 50px;
+  }
 }
 .description-rest img,
 .description-kitchen img,
@@ -90,21 +49,18 @@
 }
 
 @media screen and (min-width: 1024px) {
-
   .container {
     overflow-x: visible;
     overflow-y: visible;
-    }
+  }
   .description-rest .first-image,
   .description-kitchen .first-image {
     position: absolute;
-    /*Add-Andriy*/
     top: -134px;
     right: 65px;
   }
   .description-hotel-list .first-image {
     position: absolute;
-    /*Add-Andriy*/
     top: -134px;
     left: 65px;
   }
@@ -113,18 +69,15 @@
   .description-rest .first-image,
   .description-kitchen .first-image {
     position: absolute;
-    /*Add-Andriy*/
-      top: -150px;
-      right: 95px;
+    top: -150px;
+    right: 95px;
   }
   .description-hotel-list .first-image {
     position: absolute;
-    /*Add-Andriy*/
-      top: -150px;
-      left: 95px;
+    top: -150px;
+    left: 95px;
   }
 }
-/* Возможно общее */
 .tagline {
   color: var(--helper-text-color);
   margin: 0;
@@ -149,7 +102,6 @@
     margin-bottom: 4px;
   }
 }
-/* Возможно общее */
 .appellation {
   width: 127px;
   font-family: 'FilmP3bold', serif;
@@ -188,7 +140,7 @@
   width: 258px;
   line-height: 1.25;
   letter-spacing: 0.02em;
-  color: var(--body-text-color), #7A7A7A;
+  color: var(--body-text-color), #7a7a7a;
 }
 
 .description-hotel .text {
@@ -358,7 +310,6 @@
   outline: none;
   background-color: transparent;
 }
-/* Возможно общее */
 .item-slider-arrow {
   display: flex;
   gap: 32px;
@@ -366,11 +317,9 @@
   justify-content: flex-end;
 }
 
-/* Возможно общее */
 .description-hotel-container .item-slider-arrow {
   justify-content: flex-start;
 }
-/* Возможно общее */
 .slider-icon-arrow {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
