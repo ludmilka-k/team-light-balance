@@ -53,6 +53,7 @@
     background-color: var(--bg-lemon-color);
     border: none;
     padding: 0;
+    cursor: default;
 }
 
 .box-btn-hotel {
@@ -66,11 +67,12 @@
     height: 32px;
     fill: #000000;
     transition: fill var(--transition);
+
 }
 
-.btn-arrow-hotel:hover .icon-arrow, .btn-arrow-hotel:focus .icon-arrow {
+/* .btn-arrow-hotel:hover .icon-arrow, .btn-arrow-hotel:focus .icon-arrow {
     fill: var(--accent-yellow-color);
-}
+} */
 
 
 .list-link-hotel {
