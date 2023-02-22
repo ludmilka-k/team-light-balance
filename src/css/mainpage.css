@@ -7,13 +7,27 @@
   color: rgba(186, 186, 186, 1);
 }
 
-.title-details-restaurant {
-  font-family: ‘FilmP3bold’;
+
+
+/* .title-details-restaurant-mimino {
+  font-family: 'FilmP3bold';
   font-weight: 700;
   font-size: 40px;
   line-height: calc(43 / 40);
   letter-spacing: 0.3em;
   color: var(--invert-color);
+} */
+.main-page-details-hotel-header-res {
+  font-family: 'FilmP3bold';
+  font-weight: 700;
+  font-size: 40px;
+  line-height: calc(43 / 40);
+  letter-spacing: 0.3em;
+  color: var(--invert-color);
+  /* margin-bottom: 12px;
+  margin-left: auto;
+  width: 127px;
+  text-align: end; */
 }
 
 .heading-details-restaurant {
@@ -87,7 +101,7 @@
   max-width: 100%;
 }
 
-.box-button .btn {
+.box-button .btn-about-rest {
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 700;
@@ -103,8 +117,8 @@
   max-width: 236px;
 }
 
-.btn:hover,
-.btn:focus {
+.btn-about-rest:hover,
+.btn-about-rest:focus {
   border: 2px solid #f3c653;
   background: var(--invert-color);
 }
