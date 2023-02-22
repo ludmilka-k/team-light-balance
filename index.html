@@ -19,7 +19,7 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
     />
-
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     
     <script type="module" crossorigin src="/team-light-balance/assets/styles-fac82e35.js"></script>
     <script type="module" crossorigin src="/team-light-balance/assets/room-price-modal-ae428cbb.js"></script>
@@ -179,7 +179,7 @@
       </section>
     </main>
       <!-- About our restaurant -->
-<section class="description-rest-container  section-about-our-hotel">
+<section class="description-rest-container section-about-our-hotel">
   <div class="description-rest container">
     <h2 class="visually-hidden">About our restaurant</h2>
     <p class="tagline">Amet minim mollit non</p>
@@ -243,123 +243,131 @@
       </li>
     </ul>
 
+    <div style="display: flex; flex-direction: column">
+      <div class="swiper-wrapper-slider">
+        <div id="descriptionRestSwiper" class="swiper about-rest-swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide details-small-slide">
+              <picture>
+                <source
+                  media="(max-width: 1023px)"
+                  srcset="/team-light-balance/assets/mobile-wineglass-268dcd66.jpg 1x, /team-light-balance/assets/mobile-wineglass-2x-cc638991.jpg 2x"
+                  type="image/jpeg"
+                />
+                <source
+                  media="(min-width: 1024px) and (max-width: 1279px)"
+                  srcset="/team-light-balance/assets/tablet-wineglass-b4334289.jpg 1x, /team-light-balance/assets/tablet-wineglass-2x-6a659734.jpg 2x"
+                  type="image/jpeg"
+                />
+                <source
+                  media="(min-width: 1280px)"
+                  srcset="/team-light-balance/assets/desktop-wineglass-b76f0566.jpg 1x, /team-light-balance/assets/desktop-wineglass-2x-29e8ebdf.jpg 2x"
+                  type="image/jpeg"
+                />
+                <img
+                  src="/team-light-balance/assets/mobile-wineglass-268dcd66.jpg"
+                  alt="Wineglass"
+                  class="about-slide-image"
+                />
+              </picture>
+            </div>
 
-    <div style='display: flex; flex-direction: column'>
-        <div class="swiper-wrapper-slider">
-          <div id="descriptionRestSwiper" class='swiper about-rest-swiper'>
-            <div class='swiper-wrapper'>
-              <div class='swiper-slide details-small-slide'>
-                <picture>
-                  <source
-                    media="(max-width: 1023px)"
-                    srcset="/team-light-balance/assets/mobile-wineglass-268dcd66.jpg 1x, /team-light-balance/assets/mobile-wineglass-2x-cc638991.jpg 2x"
-                    type="image/jpeg"
-                  />
-                  <source
-                    media="(min-width: 1024px) and (max-width: 1279px)"
-                    srcset="/team-light-balance/assets/tablet-wineglass-b4334289.jpg 1x, /team-light-balance/assets/tablet-wineglass-2x-6a659734.jpg 2x"
-                    type="image/jpeg"
-                  />
-                  <source
-                    media="(min-width: 1280px)"
-                    srcset="/team-light-balance/assets/desktop-wineglass-b76f0566.jpg 1x, /team-light-balance/assets/desktop-wineglass-2x-29e8ebdf.jpg 2x"
-                    type="image/jpeg"
-                  />
-                  <img src="/team-light-balance/assets/mobile-wineglass-268dcd66.jpg" alt="Wineglass" class='about-slide-image'/>
-                </picture>
-              </div>
-
-              <div class='swiper-slide details-small-slide'>
-                <picture>
-                  <source
-                    media="(max-width: 1023px)"
-                    srcset="/team-light-balance/assets/mobile-serving-6e6f5a97.jpg 1x, /team-light-balance/assets/mobile-serving-2x-5bdcbc0f.jpg 2x"
-                    type="image/jpeg"
-                  />
-                  <source
-                    media="(min-width: 1024px) and (max-width: 1279px)"
-                    srcset="/team-light-balance/assets/tablet-serving-8f29082c.jpg 1x, /team-light-balance/assets/tablet-serving-2x-f8e61048.jpg 2x"
-                    type="image/jpeg"
-                  />
-                  <source
-                    media="(min-width: 1280px)"
-                    srcset="/team-light-balance/assets/desktop-serving-0247e794.jpg 1x, /team-light-balance/assets/desktop-serving-2x-faccb842.jpg 2x"
-                    type="image/jpeg"
-                  />
-                  <img src="/team-light-balance/assets/mobile-serving-6e6f5a97.jpg" alt="Serving" class='about-slide-image'/>
-                </picture>
-              </div>
-              <div class='swiper-slide details-small-slide'>
-                <picture>
-                  <source
-                    media="(max-width: 1023px)"
-                    srcset="/team-light-balance/assets/mobile-serving-6e6f5a97.jpg 1x, /team-light-balance/assets/mobile-serving-2x-5bdcbc0f.jpg 2x"
-                    type="image/jpeg"
-                  />
-                  <source
-                    media="(min-width: 1024px) and (max-width: 1279px)"
-                    srcset="/team-light-balance/assets/tablet-serving-8f29082c.jpg 1x, /team-light-balance/assets/tablet-serving-2x-f8e61048.jpg 2x"
-                    type="image/jpeg"
-                  />
-                  <source
-                    media="(min-width: 1280px)"
-                    srcset="/team-light-balance/assets/desktop-serving-0247e794.jpg 1x, /team-light-balance/assets/desktop-serving-2x-faccb842.jpg 2x"
-                    type="image/jpeg"
-                  />
-                  <img src="/team-light-balance/assets/mobile-serving-6e6f5a97.jpg" alt="Serving" class='about-slide-image'/>
-                </picture>
-              </div>
-              <div class='swiper-slide details-small-slide'>
-                <picture>
-                  <source
-                    media="(max-width: 1023px)"
-                    srcset="/team-light-balance/assets/mobile-serving-6e6f5a97.jpg 1x, /team-light-balance/assets/mobile-serving-2x-5bdcbc0f.jpg 2x"
-                    type="image/jpeg"
-                  />
-                  <source
-                    media="(min-width: 1024px) and (max-width: 1279px)"
-                    srcset="/team-light-balance/assets/tablet-serving-8f29082c.jpg 1x, /team-light-balance/assets/tablet-serving-2x-f8e61048.jpg 2x"
-                    type="image/jpeg"
-                  />
-                  <source
-                    media="(min-width: 1280px)"
-                    srcset="/team-light-balance/assets/desktop-serving-0247e794.jpg 1x, /team-light-balance/assets/desktop-serving-2x-faccb842.jpg 2x"
-                    type="image/jpeg"
-                  />
-                  <img src="/team-light-balance/assets/mobile-serving-6e6f5a97.jpg" alt="Serving" class='about-slide-image'/>
-                </picture>
-              </div>
-
-
-
+            <div class="swiper-slide details-small-slide">
+              <picture>
+                <source
+                  media="(max-width: 1023px)"
+                  srcset="/team-light-balance/assets/mobile-serving-6e6f5a97.jpg 1x, /team-light-balance/assets/mobile-serving-2x-5bdcbc0f.jpg 2x"
+                  type="image/jpeg"
+                />
+                <source
+                  media="(min-width: 1024px) and (max-width: 1279px)"
+                  srcset="/team-light-balance/assets/tablet-serving-8f29082c.jpg 1x, /team-light-balance/assets/tablet-serving-2x-f8e61048.jpg 2x"
+                  type="image/jpeg"
+                />
+                <source
+                  media="(min-width: 1280px)"
+                  srcset="/team-light-balance/assets/desktop-serving-0247e794.jpg 1x, /team-light-balance/assets/desktop-serving-2x-faccb842.jpg 2x"
+                  type="image/jpeg"
+                />
+                <img
+                  src="/team-light-balance/assets/mobile-serving-6e6f5a97.jpg"
+                  alt="Serving"
+                  class="about-slide-image"
+                />
+              </picture>
+            </div>
+            <div class="swiper-slide details-small-slide">
+              <picture>
+                <source
+                  media="(max-width: 1023px)"
+                  srcset="/team-light-balance/assets/mobile-serving-6e6f5a97.jpg 1x, /team-light-balance/assets/mobile-serving-2x-5bdcbc0f.jpg 2x"
+                  type="image/jpeg"
+                />
+                <source
+                  media="(min-width: 1024px) and (max-width: 1279px)"
+                  srcset="/team-light-balance/assets/tablet-serving-8f29082c.jpg 1x, /team-light-balance/assets/tablet-serving-2x-f8e61048.jpg 2x"
+                  type="image/jpeg"
+                />
+                <source
+                  media="(min-width: 1280px)"
+                  srcset="/team-light-balance/assets/desktop-serving-0247e794.jpg 1x, /team-light-balance/assets/desktop-serving-2x-faccb842.jpg 2x"
+                  type="image/jpeg"
+                />
+                <img
+                  src="/team-light-balance/assets/mobile-serving-6e6f5a97.jpg"
+                  alt="Serving"
+                  class="about-slide-image"
+                />
+              </picture>
+            </div>
+            <div class="swiper-slide details-small-slide">
+              <picture>
+                <source
+                  media="(max-width: 1023px)"
+                  srcset="/team-light-balance/assets/mobile-serving-6e6f5a97.jpg 1x, /team-light-balance/assets/mobile-serving-2x-5bdcbc0f.jpg 2x"
+                  type="image/jpeg"
+                />
+                <source
+                  media="(min-width: 1024px) and (max-width: 1279px)"
+                  srcset="/team-light-balance/assets/tablet-serving-8f29082c.jpg 1x, /team-light-balance/assets/tablet-serving-2x-f8e61048.jpg 2x"
+                  type="image/jpeg"
+                />
+                <source
+                  media="(min-width: 1280px)"
+                  srcset="/team-light-balance/assets/desktop-serving-0247e794.jpg 1x, /team-light-balance/assets/desktop-serving-2x-faccb842.jpg 2x"
+                  type="image/jpeg"
+                />
+                <img
+                  src="/team-light-balance/assets/mobile-serving-6e6f5a97.jpg"
+                  alt="Serving"
+                  class="about-slide-image"
+                />
+              </picture>
             </div>
           </div>
         </div>
-        <div class="item-slider-arrow">
+      </div>
+      <div class="item-slider-arrow">
+        <div id="description-rest-swiper-button-prev">
+          <svg class="slider-icon-arrow" width="32" height="32">
+            <use href="/team-light-balance/assets/symbol-defs-0946ab52.svg#icon-cil_arrow-left"></use>
+          </svg>
+        </div>
 
-          <div id="description-rest-swiper-button-prev">
-            <svg class="slider-icon-arrow" width="32" height="32">
-              <use href="/team-light-balance/assets/symbol-defs-0946ab52.svg#icon-cil_arrow-left"></use>
-            </svg>
-          </div>
-
-          <div id="description-rest-swiper-button-next">
-            <svg class="slider-icon-arrow" width="32" height="32">
-              <use href="/team-light-balance/assets/symbol-defs-0946ab52.svg#icon-cil_arrow-right"></use>
-            </svg>
-          </div>
-
+        <div id="description-rest-swiper-button-next">
+          <svg class="slider-icon-arrow" width="32" height="32">
+            <use href="/team-light-balance/assets/symbol-defs-0946ab52.svg#icon-cil_arrow-right"></use>
+          </svg>
         </div>
       </div>
-
-
+    </div>
   </div>
 </section>
 
 <!-- <section class="about-rest-section">
   <div class="container"> -->
-    <!--hide h2-->
-    <!-- <h2 class="section-title visually-hidden">About Restaurant Mimino</h2>
+<!--hide h2-->
+<!-- <h2 class="section-title visually-hidden">About Restaurant Mimino</h2>
     <div class="about-restaurant">
       <h3>Міміно</h3>
       <h4>Ресторан</h4>
@@ -722,426 +730,425 @@
 </section>
 
       <!-- main-page-details-hotel -->
-<section class='main-page-details-hotel container'>
-  <div class='main-page-details-hotel-header-0'>
-    <h2 class='main-page-details-hotel visually-hidden'>
+<section class="main-page-details-hotel container">
+  <div class="main-page-details-hotel-header-0">
+    <h2 class="main-page-details-hotel visually-hidden">
       main-page-details-hotel-header
     </h2>
-    <h3 class='main-page-details-hotel-header'>MIMIHO</h3>
-    <h6 class='main-page-details-hotel-header2'>Готель</h6>
-    <div class='main-page-details-hotel-text-desk'>
-      <span class='top-text'
-      >Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+    <h3 class="main-page-details-hotel-header">MIMIHO</h3>
+    <h6 class="main-page-details-hotel-header2">Готель</h6>
+    <div class="main-page-details-hotel-text-desk">
+      <span class="top-text"
+        >Amet minim mollit non deserunt ullamco est sit aliqua dolor do
         amet</span
       >
-      <span class='bottom-text'
-      >amet sint. Velit officia consequat duis enim velit mollit.
+      <span class="bottom-text"
+        >amet sint. Velit officia consequat duis enim velit mollit.
       </span>
     </div>
-    <div class='main-page-details-hotel-text'>
+    <div class="main-page-details-hotel-text">
       <span
-      >Amet minim mollit non deserunt ullamco est sit aliqua dolor do</span
+        >Amet minim mollit non deserunt ullamco est sit aliqua dolor do</span
       >
-      <span class='bottom-text'
-      >amet sint. Velit officia consequat duis enim velit mollit.
+      <span class="bottom-text"
+        >amet sint. Velit officia consequat duis enim velit mollit.
       </span>
     </div>
   </div>
 
-  <div class='tablet-galery'>
-
-    <div class='mobil-galery'>
-      <div id="mobDetailsSwiper" class='swiper'>
+  <div class="tablet-galery">
+    <div class="mobil-galery">
+      <div id="mobDetailsSwiper" class="swiper">
         <!-- Additional required wrapper -->
-        <div class='swiper-wrapper'>
+        <div class="swiper-wrapper">
           <!-- Slides -->
-          <div class='swiper-slide details-small-slide'>
+          <div class="swiper-slide details-small-slide">
             <img
-              class='slide-card slide-image'
-              src='/team-light-balance/assets/img1-slider-tab-1x-329c0cf8.jpg'
-              alt='foto'
+              class="slide-card slide-image"
+              src="/team-light-balance/assets/img1-slider-tab-1x-329c0cf8.jpg"
+              alt="foto"
             />
           </div>
 
-          <div class='swiper-slide details-small-slide'>
+          <div class="swiper-slide details-small-slide">
             <img
-              class='slide-card slide-image'
-              src='/team-light-balance/assets/img2-slider-tab-1x-9dce06b9.jpg'
-              alt='foto'
+              class="slide-card slide-image"
+              src="/team-light-balance/assets/img2-slider-tab-1x-9dce06b9.jpg"
+              alt="foto"
             />
           </div>
 
-          <div class='swiper-slide details-big-slide'>
+          <div class="swiper-slide details-big-slide">
             <img
-              class='slide-card slide-image'
-              src='/team-light-balance/assets/img3-slider-tab-1x-e2c951d7.jpg'
-              alt='foto'
+              class="slide-card slide-image"
+              src="/team-light-balance/assets/img3-slider-tab-1x-e2c951d7.jpg"
+              alt="foto"
             />
           </div>
 
-          <div class='swiper-slide details-small-slide'>
+          <div class="swiper-slide details-small-slide">
             <img
-              class='lide-card slide-image'
-              src='/team-light-balance/assets/img4-slider-tab-1x-749d1433.jpg'
-              alt='foto'
+              class="lide-card slide-image"
+              src="/team-light-balance/assets/img4-slider-tab-1x-749d1433.jpg"
+              alt="foto"
             />
           </div>
 
-          <div class='swiper-slide details-small-slide'>
+          <div class="swiper-slide details-small-slide">
             <img
-              class='slide-card slide-image'
-              src='/team-light-balance/assets/img5-slider-tab-1x-dc0b164a.jpg'
-              alt='foto'
+              class="slide-card slide-image"
+              src="/team-light-balance/assets/img5-slider-tab-1x-dc0b164a.jpg"
+              alt="foto"
             />
           </div>
 
-          <div class='swiper-slide details-small-slide'>
+          <div class="swiper-slide details-small-slide">
             <img
-              class='slide-card slide-image'
-              src='/team-light-balance/assets/img6-slider-tab-1x-b6ce2d05.jpg'
-              alt='foto'
+              class="slide-card slide-image"
+              src="/team-light-balance/assets/img6-slider-tab-1x-b6ce2d05.jpg"
+              alt="foto"
             />
           </div>
 
-          <div class='swiper-slide details-big-slide'>
+          <div class="swiper-slide details-big-slide">
             <img
-              class='slide-card slide-image'
-              src='/team-light-balance/assets/img7-slider-tab-1x-e1c04514.jpg'
-              alt='foto'
+              class="slide-card slide-image"
+              src="/team-light-balance/assets/img7-slider-tab-1x-e1c04514.jpg"
+              alt="foto"
             />
           </div>
 
-          <div class='swiper-slide details-small-slide'>
+          <div class="swiper-slide details-small-slide">
             <img
-              class='slide-card slide-image'
-              src='/team-light-balance/assets/img8-slider-tab-1x-91d80e8f.jpg'
-              alt='foto'
+              class="slide-card slide-image"
+              src="/team-light-balance/assets/img8-slider-tab-1x-91d80e8f.jpg"
+              alt="foto"
             />
           </div>
 
-          <div class='swiper-slide details-small-slide'>
+          <div class="swiper-slide details-small-slide">
             <img
-              class='slide-card slide-image'
-              src='/team-light-balance/assets/img9-slider-tab-1x-ffb063e1.jpg'
-              alt='foto'
+              class="slide-card slide-image"
+              src="/team-light-balance/assets/img9-slider-tab-1x-ffb063e1.jpg"
+              alt="foto"
             />
           </div>
 
-          <div class='swiper-slide details-small-slide'>
+          <div class="swiper-slide details-small-slide">
             <img
-              class='slide-card slide-image'
-              src='/team-light-balance/assets/img10-slider-tab-1x-638cd21b.jpg'
-              alt='foto'
+              class="slide-card slide-image"
+              src="/team-light-balance/assets/img10-slider-tab-1x-638cd21b.jpg"
+              alt="foto"
             />
           </div>
 
-          <div class='swiper-slide details-small-slide'>
+          <div class="swiper-slide details-small-slide">
             <img
-              class='slide-card slide-image'
-              src='/team-light-balance/assets/img12-slider-tab-1x-d69dbb18.jpg'
-              alt='foto'
+              class="slide-card slide-image"
+              src="/team-light-balance/assets/img12-slider-tab-1x-d69dbb18.jpg"
+              alt="foto"
             />
           </div>
 
-          <div class='swiper-slide details-small-slide'>
+          <div class="swiper-slide details-small-slide">
             <img
-              class='slide-card slide-image'
-              src='/team-light-balance/assets/img13-slider-tab-1x-41d4d5ef.jpg'
-              alt='foto'
+              class="slide-card slide-image"
+              src="/team-light-balance/assets/img13-slider-tab-1x-41d4d5ef.jpg"
+              alt="foto"
             />
           </div>
 
-          <div class='swiper-slide details-small-slide'>
+          <div class="swiper-slide details-small-slide">
             <img
-              class='slide-card slide-image'
-              src='/team-light-balance/assets/img14-slider-tab-1x-457a3c63.jpg'
-              alt='foto'
+              class="slide-card slide-image"
+              src="/team-light-balance/assets/img14-slider-tab-1x-457a3c63.jpg"
+              alt="foto"
             />
           </div>
 
-          <div class='swiper-slide details-small-slide'>
+          <div class="swiper-slide details-small-slide">
             <img
-              class='slide-card slide-image'
-              src='/team-light-balance/assets/img15-slider-tab-1x-d13ff898.jpg'
-              alt='foto'
+              class="slide-card slide-image"
+              src="/team-light-balance/assets/img15-slider-tab-1x-d13ff898.jpg"
+              alt="foto"
             />
           </div>
 
-          <div class='swiper-slide details-small-slide'>
+          <div class="swiper-slide details-small-slide">
             <img
-              class='slide-card slide-image'
-              src='/team-light-balance/assets/img16-slider-tab-1x-ea783b74.jpg'
-              alt='foto'
+              class="slide-card slide-image"
+              src="/team-light-balance/assets/img16-slider-tab-1x-ea783b74.jpg"
+              alt="foto"
             />
           </div>
 
-          <div class='slider-bottom details-small-slide'>
-            <h2 class='visually-hidden'>slider</h2>
+          <div class="slider-bottom details-small-slide">
+            <h2 class="visually-hidden">slider</h2>
           </div>
         </div>
       </div>
     </div>
 
-    <div class='desk-galery'>
-      <div id="deskDetailsSwiper" class='swiper'>
+    <div class="desk-galery">
+      <div id="deskDetailsSwiper" class="swiper">
         <!-- Additional required wrapper -->
-        <div class='swiper-wrapper'>
+        <div class="swiper-wrapper">
           <!-- Slides -->
-          <div class='swiper-slide details-small-slide'>
+          <div class="swiper-slide details-small-slide">
             <img
-              class='slide-card slide-image'
-              src='/team-light-balance/assets/img1-slider-tab-1x-329c0cf8.jpg'
-              alt='foto'
+              class="slide-card slide-image"
+              src="/team-light-balance/assets/img1-slider-tab-1x-329c0cf8.jpg"
+              alt="foto"
             />
           </div>
 
-          <div class='swiper-slide details-small-slide'>
+          <div class="swiper-slide details-small-slide">
             <img
-              class='slide-card slide-image'
-              src='/team-light-balance/assets/img2-slider-tab-1x-9dce06b9.jpg'
-              alt='foto'
+              class="slide-card slide-image"
+              src="/team-light-balance/assets/img2-slider-tab-1x-9dce06b9.jpg"
+              alt="foto"
             />
           </div>
 
-          <div class='swiper-slide details-big-slide'>
+          <div class="swiper-slide details-big-slide">
             <img
-              class='slide-card slide-image'
-              src='/team-light-balance/assets/img3-slider-tab-1x-e2c951d7.jpg'
-              alt='foto'
+              class="slide-card slide-image"
+              src="/team-light-balance/assets/img3-slider-tab-1x-e2c951d7.jpg"
+              alt="foto"
             />
           </div>
 
-          <div class='swiper-slide details-small-slide'>
+          <div class="swiper-slide details-small-slide">
             <img
-              class='lide-card slide-image'
-              src='/team-light-balance/assets/img4-slider-tab-1x-749d1433.jpg'
-              alt='foto'
+              class="lide-card slide-image"
+              src="/team-light-balance/assets/img4-slider-tab-1x-749d1433.jpg"
+              alt="foto"
             />
           </div>
 
-          <div class='swiper-slide details-small-slide'>
+          <div class="swiper-slide details-small-slide">
             <img
-              class='slide-card slide-image'
-              src='/team-light-balance/assets/img5-slider-tab-1x-dc0b164a.jpg'
-              alt='foto'
+              class="slide-card slide-image"
+              src="/team-light-balance/assets/img5-slider-tab-1x-dc0b164a.jpg"
+              alt="foto"
             />
           </div>
 
-          <div class='swiper-slide details-small-slide'>
+          <div class="swiper-slide details-small-slide">
             <img
-              class='slide-card slide-image'
-              src='/team-light-balance/assets/img6-slider-tab-1x-b6ce2d05.jpg'
-              alt='foto'
+              class="slide-card slide-image"
+              src="/team-light-balance/assets/img6-slider-tab-1x-b6ce2d05.jpg"
+              alt="foto"
             />
           </div>
 
-          <div class='swiper-slide details-big-slide'>
+          <div class="swiper-slide details-big-slide">
             <img
-              class='slide-card slide-image'
-              src='/team-light-balance/assets/img7-slider-tab-1x-e1c04514.jpg'
-              alt='foto'
+              class="slide-card slide-image"
+              src="/team-light-balance/assets/img7-slider-tab-1x-e1c04514.jpg"
+              alt="foto"
             />
           </div>
 
-          <div class='swiper-slide details-small-slide'>
+          <div class="swiper-slide details-small-slide">
             <img
-              class='slide-card slide-image'
-              src='/team-light-balance/assets/img8-slider-tab-1x-91d80e8f.jpg'
-              alt='foto'
+              class="slide-card slide-image"
+              src="/team-light-balance/assets/img8-slider-tab-1x-91d80e8f.jpg"
+              alt="foto"
             />
           </div>
 
-          <div class='swiper-slide details-small-slide'>
+          <div class="swiper-slide details-small-slide">
             <img
-              class='slide-card slide-image'
-              src='/team-light-balance/assets/img9-slider-tab-1x-ffb063e1.jpg'
-              alt='foto'
+              class="slide-card slide-image"
+              src="/team-light-balance/assets/img9-slider-tab-1x-ffb063e1.jpg"
+              alt="foto"
             />
           </div>
 
-          <div class='swiper-slide details-small-slide'>
+          <div class="swiper-slide details-small-slide">
             <img
-              class='slide-card slide-image'
-              src='/team-light-balance/assets/img10-slider-tab-1x-638cd21b.jpg'
-              alt='foto'
+              class="slide-card slide-image"
+              src="/team-light-balance/assets/img10-slider-tab-1x-638cd21b.jpg"
+              alt="foto"
             />
           </div>
 
-          <div class='swiper-slide details-small-slide'>
+          <div class="swiper-slide details-small-slide">
             <img
-              class='slide-card slide-image'
-              src='/team-light-balance/assets/img12-slider-tab-1x-d69dbb18.jpg'
-              alt='foto'
+              class="slide-card slide-image"
+              src="/team-light-balance/assets/img12-slider-tab-1x-d69dbb18.jpg"
+              alt="foto"
             />
           </div>
 
-          <div class='swiper-slide details-small-slide'>
+          <div class="swiper-slide details-small-slide">
             <img
-              class='slide-card slide-image'
-              src='/team-light-balance/assets/img13-slider-tab-1x-41d4d5ef.jpg'
-              alt='foto'
+              class="slide-card slide-image"
+              src="/team-light-balance/assets/img13-slider-tab-1x-41d4d5ef.jpg"
+              alt="foto"
             />
           </div>
 
-          <div class='swiper-slide details-small-slide'>
+          <div class="swiper-slide details-small-slide">
             <img
-              class='slide-card slide-image'
-              src='/team-light-balance/assets/img14-slider-tab-1x-457a3c63.jpg'
-              alt='foto'
+              class="slide-card slide-image"
+              src="/team-light-balance/assets/img14-slider-tab-1x-457a3c63.jpg"
+              alt="foto"
             />
           </div>
 
-          <div class='swiper-slide details-small-slide'>
+          <div class="swiper-slide details-small-slide">
             <img
-              class='slide-card slide-image'
-              src='/team-light-balance/assets/img15-slider-tab-1x-d13ff898.jpg'
-              alt='foto'
+              class="slide-card slide-image"
+              src="/team-light-balance/assets/img15-slider-tab-1x-d13ff898.jpg"
+              alt="foto"
             />
           </div>
 
-          <div class='swiper-slide details-small-slide'>
+          <div class="swiper-slide details-small-slide">
             <img
-              class='slide-card slide-image'
-              src='/team-light-balance/assets/img16-slider-tab-1x-ea783b74.jpg'
-              alt='foto'
+              class="slide-card slide-image"
+              src="/team-light-balance/assets/img16-slider-tab-1x-ea783b74.jpg"
+              alt="foto"
             />
           </div>
 
-          <div class='slider-bottom details-small-slide'>
-            <h2 class='visually-hidden'>slider</h2>
+          <div class="slider-bottom details-small-slide">
+            <h2 class="visually-hidden">slider</h2>
           </div>
         </div>
       </div>
     </div>
 
-    <div class='tab-galery'>
+    <div class="tab-galery">
       <!-- Slider main container -->
-      <div id="detailsSwiper" class='swiper'>
+      <div id="detailsSwiper" class="swiper">
         <!-- Additional required wrapper -->
-        <div class='swiper-wrapper'>
+        <div class="swiper-wrapper">
           <!-- Slides -->
-          <div class='swiper-slide details-small-slide'>
+          <div class="swiper-slide details-small-slide">
             <img
-              class='slide-card slide-image'
-              src='/team-light-balance/assets/img1-slider-tab-1x-329c0cf8.jpg'
-              alt='foto'
+              class="slide-card slide-image"
+              src="/team-light-balance/assets/img1-slider-tab-1x-329c0cf8.jpg"
+              alt="foto"
             />
           </div>
 
-          <div class='swiper-slide details-small-slide'>
+          <div class="swiper-slide details-small-slide">
             <img
-              class='slide-card slide-image'
-              src='/team-light-balance/assets/img2-slider-tab-1x-9dce06b9.jpg'
-              alt='foto'
+              class="slide-card slide-image"
+              src="/team-light-balance/assets/img2-slider-tab-1x-9dce06b9.jpg"
+              alt="foto"
             />
           </div>
 
-          <div class='swiper-slide details-big-slide'>
+          <div class="swiper-slide details-big-slide">
             <img
-              class='slide-card slide-image'
-              src='/team-light-balance/assets/img3-slider-tab-1x-e2c951d7.jpg'
-              alt='foto'
+              class="slide-card slide-image"
+              src="/team-light-balance/assets/img3-slider-tab-1x-e2c951d7.jpg"
+              alt="foto"
             />
           </div>
 
-          <div class='swiper-slide details-small-slide'>
+          <div class="swiper-slide details-small-slide">
             <img
-              class='lide-card slide-image'
-              src='/team-light-balance/assets/img4-slider-tab-1x-749d1433.jpg'
-              alt='foto'
+              class="lide-card slide-image"
+              src="/team-light-balance/assets/img4-slider-tab-1x-749d1433.jpg"
+              alt="foto"
             />
           </div>
 
-          <div class='swiper-slide details-small-slide'>
+          <div class="swiper-slide details-small-slide">
             <img
-              class='slide-card slide-image'
-              src='/team-light-balance/assets/img5-slider-tab-1x-dc0b164a.jpg'
-              alt='foto'
+              class="slide-card slide-image"
+              src="/team-light-balance/assets/img5-slider-tab-1x-dc0b164a.jpg"
+              alt="foto"
             />
           </div>
 
-          <div class='swiper-slide details-small-slide'>
+          <div class="swiper-slide details-small-slide">
             <img
-              class='slide-card slide-image'
-              src='/team-light-balance/assets/img6-slider-tab-1x-b6ce2d05.jpg'
-              alt='foto'
+              class="slide-card slide-image"
+              src="/team-light-balance/assets/img6-slider-tab-1x-b6ce2d05.jpg"
+              alt="foto"
             />
           </div>
 
-          <div class='swiper-slide details-big-slide'>
+          <div class="swiper-slide details-big-slide">
             <img
-              class='slide-card slide-image'
-              src='/team-light-balance/assets/img7-slider-tab-1x-e1c04514.jpg'
-              alt='foto'
+              class="slide-card slide-image"
+              src="/team-light-balance/assets/img7-slider-tab-1x-e1c04514.jpg"
+              alt="foto"
             />
           </div>
 
-          <div class='swiper-slide details-small-slide'>
+          <div class="swiper-slide details-small-slide">
             <img
-              class='slide-card slide-image'
-              src='/team-light-balance/assets/img8-slider-tab-1x-91d80e8f.jpg'
-              alt='foto'
+              class="slide-card slide-image"
+              src="/team-light-balance/assets/img8-slider-tab-1x-91d80e8f.jpg"
+              alt="foto"
             />
           </div>
 
-          <div class='swiper-slide details-small-slide'>
+          <div class="swiper-slide details-small-slide">
             <img
-              class='slide-card slide-image'
-              src='/team-light-balance/assets/img9-slider-tab-1x-ffb063e1.jpg'
-              alt='foto'
+              class="slide-card slide-image"
+              src="/team-light-balance/assets/img9-slider-tab-1x-ffb063e1.jpg"
+              alt="foto"
             />
           </div>
 
-          <div class='swiper-slide details-small-slide'>
+          <div class="swiper-slide details-small-slide">
             <img
-              class='slide-card slide-image'
-              src='/team-light-balance/assets/img10-slider-tab-1x-638cd21b.jpg'
-              alt='foto'
+              class="slide-card slide-image"
+              src="/team-light-balance/assets/img10-slider-tab-1x-638cd21b.jpg"
+              alt="foto"
             />
           </div>
 
-          <div class='swiper-slide details-small-slide'>
+          <div class="swiper-slide details-small-slide">
             <img
-              class='slide-card slide-image'
-              src='/team-light-balance/assets/img12-slider-tab-1x-d69dbb18.jpg'
-              alt='foto'
+              class="slide-card slide-image"
+              src="/team-light-balance/assets/img12-slider-tab-1x-d69dbb18.jpg"
+              alt="foto"
             />
           </div>
 
-          <div class='swiper-slide details-small-slide'>
+          <div class="swiper-slide details-small-slide">
             <img
-              class='slide-card slide-image'
-              src='/team-light-balance/assets/img13-slider-tab-1x-41d4d5ef.jpg'
-              alt='foto'
+              class="slide-card slide-image"
+              src="/team-light-balance/assets/img13-slider-tab-1x-41d4d5ef.jpg"
+              alt="foto"
             />
           </div>
 
-          <div class='swiper-slide details-small-slide'>
+          <div class="swiper-slide details-small-slide">
             <img
-              class='slide-card slide-image'
-              src='/team-light-balance/assets/img14-slider-tab-1x-457a3c63.jpg'
-              alt='foto'
+              class="slide-card slide-image"
+              src="/team-light-balance/assets/img14-slider-tab-1x-457a3c63.jpg"
+              alt="foto"
             />
           </div>
 
-          <div class='swiper-slide details-small-slide'>
+          <div class="swiper-slide details-small-slide">
             <img
-              class='slide-card slide-image'
-              src='/team-light-balance/assets/img15-slider-tab-1x-d13ff898.jpg'
-              alt='foto'
+              class="slide-card slide-image"
+              src="/team-light-balance/assets/img15-slider-tab-1x-d13ff898.jpg"
+              alt="foto"
             />
           </div>
 
-          <div class='swiper-slide details-small-slide'>
+          <div class="swiper-slide details-small-slide">
             <img
-              class='slide-card slide-image'
-              src='/team-light-balance/assets/img16-slider-tab-1x-ea783b74.jpg'
-              alt='foto'
+              class="slide-card slide-image"
+              src="/team-light-balance/assets/img16-slider-tab-1x-ea783b74.jpg"
+              alt="foto"
             />
           </div>
 
-          <div class='slider-bottom details-small-slide'>
-            <h2 class='visually-hidden'>slider</h2>
+          <div class="slider-bottom details-small-slide">
+            <h2 class="visually-hidden">slider</h2>
           </div>
         </div>
       </div>
@@ -1178,10 +1185,9 @@
           />
         </li>
       </ul> -->
-
     </div>
 
-     <div class="tablet-svg">
+    <div class="tablet-svg">
       <div class="main-page-details-hotel-galery-item-slider">
         <div id="mob-swiper-button-prev">
           <svg class="slider-icon-hotel-det" width="32" height="32">
@@ -1196,18 +1202,18 @@
       </div>
     </div>
 
-    <div class='button-flex'>
-      <div class='main-page-details-hotel-header-button'>
+    <div class="button-flex">
+      <div class="main-page-details-hotel-header-button">
         <button
-          type='button'
-          class='book-room btn-hotel-det'
+          type="button"
+          class="book-room btn-hotel-det"
           book-room-modal-open
         >
           Забронювати номер
         </button>
         <button
-          type='button'
-          class='room-price btn-hotel-det'
+          type="button"
+          class="room-price btn-hotel-det"
           room-price-modal-open
         >
           Переглянути ціни
@@ -1216,24 +1222,21 @@
     </div>
   </div>
 
-  <div class='mobile-svg'>
-    <div class='main-page-details-hotel-galery-item-slider'>
-
-      <div id='swiper-button-prev'>
-        <svg class='slider-icon-hotel-det' width='32' height='32'>
-          <use href='/team-light-balance/assets/symbol-defs-0946ab52.svg#icon-cil_arrow-left'></use>
+  <div class="mobile-svg">
+    <div class="main-page-details-hotel-galery-item-slider">
+      <div id="swiper-button-prev">
+        <svg class="slider-icon-hotel-det" width="32" height="32">
+          <use href="/team-light-balance/assets/symbol-defs-0946ab52.svg#icon-cil_arrow-left"></use>
         </svg>
       </div>
 
-      <div id='swiper-button-next'>
-        <svg class='slider-icon-hotel-det' width='32' height='32'>
-          <use href='/team-light-balance/assets/symbol-defs-0946ab52.svg#icon-cil_arrow-right'></use>
+      <div id="swiper-button-next">
+        <svg class="slider-icon-hotel-det" width="32" height="32">
+          <use href="/team-light-balance/assets/symbol-defs-0946ab52.svg#icon-cil_arrow-right"></use>
         </svg>
       </div>
-
     </div>
   </div>
-
 </section>
 
       <!-- section contacts -->
@@ -1575,7 +1578,7 @@
     
     
     <!-- <script src="/js/swiper-bundle.min.js"></script>-->
-    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script> -->
     <script src="/js/slider.js"></script>
   </body>
 </html>
