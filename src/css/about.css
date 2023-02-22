@@ -7,8 +7,8 @@
   padding-bottom: 20px;
 }
 
-    /* Add-Andriy */
-.section-about-our-hotel{
+    /* Add-Andriy */  
+.description-hotel-container .section-about-our-hotel{
   padding-top: 18px;
   padding-bottom: 20px;
 }
@@ -42,15 +42,16 @@
 
     /* Add-Andriy */
   .section-about-our-hotel{
+    overflow-x: visible;
+    position: relative;
     padding-top: 120px;
     padding-bottom: 32px;
   }
 
-
-  /* Add-Andriy */
-  .section-about-our-hotel {
-    padding-top: 120px;
-    padding-bottom: 32px;
+  .description-rest-container .container,
+  .description-kitchen-container .container,
+  .description-hotel-container .container{
+    position: static;
   }
 
 }
@@ -89,6 +90,7 @@
 }
 
 @media screen and (min-width: 1024px) {
+
   .container {
     overflow-x: visible;
     overflow-y: visible;
@@ -97,12 +99,12 @@
   .description-kitchen .first-image {
     position: absolute;
     top: -32px;
-    left: 465px;
+    left: 512px;
   }
   .description-hotel-list .first-image {
     position: absolute;
     top: -24px;
-    left: 65px;
+    left: 112px;
   }
 }
 @media screen and (min-width: 1280px) {
@@ -110,12 +112,12 @@
   .description-kitchen .first-image {
     position: absolute;
     top: -33px;
-    left: 555px;
+    left: 640px;
   }
   .description-hotel-list .first-image {
     position: absolute;
     top: -24px;
-    left: 95px;
+    left: 180px;
   }
 }
 /* Возможно общее */
