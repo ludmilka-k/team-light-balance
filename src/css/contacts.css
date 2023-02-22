@@ -287,5 +287,5 @@
 }
 .contacts-adress:hover,
 .tab-cont .contacts-phone .tel-box:hover {
-  transform: scaleX(1.1);
+    transform: scaleX(1.1);
 }

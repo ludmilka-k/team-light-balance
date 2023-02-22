@@ -95,6 +95,7 @@
   width: 24px;
   height: 24px;
   fill: var(--accent-yellow-color);
+  transition: fill .25s cubic-bezier(.4,0,.2,1);
 }
 
 /* Footer  Media Styles */
@@ -183,4 +184,7 @@
   color: var(--invert-color);
   border-color: var(--invert-color);
   transform: scaleX(1.1);
+}
+.footer-container .footer-social-item:hover .footer-social-icon{
+  fill: var(--invert-color);
 }
