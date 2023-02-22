@@ -48,11 +48,11 @@
     padding-bottom: 32px;
   }
 
-  .description-rest-container .container,
+  /* .description-rest-container .container,
   .description-kitchen-container .container,
   .description-hotel-container .container{
     position: static;
-  }
+  } */
 
 }
 @media screen and (min-width: 1280px) {
@@ -98,26 +98,30 @@
   .description-rest .first-image,
   .description-kitchen .first-image {
     position: absolute;
-    top: -32px;
-    left: 512px;
+    /*Add-Andriy*/
+    top: -134px;
+    right: 65px;
   }
   .description-hotel-list .first-image {
     position: absolute;
-    top: -24px;
-    left: 112px;
+    /*Add-Andriy*/
+    top: -134px;
+    left: 65px;
   }
 }
 @media screen and (min-width: 1280px) {
   .description-rest .first-image,
   .description-kitchen .first-image {
     position: absolute;
-    top: -33px;
-    left: 640px;
+    /*Add-Andriy*/
+      top: -150px;
+      right: 95px;
   }
   .description-hotel-list .first-image {
     position: absolute;
-    top: -24px;
-    left: 180px;
+    /*Add-Andriy*/
+      top: -150px;
+      left: 95px;
   }
 }
 /* Возможно общее */
