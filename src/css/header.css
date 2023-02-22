@@ -148,14 +148,10 @@
   }
 
   .navigation-list:nth-child(2) {
-    width: 144px;
-    height: 40px;
+    
     display: flex;
     align-items: center;
-    padding-right: 8px;
-
-    padding-top: 12px;
-    padding-bottom: 12px;
+    
   }
 
   .navigation-list:nth-child(4) {

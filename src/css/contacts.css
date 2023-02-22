@@ -124,6 +124,7 @@
   border-radius: 2px;
   padding: 7px 33px 7px 0px;
   margin-left: auto;
+  transition:transform var(--transition);  
 }
 
 .contacts-adress-text {
@@ -268,6 +269,7 @@
     padding-bottom: 74px;
   }
 }
-.tab-cont .contacts-phone .tel-box:hover {
-  transform: scaleX(1.1);
+.tab-cont .contacts-phone .tel-box:hover,
+.tab-cont .contacts-phone .contacts-adress:hover {
+    transform: scaleX(1.1);
 }
