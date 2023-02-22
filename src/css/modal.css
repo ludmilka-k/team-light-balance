@@ -47,6 +47,8 @@
   /* overflow-y: scroll; */
   background-color: var(--bg-lemon-color);
   border-radius: 2px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 .modal-room {
   height: 780px;
@@ -86,8 +88,7 @@
 .modal-form {
   display: flex;
   flex-direction: column;
-  padding-right: 15px;
-  padding-left: 15px;
+ 
 }
 .modal-title {
   font-family: 'Times New Roman';
@@ -139,12 +140,10 @@
 .modal-caption {
   margin-bottom: 28px;
 }
-.modal-title-price-wrap {
-  padding-left: 15px;
-}
-/* .modal-title-price-wrap >.modal-subtitle {
+
+.modal-title-price-wrap >.modal-subtitle {
   margin-bottom: 20px;
-} */
+}
 
 .modal-input::placeholder {
   font-family: 'Times New Roman';
@@ -181,6 +180,8 @@
   background-position: calc(100% - 20px) 50%;
   background-size: 24px 24px;
 }
+
+
 /*======================= BUTOON============ */
 .modal-book-btn {
   width: 100%;
@@ -235,6 +236,8 @@
     row-gap: 64px;
     column-gap: 24px;
     justify-content: center;
+    padding-left: 60px;
+    padding-right: 60px;
   }
   .modal-price {
     max-width: 712px;
@@ -246,23 +249,19 @@
   .modal-table {
     height: 522px;
   }
-  .modal-title-price-wrap {
-    padding-left: 60px;
-  }
+
 
   .modal-input {
     width: 288px;
     height: 64px;
-
-
   }
   .modal-form {
     display: flex;
     row-gap: 28px;
     column-gap: 16px;
     flex-direction: row;
-    padding-right: 60px;
-    padding-left: 60px;
+    padding-right: 0;
+    padding-left: 0;
     justify-content: flex-start;
     flex-wrap: wrap;
     margin-top: 20px;
@@ -283,8 +282,10 @@
     margin-bottom: 0;
   }
 
-
+.modal-title-price-wrap >.modal-subtitle {
+  margin-bottom: 0;
 }
+ }
 
 @media screen and (min-width: 1280px) {
 }
