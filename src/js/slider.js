@@ -1,9 +1,3 @@
-// const slider = document.querySelector('.swiper');
-
-// let mySwiper = new Swiper(slider, {
-//     sliderPerView: 2,
-//     spaceBetween: 10,
-// });
 
 const detailsSwiper = new Swiper(document.getElementById('detailsSwiper'), {
   // Optional parameters

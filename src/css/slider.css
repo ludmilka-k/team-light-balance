@@ -61,9 +61,18 @@
   }
 
   .swiper-wrapper-slider-left .swiper {
-    width: 70%;
+    width: 50%;
     padding-right: 69px;
   }
 }
 
 
+
+.swiper {
+ /*! margin-left:auto; */margin-right:auto;
+ position:relative;
+ overflow:hidden;
+ list-style:none;
+ padding:0;
+ z-index:1
+}
