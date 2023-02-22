@@ -29,7 +29,7 @@
   line-height: 39px;
   color: var(--invert-color);
   letter-spacing: 0.3em;
-  transition: transform 250ms linear;
+  transition: transform 250ms linear, color 250ms linear;
 }
 
 .logo:hover,

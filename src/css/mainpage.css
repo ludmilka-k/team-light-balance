@@ -49,7 +49,8 @@
   margin-right: auto;
   padding-top: 24px;
   padding-bottom: 40px;
-
+  overflow-x: hidden;
+  overflow-y: hidden;
   background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
     url('../img/about-rest/mobile-bgi-rest.jpg');
   background-color: rgba(0, 0, 0, 0.65);
@@ -102,6 +103,7 @@
 }
 
 .box-button .btn-about-rest {
+  width: 236px;
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 700;
@@ -153,6 +155,7 @@
   .slide-img:nth-child(n+2) {
     width: 162px;
     height: 270px;
+    
   }
 
   .slide-img:nth-child(n+3) {
