@@ -26,7 +26,7 @@ const mobileDetailsSwiper = new Swiper(
     spaceBetween: 40,
     loop: true,
     autoplay: {
-      delay: 3000,
+      delay: 3500,
     },
     sliderPerView: 2,
 
@@ -47,7 +47,7 @@ const deskDetailsSwiper = new Swiper(
     spaceBetween: 40,
     loop: true,
     autoplay: {
-      delay: 3000,
+      delay: 2500,
     },
     sliderPerView: 2,
 
@@ -66,7 +66,7 @@ const aboutSwiper = new Swiper(document.getElementById('aboutSwiper'), {
   sliderPerView: 3,
   loop: true,
   autoplay: {
-    delay: 3000,
+    delay: 4500,
   },
   // Navigation arrows
   navigation: {
@@ -85,7 +85,7 @@ const descriptionRestSwiper = new Swiper(
     sliderPerView: 3,
     loop: true,
     autoplay: {
-      delay: 3000,
+      delay: 2500,
     },
     // Navigation arrows
     navigation: {
