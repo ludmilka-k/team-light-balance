@@ -7,8 +7,6 @@
   color: rgba(186, 186, 186, 1);
 }
 
-
-
 /* .title-details-restaurant-mimino {
   font-family: 'FilmP3bold';
   font-weight: 700;
@@ -152,13 +150,12 @@
     width: 270px;
     height: 270px;
   }
-  .slide-img:nth-child(n+2) {
+  .slide-img:nth-child(n + 2) {
     width: 162px;
     height: 270px;
-    
   }
 
-  .slide-img:nth-child(n+3) {
+  .slide-img:nth-child(n + 3) {
     display: none;
   }
 }
@@ -346,6 +343,11 @@
   }
 }
 
+.main-page-details-hotel.container {
+  padding-top: 24px;
+  padding-bottom: 40px;
+}
+
 .button-flex {
   display: flex;
   justify-content: center;
@@ -353,7 +355,6 @@
 }
 .main-page-details-hotel-header-0 {
   width: 246px;
-  padding-top: 24px;
   margin-bottom: 48px;
   margin-left: 17px;
 }
@@ -371,6 +372,16 @@
   text-align: end;
 }
 
+.main-page-details-hotel-text-desk.hotel-mobile {
+  width: 243px;
+  font-family: 'Montserrat';
+  font-weight: 600;
+  font-size: 12px;
+  line-height: calc(15 / 12);
+  letter-spacing: 0.02em;
+  color: var(--helper-text-color);
+}
+
 .main-page-details-hotel-header2 {
   width: 73px;
   font-family: 'Montserrat';
@@ -383,25 +394,15 @@
   margin-left: auto;
 }
 
-.main-page-details-hotel-text {
-  font-family: 'Montserrat';
-  font-weight: 600;
-  font-size: 12px;
-  line-height: calc(15 / 12);
-  letter-spacing: 0.02em;
-  color: var(--helper-text-color);
-  margin-bottom: 48px;
-}
-
 .main-page-details-hotel-galery {
   display: flex;
   gap: 20px;
   margin-bottom: 16px;
 }
 
-.main-page-details-hotel-galery-item:nth-child(1) {
+/* .main-page-details-hotel-galery-item:nth-child(1) {
   margin-left: -15px;
-}
+} */
 
 .main-page-details-hotel-galery-item-slider {
   margin-bottom: 32px;
@@ -435,8 +436,7 @@
 
 .mobile-svg,
 .tab-galery,
-.desk-galery,
-.main-page-details-hotel-text-desk {
+.desk-galery {
   display: none;
 }
 
@@ -458,7 +458,6 @@
 
 .room-price.btn-hotel-det {
   padding: 12px 34px;
-  margin-bottom: 40px;
 }
 
 .btn-hotel-det:hover,
@@ -493,8 +492,11 @@
     }
   }
 
-  .main-page-details-hotel-header-0 {
+  .main-page-details-hotel.container {
     padding-top: 48px;
+  }
+
+  .main-page-details-hotel-header-0 {
     width: 650px;
     margin-bottom: 40px;
     margin-left: 45px;
@@ -502,13 +504,20 @@
 
   .main-page-details-hotel-header {
     font-size: 64px;
-    line-height: 69px;
+    line-height: calc(69 / 64);
     width: 202px;
+  }
+
+  .main-page-details-hotel-text-desk.hotel-mobile {
+    width: 549px;
+    font-size: 16px;
+    line-height: calc(20 / 16);
+    margin-left: auto;
   }
 
   .main-page-details-hotel-text {
     font-size: 16px;
-    line-height: 20px;
+    line-height: calc(20 / 16);
   }
 
   .bottom-text {
@@ -518,7 +527,7 @@
   .main-page-details-hotel-header2 {
     width: 90px;
     font-size: 24px;
-    line-height: 29px;
+    line-height: calc(29 / 24);
     margin-bottom: 8px;
   }
 
@@ -552,7 +561,6 @@
   }
 
   .main-page-details-hotel-galery-item-slider {
-    padding-bottom: 40px;
     margin-left: 567px;
     margin-bottom: 0;
   }
@@ -622,7 +630,7 @@
     font-style: normal;
     font-weight: 600;
     font-size: 16px;
-    line-height: 20px;
+    line-height: calc(16 / 20);
     letter-spacing: 0.02em;
     color: #bababa;
   }
@@ -632,14 +640,14 @@
     font-style: normal;
     font-weight: 600;
     font-size: 16px;
-    line-height: 20px;
+    line-height: calc(16 / 20);
     letter-spacing: 0.02em;
     color: #bababa;
   }
 
   .bottom-text {
     text-align: right;
-    padding-right: 121px;
+    /* padding-right: 121px; */
   }
 
   .main-page-details-hotel-galery-item-slider {
